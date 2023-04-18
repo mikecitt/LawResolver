@@ -37,14 +37,19 @@ const AddXml: FC<AddXmlProps> = ({ docType }) => {
           <ModalHeader>Add new {docType.toString()}</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            <Input placeholder="Select xml file" size="md" type="file" />
+            <Input
+              placeholder="Select xml file"
+              size="md"
+              type="file"
+              accept=".xml"
+            />
           </ModalBody>
 
           <ModalFooter>
-            <Button colorScheme="blue" mr={3} onClick={onClose}>
+            <Button mr={3} onClick={onClose}>
               Close
             </Button>
-            <Button variant="ghost">Confirm</Button>
+            <Button colorScheme="teal">Confirm</Button>
           </ModalFooter>
         </ModalContent>
       </Modal>
