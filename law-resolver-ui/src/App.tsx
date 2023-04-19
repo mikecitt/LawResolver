@@ -12,8 +12,7 @@ function App() {
         <Route path="/" element={<Navbar />}>
           <Route index element={<HomePage />} />
           <Route path="/instructions" element={<InstructionsPage />} />
-          <Route path="/law/*" element={<Document />} />
-          <Route path="/judgement/*" element={<Document />} />
+          <Route path="/document/:id" element={<Document />} />
         </Route>
       </Routes>
     </div>

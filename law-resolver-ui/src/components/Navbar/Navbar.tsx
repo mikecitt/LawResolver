@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 import {
   Box,
   Flex,
@@ -13,28 +12,12 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
 import { FaGavel } from "react-icons/fa";
-import { Outlet } from "react-router-dom";
-
-const Links = ["Home", "Instructions"];
-
-const NavLink = ({ children }: { children: ReactNode }) => (
-  <Link
-    px={2}
-    py={1}
-    rounded={"md"}
-    _hover={{
-      textDecoration: "none",
-      bg: useColorModeValue("gray.200", "gray.700"),
-    }}
-    href={"/"}
-  >
-    {children}
-  </Link>
-);
+import { Link as ReactLink, Outlet } from "react-router-dom";
 
 export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const bg = useColorModeValue("gray.200", "gray.700");
 
   return (
     <>
@@ -54,9 +37,32 @@ export default function Navbar() {
               spacing={4}
               display={{ base: "none", md: "flex" }}
             >
-              {Links.map((link) => (
-                <NavLink key={link}>{link}</NavLink>
-              ))}
+              <Link
+                as={ReactLink}
+                to="/"
+                px={2}
+                py={1}
+                rounded={"md"}
+                _hover={{
+                  textDecoration: "none",
+                  bg,
+                }}
+              >
+                Home
+              </Link>
+              <Link
+                as={ReactLink}
+                to="/instructions"
+                px={2}
+                py={1}
+                rounded={"md"}
+                _hover={{
+                  textDecoration: "none",
+                  bg,
+                }}
+              >
+                Instructions
+              </Link>
             </HStack>
           </HStack>
           <Flex alignItems="center" gap="5">
@@ -78,9 +84,19 @@ export default function Navbar() {
         {isOpen ? (
           <Box pb={4} display={{ md: "none" }}>
             <Stack as={"nav"} spacing={4}>
-              {Links.map((link) => (
-                <NavLink key={link}>{link}</NavLink>
-              ))}
+              <Link
+                as={ReactLink}
+                to="/"
+                px={2}
+                py={1}
+                rounded={"md"}
+                _hover={{
+                  textDecoration: "none",
+                  bg,
+                }}
+              >
+                Home
+              </Link>
             </Stack>
           </Box>
         ) : null}

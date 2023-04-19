@@ -1,10 +1,8 @@
-export interface LawDocument extends Document {}
-
-export interface JudgementDocument extends Document {
-  law: string;
+export interface Document {
+  name: string;
 }
 
-interface Document {
-  id: string;
-  name: string;
+export enum DocumentType {
+  ACT = "Acts",
+  JUDGEMENT = "Judgements",
 }
