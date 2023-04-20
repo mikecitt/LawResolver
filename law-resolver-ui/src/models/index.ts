@@ -3,6 +3,6 @@ export interface Document {
 }
 
 export enum DocumentType {
-  ACT = "Acts",
-  JUDGEMENT = "Judgements",
+  ACT,
+  JUDGEMENT,
 }

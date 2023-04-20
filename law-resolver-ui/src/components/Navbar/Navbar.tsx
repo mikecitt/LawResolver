@@ -13,6 +13,7 @@ import {
 import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
 import { FaGavel } from "react-icons/fa";
 import { Link as ReactLink, Outlet } from "react-router-dom";
+import ResolveModal from "../ResolveModal/ResolveModal";
 
 export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -48,7 +49,7 @@ export default function Navbar() {
                   bg,
                 }}
               >
-                Home
+                Pocetna stranica
               </Link>
               <Link
                 as={ReactLink}
@@ -61,7 +62,7 @@ export default function Navbar() {
                   bg,
                 }}
               >
-                Instructions
+                Uputstvo
               </Link>
             </HStack>
           </HStack>
@@ -69,15 +70,7 @@ export default function Navbar() {
             <Button size="sm" variant="ghost" onClick={toggleColorMode}>
               {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
             </Button>
-            <Button
-              variant={"solid"}
-              colorScheme={"teal"}
-              size={"sm"}
-              mr={4}
-              leftIcon={<FaGavel />}
-            >
-              Resolve
-            </Button>
+            <ResolveModal />
           </Flex>
         </Flex>
 
@@ -95,7 +88,7 @@ export default function Navbar() {
                   bg,
                 }}
               >
-                Home
+                Pocetna stranica
               </Link>
             </Stack>
           </Box>

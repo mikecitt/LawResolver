@@ -28,7 +28,7 @@ const DocumentTable: FC<DocumentTableProps> = ({ type }) => {
 
   useEffect(() => {
     if (!isLoaded) {
-      fetch(`${API_URL}/${type.toLowerCase()}`)
+      fetch(`${API_URL}/${type === DocumentType.ACT ? "acts" : "judgements"}`)
         .then((response) => {
           return response.json();
         })
@@ -42,7 +42,9 @@ const DocumentTable: FC<DocumentTableProps> = ({ type }) => {
   return (
     <Card>
       <CardHeader>
-        <Heading size="md">{type}</Heading>
+        <Heading size="md">
+          {type === DocumentType.ACT ? "Zakoni" : "Presude"}
+        </Heading>
       </CardHeader>
       <CardBody>
         {!isLoaded ? (
@@ -51,7 +53,7 @@ const DocumentTable: FC<DocumentTableProps> = ({ type }) => {
           <Table variant="simple">
             <Thead>
               <Tr>
-                <Th>Title</Th>
+                <Th>Naziv</Th>
                 <Th></Th>
               </Tr>
             </Thead>
@@ -63,10 +65,10 @@ const DocumentTable: FC<DocumentTableProps> = ({ type }) => {
                     <Td>
                       <Link
                         as={ReactLink}
-                        color="teal.500"
+                        color="blue.500"
                         to={"/document/" + x.name}
                       >
-                        View Document
+                        Pogledaj dokument
                       </Link>
                     </Td>
                   </Tr>
