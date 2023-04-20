@@ -12,7 +12,6 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
 import { Link as ReactLink, Outlet } from "react-router-dom";
-import ResolveModal from "../ResolveModal/ResolveModal";
 
 export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -52,7 +51,7 @@ export default function Navbar() {
               </Link>
               <Link
                 as={ReactLink}
-                to="/instructions"
+                to="/reasoner"
                 px={2}
                 py={1}
                 rounded={"md"}
@@ -61,7 +60,7 @@ export default function Navbar() {
                   bg,
                 }}
               >
-                Uputstvo
+                Novi slucaj
               </Link>
             </HStack>
           </HStack>
@@ -69,7 +68,6 @@ export default function Navbar() {
             <Button size="sm" variant="ghost" onClick={toggleColorMode}>
               {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
             </Button>
-            <ResolveModal />
           </Flex>
         </Flex>
 
