@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+     Akoma Ntoso Version 1.0. Part 2: Specifications
+     Committee Specification Draft 02 / Public Review Draft 02
+     04 May 2016
+     Copyright (c) OASIS Open 2016. All Rights Reserved.
+     Source: http://docs.oasis-open.org/legaldocml/akn-core/v1.0/csprd02/part2-specs/examples/
+     Latest version of the specification:
+http://docs.oasis-open.org.legaldocml/akn-core/v1.0/akn-core-v1.0-part2-specs.html
+     TC IPR Statement: https://www.oasis-open.org/committees/legaldocml/ipr.php
+-->
+<!--Akoma_Ntoso
+document-->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd
+                        "
+    xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17"
+    xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+    <!-- Level 5 of compliance -->
+    <judgement>
+        <meta>
+            <identification>
+                <FRBRWork>
+                    <FRBRauthor>
+                        VIŠI SUD U PODGORICI
+                    </FRBRauthor>
+                    <FRBRdate date="2020-04-14">
+                        2020-04-14
+                    </FRBRdate>
+                    <FRBRtitle>
+                        K 54/2020
+                    </FRBRtitle>
+                    <FRBRcountry>
+                        CG
+                    </FRBRcountry>
+                </FRBRWork>
+            </identification>
+            <references>
+                <TLCOrganization id="vsup" href="/ontology/organization/cg.vsup"
+                    showAs="VIŠI SUD U PODGORICI" />
+
+                <TLCPerson id="tabaš" href="/ontology/person/judge/cg.tabaš"
+                    showAs="Tabaš Predraga" />
+
+                <TLCPerson id="čabarkapa" href="/ontology/person/judge/cg.čabarkapa"
+                    showAs="Čabarkapa Jelene" />
+
+                <TLCPerson id="čakanović" href="/ontology/person/judge/cg.čakanović"
+                    showAs="Čakanović Sanje" />
+
+                <TLCPerson id="novčić" href="/ontology/person/editor/cg.novčić"
+                    showAs="Novčić Slobodanke" />
+
+                <TLCPerson id="iy" href="/ontology/person/cg.iy"
+                    showAs="I.Y." />
+
+                <TLCRole id="editor" href="/ontology/role/editor" showAs="Editor of Document" />
+                <TLCRole id="judge" href="/ontology/role/judge" showAs="Judge" />
+                <TLCRole id="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+                <TLCRole id="lawyer" href="/ontology/role/lawyer" showAs="Lawyer" />
+            </references>
+        </meta>
+        <judgementBody>
+            <p> K.br. 54/2020 U IME CRNE GORE <organization id="vsup" refersTo="#vsup">VIŠI SUD U
+                PODGORICI</organization>, kao prvostepeni krivični u vijeću sastavljenom od sudije <party
+                    id="tabaš" refersTo="tabaš" as="/judge">Tabaš Predraga</party>, kao predsjednika
+                vijeća i sudija <party id="čabarkapa" refersTo="čabarkapa" as="/judge">Čabarkapa
+                Jelene</party> i <party id="čakanović" refersTo="čakanović" as="/judge">Čakanović
+                Sanje</party>, kao članova vijeća, uz učešće Novčić Slobodanke, kao zapisničara, u
+                krivičnom predmetu protiv optuženog <party id="iy" refersTo="iy" as="">I.Y.</party>,
+                koga brani D.Ž. advokat iz C..., zbog produženog krivičnog djela računarska prevara
+                iz čl. 352. st. 3. u vezi st. 1. u vezi čl. 23. i 49. Krivičnog zakonika Crne Gore,
+                odlučujući po optužnici Višeg državnog tužilaštva u Podgorici Kt.br. 255/19 od
+                14.04.2020. godine, koju je na glavnom pretresu zastupao Miloš Šoškić-državni
+                tužilac u VDT u Podgorici, nakon održanog glavnog i javnog pretresa, dana
+                11.11.2020. godine, u prisustvu zastupnika optužbe, optuženog i njegovog branioca,
+                nakon tajnog vijećanja i glasanja, dana 07.12.2020. godine, donio je i istog dana
+                javno objavio P R E S U D U Optuženi: <party id="iy" refersTo="iy" as="">I.Y.</party>,
+                broj pasoša ..., od oca Z. i majke T., rodjene O., rodjenog .... godine u U.-L., sa
+                prebivalištem u U...-L..., ulica Š... ..., državljanin U..., završio višu vatrogasnu
+                školu, vatrogasac, nezaposlen, oženjen, otac troje maloljetne djece, srednjeg
+                imovnog stanja, neosudjivan, nalazi se u pritvoru po rješenju sudije za istragu
+                Višeg suda u Podgorici, Kri.br. 374/19 od 19.11.2019. godine od 16.11.2019. godine
+                od 12,45 časova. KRIV JE Zato što je: U oktobru 2019. godine, u Podgorici, Tivtu i
+                Budvi, svjestan svojih djela, čija je izvršenja htio, zajedno sa Č.V. i B.A., unio
+                lažni računarski podatak i time uticao na rezultat elektronske obrade, prenos
+                podataka i funkcionisanje računarskog sistema, u namjeri da sebi pribavi
+                protivpravnu imovinsku korist koja prelazi iznos od trideset hiljada eura, na način
+                što su optuženi "I.". "Y". i "Č.V".u noći 04/05.10.2019. godine, u Podgorici, u
+                ulici N.T., otopili plastični dio bankomata oštećene "NLB banke", te su kroz tako
+                napravljeni otvor, došli do računarskog sistema bankomata na koji su se povezali i
+                uticali na rezultat elektronske obrade, prenos podataka i funkcikonisanje
+                računsarskog sistema, tako što su bankomatu unošenjem virusa zadali Viši Sud u
+                Podgorici K 54/2020 07. Decembar 2020 komandu da isplati sav novac koji se u njemu
+                nalazi, usljed čega je iz bankomata isplaćeno 63.600,00 eura, koji novac su
+                prisvojili, a zatim su optuženi "I.". "Y". i "B.A.".dana 20.10.2019. godine, oko
+                03,00 časova, u T..., otopili plastični dio bankomata oštećene "NLB banke", te su
+                kroz tako napravljeni otvor, došli do računarskog sistema bankomata, na koji su se
+                povezali i uticali na rezultat elektronske obrade, prenos podataka i funcionisanje
+                računarskog sistema, tako što su bankomatu unošenjem virusa zadali komandu da
+                isplati sav novac koji se u njemu nalazi, usljed čega je iz bankomata isplaćeno
+                43.200,00 eura, koji novac su prisvojili, nakon čega su oko 05,00 časova, u Budvi,
+                otopili plastični dio bankomata oštećene "NLB banke", te su kroz tako napravljeni
+                otvor, došli do računarskog sistema podataka i funkcionisanje računarskog sistema,
+                tako što su bankomatu unošenjem virusa, zadali komandu da isplati sav novac koji se
+                u njemu nalazi, usljed čega je iz bankomata isplaćeno 30.000,00 eura, koji novac su
+                prisvojili, - čime je kao saizvršilac izvršio produženo krivično djelo računarska
+                prevara iz čl. 352. st. 3. u vezi st. 1. u vezi čl. 23. i 49. Krivičnog zakonika
+                Crne Gore. Pa ga sud primjenom citiranih zakonskih odredbi, te odredbi čl.
+                4,5,6,7,8,14,15,32,36,42. i 51. Krivičnog zakonika Crne Gore, te odredbi čl. 226,
+                229. i 374. Zakonika o krivičnom postupku. O S U Đ U J E Na kaznu zatvora u trajanju
+                od 2 (dvije) godine i 8 (osam) mjeseci, u koju kaznu mu se uračunava vrijeme
+                provedeno u pritvoru počev od 16.11.2019. godine, od 12,45 časova, pa nadalje dok
+                pritvor bude trajao. Dužan je optuženi da na ime imovinsko-pravnog zahtjeva
+                oštećenoj "NLB banci" plati novčani iznos od 136.800,00 eura, u roku od 15 dana po
+                pravosnažnosti presude pod prijetnjom prinudne naplate. Dužan je optuženi da na ime
+                troškova krivičnog postupka-sudskog paušala, plati ovom sudu iznos od 150,00 eura,
+                te da na ime vještačenja po vještaku iz oblasti digitalne forenzike S.B., plati
+                novčani iznos od 1.573,00 eura i po vještaku iz oblasti ekonomsko-finansijske struke
+                N.N., plati novčani iznos od 264,00 eura‚ sve u roku od 15 dana po pravosnažnosti
+                presude, pod prijetnjom prinudne naplate, dok će o ostalim troškovima krivičnog
+                postupka sud odlučiti naknadno posebnim rješenjem, po pribavljanju podataka o
+                njihovoj visini. O b r a z l o ž e nj e Optužnicom Višeg državnog tužilaštva u
+                Podgorici Kt.br. 255/2019 od 14.02.2020. godine, optuženom <party id="iy"
+                    refersTo="iy" as="">I.Y.</party>, stavljeno je na teret izvršenje krivičnog
+                djela računarska prevara iz čl. 352. st. 3. u vezi st. 1. u vezi čl. 23. i 49.
+                Krivičnog zakonika Crne Gore, pri kojoj optužnici je njen zastupnik u cjelosti ostao
+                do završetka glavnog pretresa, predlažući sudu u završnoj riječi, da optuženog
+                oglasi krivim i osudi po zakonu. Optuženi u odbrani u prethodnom postupku naveo, da
+                je u Crnu Goru prvi put došao 03.10.2019. godine, zajedno sa Č.V. avionom iz
+                Istambula, nakon čega je Č.V. iznajmio Rentacar vozilo. Dalje je naveo, da je
+                njegova obaveza bila da tim vozilom vozi Č.V., da je jedne noći, nije se mogao
+                sjetiti tačnog datuma, ali da je bilo jako kasno, Č.V. nešto radio oko bankomata,
+                ali da on nije znao što on radi, jer je njegova obaveza bila samo da vozi i da vodi
+                računa da neko ne naidje. Objasnio je, da je Č.V. uzeo novac iz bankomata u
+                Podgorici, da bi sjutradan po njih došli Š.J. i B.A, autom marke "O...I...",
+                vlasništvo Š.J., nakon čega su tim vozilom sva četvorica napustili Crnu Goru.
+                Objasnio je da mu nije poznato koliko je novca "Č.V".uzeo iz bankomata u Podgorici.
+                Dalje je naveo, da je drugi put u Crnu Goru došao 19.10. sa Š.J. i B.A., vozilom
+                marke "O...I...", da je "B.A.".odmah po dolasku u Crnu Goru iznajmio renta-car
+                vozilo, da je njegova obaveza bila samo da vozi taj auto i da vodi računa da neko ne
+                naidje, da na bankomatima u Tivtu i Budvi nije ništa radio, već je isključivo B.A.,
+                te da mu tom prilikom nije rekao koliko je uzeo novca iz bankomata, da bi sjutradan
+                B.A. i vratio iznajmljeno auto, nakon čega su zajedno sa Š.J. napustili Crnu Goru.
+                Dalje je naveo, da je ponovo u Crnu Goru došao dan prije nego što je lišen slobode
+                zajedno sa Š.J., kada su ih na graničnom prelazu zaustavili u uhapslili, da su na
+                granicu ponovo došli sa vozilom marke "O...I...". Dalje je naveo i objasnio, da on
+                nije iznajmljivao vozila u Crnoj Gori, da su to radili "Č.V".i B.A,j, da je laptop
+                koji je pronadjen i oduzet od Š. Jurija vlasništvo B.A. ili Č.V., da laptop nema
+                šifru, kao ni njegov telefon marke "Iphone" i "Apple watch". Na glavnom pretresu
+                optuženi je ponovio svoju odbranu iz prethodnog postupka, s tim što je objasnio, da
+                Č.V., Š.J. i B.A,ja pouznaje oko 15 godina, jer žive u blizini, da mu nije poznato
+                da li su prilikom podizanja para sa bankomata nosili laptop, ali da je vidio da su
+                nosili neku torbu, koja je ličila na ranac, da on u noći izmedju 19/20.10.2019.
+                godine u Budvi i Tivtu, nije nosio nikakav laptop, da su u Budvu i Tivat odlazili
+                3-4 puta, a da je Š.J. jednom prilikom ostao u Podgorici, da mu nije poznato koje su
+                marke bili automobili koji su iznajmljivani u Rentacar, osim, da je jedno bilo plave
+                boje, a drugi put bijele, da 20.10.2019. godine, Š. Jurij nije bio sa njima u Budvi
+                i Tivtu, te da je razlog zašto je ponovo došao u Crnu Goru 16.11.2019. godine, bio
+                taj, što su mu Š., Č. i B. platili da ih doveze u Crnu Goru. Dalje je naveo i
+                objasnio, da je osim njega kao vozač bio angažovan i Š.J., koga je angažovao B.A.,
+                da pod tim što je rekao, da mu je obaveza bila da vozi i vodi računa da neko ne
+                naidje, podrazumijeva to, da vodi računa o automobilu i stvarima koji su u
+                automobilu, da je za vožnju do Crne Gore i kroz Crnu Goru dobijao nadoknadu od 700
+                ili 800 eura ili dolara, da su mu bili plaćeni svi troškovi boravka u Crnoj Gori.
+                Objasnio je, da "B.A.".ima agenciju za nekretnine i da mu je govorio da u Crnu Goru
+                dolazi zbog nekretnina u ime kupaca, te da je uzimao procenat od prodaje nekretnina.
+                Dalje je naveo, da se profesionalno bavio vožnjom, da ima položene sve kategorije za
+                upravljanje vozila, da se i ranije bavio uslugama prevoza, da je vozio ljude ljude
+                do Njemačke, Poljske, Grčke, Mađarske i Albanije, kao i po bivšim sovjetskim
+                republikama, da je to radio sopstvenim autombilom, a ponekad i iznajmljenim u
+                zavisnosti što su mušterije tražile, da nije bio prisutan kada je policija vršila
+                pretres vozila na graničnom prelazu, kao ni Š. Jurij, te da u vozilu nije bilo ništa
+                drugo, osim obavezne opreme i alata, putnih torbi i kofera. Dalje je naveo, da
+                prilikom boravka u Crnoj Gori 03.10. i 19.10.2019. godine, u noćnim časovima nije
+                izlazio iz hotela, što se može potvrditi i uvidom u snimke nadzornih kamera u
+                hotelu. Branilac optuženog je u završnoj riječi zamolio sud da prilikom odjemravanja
+                kazne cijeni sve olakšavajuće okolnosti na njegovoj strani, posebno činjenicu da je
+                relativno mlad čovjek, otac troje djece, činjenicu da ranije nije imao sukoba sa
+                zakonom i istog što blaže kazni. Optuženi je u cjelosti prihvatio završnu riječ svog
+                branioca. Sud je u dokaznom postupku saslušao ovlašćenog predstavnika oštećene "NLB
+                banke" Š.M., pročitao zapisnik o uvidjaju Uprave policije CB Budva od 21.10.2019.
+                godine, izvještaj o uzorkovanju tragova sa lica mjesta Uprave policije CB Budva od
+                21.10.2019. godine, dopis "NLB banke" od 23.10.2019. godine, o stanju na bankomatima
+                BAEB0034 u Budvi, ugovor o najmu vozila "N...M...", reg. oznaka NK ..., zaključen
+                izmedju "R...R..." i B.A. od 19.10.2019. godine, ugovor o najmu vozila "Nisan
+                Mikra", reg. br. NK ..., zaključen izmedju "Reno Renta" i Č.V. od 03.10.2019.
+                godine, dopis "NLB banke" od 28.10.2019. godine, o stanju novca u bankomatu BAEB0018
+                u Podgorici, zapisnik o uvidjaju Uprave policije CB Podgorica od 10.10.2019. godine,
+                potvrda hotela "A..." od 16.11.2019. godine, zapisnik o pretresanju vozila Uprave
+                policije Sektor granične policije Bijelo Polje, br. 205 od 16.11.2019. godine,
+                zapisnik o pretresanju vozila Uprave policije Bijelo Polje, br. 205 od 16.11.2019.
+                godine, potvrda o privremeno oduzetim predmetima Uprave policije SP Bijelo Polje,
+                broj 127 od 16.11.2019. godine, potvrda o privremeno oduzetim predmetima Uprave
+                policije SP Bijelo Polje, broj 126 od 16.11.2019. godine, potvrda o privremeno
+                oduzetim predmetima Uprave policije CB Podgorica od 16.11.2019. godine, izvještaj
+                Uprave policije-Sektor granične policije po prelasku državne granice od 17.11.2019.
+                godine, zapisnik o uvidjaju Uprave policije OB Tivat od 21.10.2019. godine, dopis
+                "NLB banke" od 23.10.2019. godine, o stanju novca na bankomatu BAEB0032 u Tivtu,
+                izvještaj o kriminalističko-tehničkom pregledu lica mjesta OB Tivat, broj knjige
+                uvidjaja 193/19, nalaz i mišljenje sudskog vještaka iz oblasti digitalne forenzike
+                B.S. od 14.04.2020. godine, te saslušao vještaka na glavnom pretresu, nalaz i
+                mišljenje vještaka ekonomsko-finansijske struke N.N. od 03.04.2020. godine,
+                izvještaj o daktiloskopskom vještačenju Forenzičkog centra u Danilovgradu, broj
+                4277/19 od 08.11.2019. godine, izvještaj o DNK vještačenju Forenzičkog centra u
+                Danilovgradu broj 4257/19 od 23.03.2020. godine i izvršio uvid u fotodokumentaciju
+                koja je sastavni dio izvještaja, pročitao izvještaj o DNK vještačenju Forenzičkog
+                centra u Danilovgradu broj 4278/19 od 23.03.2020. godine i izvršio uvid u
+                fotodokumentaciju koja je sastavni dio izvještaja, zapisnik o pretresanju računara,
+                mobilnih telefona i drugih uredjaja Uprave policije-Odsjek za suzbijanje teških
+                krivičnih djela broj 126/2 od 01.04.2010. godine, izvršio uvid putem projekcije u
+                video materijal nadzorne kamere izuzete sa privatnog objekta, vlasništvo L.Lj.
+                (kamera broj 9), izvod iz matične knjige vjenčanih broj 2195 od 30.08.2003. godine,
+                Gradskog odjeljenja za registraciju akata i gradjanskog statusa Uprave Ljevovske
+                oblasti, izvode iz matičnih knjiga rodjenih za sina "I.". Y., kćerku "I.". A. i
+                "I.". V., fotodokumentaciju Uprave policije CB Budva od 21.10.2019. godine,
+                fotodokumentaciju Uprave policije CB Podgorica od 21.10.2019. godine,
+                fotodokumentaciju Uprave policije OB Tivat od 21.10.2019. godine, fotodokumentaciju
+                Uprave policije CB Podgorica od 05.10.2019. godine i fotodokumentaciju Uprave
+                policije CB Podgorica od 16.11.2019. godine. Ovlašćeni predstavnik oštećene NLB
+                banke, Š.M. je u svom iskazu kako u prethdnom postupku, tako i na glavnom pretresu
+                navela, da je dana 04.10.2019. godine, bankomat NLB banke u Podgorici, u sklopu
+                marketa "Idea", u ul. N...T... ..., nakon navedenog dana u 10,35 časova, sa novcem u
+                iznosu od 70.000,00 eura, da je istog dana u 22:23:00 časova, na bankomatu
+                evidentirana zadnja transakcija-podizanje novca, a nakon toga sledećeg dana
+                05.10.2019. godine, u 09:29:00 časova, evidentirano je pokušaj podizanja novca, koja
+                transakcija je odbijena, jer u bankomatu nije bilo novca. Dalje je navela, da je
+                dana 18.10.2019. godine, bankomat u Tivtu, u sklopu marketa "Franca" na autobuskoj
+                stanici u 14:05:00 časova, napunjen sa novcem u iznosu sa 50.000,00 eura, da je dana
+                19.10.2019. godine, u 21,15 časova, na istom bankomatu evidentirano zadnje podizanje
+                novca, a da je banka dana 20.10.2019. godine, u 03:04:00 časova, dobila obavještenje
+                od procesora, da su kasete sa novcem u bankomatu prazne. Dalje je navela, da je dana
+                17.10.2019. godine, bankomat NLB banke u Budvi koji se nalazi u ul. Jadranski put
+                bb, u 10:16:00 časova, napunjen novcem u iznosu od 50.000,00 eura, da je dana
+                19.10.2019. godine, u 22:46:00 časova, na tom bankomatu evidentirano poslednje
+                podizanje novca, da bi dana 20.10.2019. godine, u 04:55:00 časova, procesor poslao
+                obavještenje da su kasete sa novcem u bankomatu prazne. Objasnila je, da su sva tri
+                bankomata iste marke i tipa "Nixdorf 2050XE", da je specifičnost tih tipova
+                bankomata da je prednja maska u gornjem dijelu plastična, te da je na sva tri
+                bankomata otopljen dio maske, nakon čega je izvršen pristup računarskom sistemu
+                bankomata, zbog čega nije došlo do paljenja alarma, koji se aktivira na vibraciju.
+                Dalje je objasnila, da se u tom dijelu nalaze kablovi koji su povezani na
+                "dispanzer" koji služi za isplatu novčanica iz bankomata, te da je na bankomatu u
+                Podgorici otudjeno 63.600,00 eura, na bankomatu u Tivtu 43.200,00 eura, a u Budvi
+                30.000,00 eura. Kao ovlašćeni predstavnik oštećene NLB banke pridružila se krivičnom
+                gonjenju protiv optuženog i u odnosu na njega postavila imovinsko pravni zahtjev u
+                iznosu štete koji se utvrdi u postupku. Iz sadržine zapisnika o uvidjaju Uprave
+                policije CB Budva od 21.10.2019. godine, proizilazi, da je lice mjesta u ul.
+                J...p..., naselje V...V..., zgrada Dž... a..., u čijem prizemlju se nalazi bankomat
+                NLB banke broj BAEB0034, a na kome su neposrednim opažanjem konstatovana oštećenja
+                na prednjem dijelu bankomata iznad displeja, dimenzija 16x9 cm, dok je u donjem
+                desnom uglu bankomata zatečen zalijepljen komad sive selotejp trake. Kriminalistički
+                tehničar je fiksirao i izuzeo tragove i lice mjesta fotografisano. Bliži izgled lica
+                mjesta, izgled bankomata, te oštećenja na samom bankomatu prikazani su u
+                fotodokumentaciji CB Budva od 21.10.2019. godine, u koju je su izvršio uvid na
+                glavnom pretresu. Iz sadržine izvještaja o uzorkovanju tragova sa lica mjesta Uprave
+                policije CB Budva od 21.10.2019.godine, proizilazi, da je krim. tehničar prilikom
+                vršenja uvidjaja na licu mjesta u naselju V...V..., izuzeo briseve sa izrezanog
+                pravougaonog prednjeg dijela bankomata, ispod izrezanog pravougaonog bankomata sa
+                gornjeg dijela, iznad izrezanog pravougaonog komada bankomata sa "džeka" plave boje
+                i kabla u unutrašnjosti bankomata i jednog kabla u unutrašnjosti bankomata, te
+                izuzeo komad sive selotejp trake, pronadjene u donjem dijelu bankomata, te komad
+                bankomata pravougaonog oblika dimenzija 16x9 cm. Iz sadržine dopisa NLB banke od
+                23.10.2019. godine, o stanju na bankomatu te banke BAEB0034 u Budvi, proizilazi, da
+                je dana 17.10.2019. godine, u 10:16:00 časova, izvršeno punjenje bankomata u Budvi
+                navedene oznake u iznosu od 50.000,00 eura, sa novčanicama u apoenima od 10,00 i
+                50,00 eura, te da je do trenutka pražnjenja bankomata uspješno izvršena transakcija
+                u vrijednosti od 19,640,00 eura, da je poslednja transakcija izvršena dana
+                19.10.2020. godine u 22:46:00 časova, da bi 20.10.2019. godine, u 04:55:00 časova,
+                zaprimljeno obavještenje od procesora da su kasebe bankomata prazne. Iz sadržine
+                ugovora o najmu vozila Agencije "R...R..." od 19.10.2019. godine, proizilazi, da je
+                lice "B.A.".dana 20.10.2019. godine, kod navedene agencije iznajmilo putničko vozilo
+                marke "N...M...", reg. oznaka NK ..., na periodu do 20.10.2019. godine. Iz sadržine
+                ugovora o najmu vozila Agencije "R...R..." od 03.10.2019. godine, proizilazi, da je
+                lice "Č.V".dana 03.10.2019. godine, kod navedene agencije iznajmilo putničko vozilo
+                marke "N..M...", reg. oznaka NK ..., na periodu do 05.10.2019. godine. Iz sadržine
+                dopisa "NLB banke" od 28.10.2019. godine, proizilazi, da je ta banka dana
+                05.10.2019. godine, od strane zaštitarske agencije "SAB Security Montenegro"
+                obaviješteno, da na bankomatu u ul. N...T... u naselju Z..., identifikacioni broj
+                BAEB0018 postoji fizičko oštećenje. Nadalje, iz istog dopisa proizilazi, da je
+                bankomat NLB banke na navedenoj adresi dana 04.10.2019. godine, u 10:35:00 časova,
+                napunjen novčanicama u iznosu od 70.000,00 eura, da je istog dana u 22:23:41 časova,
+                evidentirana poslednja transakcija na bankomatu, a da je dana 05.10.2019. godine, u
+                09:29:59 časova, evidentiran pokušaj transakcije podizanja novca, koju transakciju
+                je bankomat odbio zbog nemogućnosti da isplati novac, jer su kasete u bankomatu bile
+                prazne, te da je u navedenom periodu bankomat uspješno isplatio 4.230,00 eura. Iz
+                sadržine zapisnika o uvidjaju Uprave policije CB Podgorica od 10.10.2019. godine,
+                proizilazi, da je lice mjesta ulica N....T... ..., gdje je u sklopu marketa "Idea"
+                postavljen bankomat NLB banke. Da su ovlašćeni policijski službenici neposrednim
+                opažanjem na licu mjesta uočili oštećenje iznad displea bankomata dimenzija 10x5 cm,
+                nastala najvjerovatnije podesnim alatom, da je krim. tehničar izvršio fotografisanje
+                oštećenja, a da na bankomatu i marketu "Idea", ne postoje nadzorne kamere. Bliži
+                izgled lica mjesta i oštećenja na bankomatu prikazan je u fotodokumentaciji CB
+                Podgorica od 05.10.2019. godine, u koju je sud izvršio uvid na glavnom pretresu. Iz
+                sadržine potvrde hotela "Aurel" od 16.11.2019. godine, proizilazi, da je optuženi
+                "I.". J., kao i lice Č.V., boravili u navedenom hotelu, koji je lociran na adresi
+                J... B...T... ... u Podgorici, u periodu od 03.10.2019. godine do 04.10.2019.
+                godine, sa odjavom u 09:15:00 časova, kao i u periodu od 04-05.10.2019. godine, sa
+                odjavom u 08:08:00 časova. Iz sadržine zapisnika o pretresanju saobraćajnog sredstva
+                i stvari Uprava policije-Stanica granične policije Bijelo Polje, broj 205 od
+                16.11.2019. godine, utvrdjuje se, da su policijski službenici navedenog sektora
+                granične policije, dana 16.11.2019. godine, u 08:50:00 časova, kontrolisali p.m.v.
+                marke "O...I...", reg. oznaka BC ... crne boje, vlasništvo optuženog "I.". J., kod
+                kojeg je tom prilikom pronadjeno 13 bankovnih kartica različitih serijskih brojeva i
+                mobilni telefon marke "Iphone", kao i smart sat iste marke. Iz sadržine zapisnika o
+                pretresanju saobraćajnog sredstva i stvari Uprava policije-Stanica granične policije
+                Bijelo Polje, broj 206 od 16.11.2019. godine, utvrdjuje se, da su policijski
+                službenici prilikom pretresanja putničkog motornog vozila kojim je upravljao
+                optuženi "I.". J. na graničnom prelazu Dobrakovo, u vozilu pronašli jednu putnu
+                torbu, vlasništvo Š. J. a, u kojoj je pronadjen ručni računar-laptop marke "Asus" i
+                mobilni telefon marke "Iphone". Iz sadržine potvrde o privremeno oduzetim predmetima
+                Uprave policije-Stanica granične policije Bijelo Polje, broj 127 od 16.11.2019.
+                godine, utvrdjuje se, da su od lica Š.J. privremeno oduzeti: mobilni telefon marke
+                "Iphone" i laptop marke "Asus". Iz sadržine potvrde o privremeno oduzetim predmetima
+                granične policije Bijelo Polje, broj 128 od 16.11.2019. godine, utvrdjuje se, da je
+                od optuženog "I.". J. a privremeno oduzeti: mobilni telefon marke "Iphone", smart
+                sat marke "Aplle watch", konekcioni USB kabal crne boje, 13 platnih kartica i p.m.v.
+                marke "Opr Insignia", reg. oznaka BC 38336 HE. Iz sadržine potvrde o privremeno
+                oduzetim predmetima Uprave policije CB Podgorica od 16.11.2019. godine, utvrdjuje
+                se, da je od optuženog "I.". "Y".a privremeno oduzeto: 27 novčanica, u apoenima od
+                po 50,00 eura, 12 novčanica u apoenima od po 100 USD, 2 novčanice u apoenima od 20
+                USD, jedna novčanica u apoenu od 10 USD, 4 novčanice od po 500 urajinskih grivni, 1
+                novčanica u apoenu od 200 ukrainskih grivni, 1 novčanica od 50 ukrainskih grivni, 1
+                novčanica od 20 ukrainskih grivni, 1 novčanica od 10 ukrainskih grivni, 1 novčanica
+                od 5 ukrainskih grivni, 3 novčanice od po 2 ukrainske grivne, 6 legitimacija
+                Internacionalne policijske asocijacije na ime optuženog "I.". "Y".a, izdate u
+                Ukrajini, legitimacija državne službe Ukrajine za vanredne situacije na ime
+                optuženog, vozačka dozvola i putna isprava na ime optuženog, kao i veći novčanik
+                crne boje sa rajferlšusom marke "Wellerry". Iz sadržine izvještaja Uprave
+                policije-Sektor granične policije o prelasku državne granice od 17.11.2019. godine,
+                proizilazi, da je optuženi "I.". "Y"., dana 03.10.2019. godine, evidentiran prilikom
+                ulaska na graničnom prelazu Aerodrom Podgorica na letu Istambul-Podgorica, a da je
+                dana 06.10.2019. godine, napustio teritoriju Crne Gore na graničnom prelazu
+                Dobrakovo putničkim motornim vozilom marke "O...", reg. oznaka BC ... NE, te da je
+                dana 19.10.2019. godine, na graničnom prelazu Dobrakovo evidentiran njegov ulazak u
+                Crnu Goru istim putničkim motornim vozilom, a dana 20.10.2019. godine, optuženi je
+                istim vozilom napustio teritoriju Crne Gore preko graničnog prelaza Dobrakovo. Iz
+                sadržine zapisnika o uvidjaju OB Tivat od 21.10.2019. godine, utvrdjuje se, da je
+                lice mjesta A...s... u Tivtu, gdje se u sklopu marketa "Franca" nalazi bankomat NLB
+                banke, u naselju B.... Neposrednim opažanjem na licu mjesta ovlašćeni policijski
+                službenici su uočili oštećenje iznad displea bankomata koje je načinjeno podesnim
+                sredstvom u obliku narezanog dijela, pravougaonog oblika, dok je sa desne strane
+                displea u donjem dijelu zalijepljena selotejp traka. Kriminalistički tehničar je sa
+                lica mjesta izuzeo pravougaonu pločicu, kao i nalijepljen dio selotejp trake i
+                fotografisao lice mjesta. Bliži izgled lica mjesta i oštećenja na bankomatu prikazan
+                je u fotodokumentaciji OB Tivat od 21.10.2019. godine, u koju je sud izvršio uvid na
+                glavnom pretresu. Iz sadržine dopisa NLB banke od 23.10.2019. godine, proizilazi, da
+                je dana 18.10.2019. godine, u 14:05:00 časova, izvršeno punjenje bankomata oznake
+                BAEB0032, lociranog u okviru marketa "Franca" na Autobuskoj stanici u Tivtu u iznosu
+                od 50.000,00 eura, da je dana 19.10.2019. godine, u 21:15:00 časova, evidentirana
+                poslednja transakcija sa bankomata, a da je dana 20.10.2019. godine, u 03:04:00
+                časa, zaprimljeno obavještenje od procesora, da su kasete bankomata prazne, te da je
+                u navedenom periodu od poslednjeg punjenja bankomat uspješno isplatio 4.390,00 eura.
+                Iz sadržine izvještaja o kriminalističko-tehničkom pregledu lica mjesta OB Tivat,
+                broj knjige uvidjaja 183/19 od 21.10.2019. godine, utvrdjuje se, da je krim.
+                tehničar sa lica mjesta izuzeo izrezani plastični dio bankomata, kao i dio selotejp
+                trake koji je bi zalijepljen na kameri na bankomatu. Iz sadržine nalaza i mišljenja
+                vještaka iz oblasti digitalne forenzike B.S. od 14.04.2020. godine, utvrdjuje se, da
+                je tom vještaku na vještačenje dostavljena ekstrakcija mobilnog telefona marke
+                "Iphone", model A1586, IMEI broja 352091076900110, forenzička slika laptopa marke
+                "Asus", model T-100H, USB hub i USB bežična tastatura sa ptuchpad. Analizom
+                forenzičke slike laptop računara marke "Asus", na samom računaru konstatovano je da
+                je instaliran operativni sistem Windovs 10, da su na istom instalirani korisnički
+                nalozi "User", administrator, Acdounh i gues, ali da je samo korisnički nalog "User"
+                aktivan. Daljom analizom fajlova, izdvojena je ikonica fajla "iconGroup1.ica".
+                Uporedjivanjem pronadjenog podatka i uporedjivanjem sa grafičkim oblikom na ikonici,
+                a zatim pretragom po otvorenim izvorima, utvrdjeno je da ista pripada alatu koji se
+                koristi za napad na "ATM Jackpotting sa korišćenjem malwera", tačnog naziva "Wincor
+                ATM Malware Cutlet malwer". Analizom USB hub-a utvrdjeno je, da je isti ručno
+                prepravljan, tako što je umjesto USB-a, dodat USB B za štampač. Na osnovu analize
+                korišćenja računara i dinamičkoj analizi pronadjenog fajla na računaru
+                "Codecalc.exe", analiza tragova u fajlovima koji su se nalazili na računaru
+                STIMULATOR.exe i cm17F- exe podataka iz otvorenih izvora i pratećih specifičnih
+                računarskih komponenti nadjenih uz laptop: namjenski izradjen USB hub, bežična
+                tastatura sa tačpedom, vještak je zaključio, da tako kombinovani so�ver i harver
+                može koristiti kao dio alata kojim bi se po pristupu nekom od komunikacionih linija
+                bankomata, konkretno, USB porta bankomata, mogao unijeti zlonamjerni kod, virus čime
+                bi bankomat izvršavao zadate komande iz malicioznog koda, čime bi se uticalo na
+                rezultat elektronske obrade podataka, prenosa podataka i funkcionisanja računarskog
+                sistema bankomata. Na glavnom pretresu vještak digitalne forenzike S.B. je u
+                cjelosti ostao pri pisanom nalazu i mišljenju, s tim što je objasnio, da maliciozni
+                so�ver koji je pronadjen u memoriji računara ne može da radi sam za sebe, već nakon
+                što se drugi so�ver "stimulator" priključi preko USB kabla na računar bankomata i na
+                taj način dobije informaciju o stanju u kasetama samog bankomata, odnosno količini
+                novca, nakon čega se aktivira drugi so�ver "CN17F.exe" koji od bankomata dobija kod,
+                a zatim na snagu nastupa so�ver "c0decalec.exe", u kojem se kopira kod, a pomoću
+                kalkulatora izračunava novi kod, koji se potom unosi u bankomat i koji uz pomoć
+                navedenog programa startuje rad bankomata i prazni ga. Sud je nalaz i mišljenje, te
+                usmeno izjašnjenje vještaka iz oblasti digitalne forenzike B.S. cijenio kao stručan
+                jasan, objektivan, zasnovan na pravilima struke i nauke, pa je isti u cjelosti
+                prihvatio. Iz sadržine nalaza i mišljenja vještaka ekonomsko-finansijske struke N.N.
+                od 03.04.2020. godine, utvrdjuje se, da je taj vještak na osnovu raspoložive
+                dokumentacije iz spisa predmeta dao nalaz o kretanju novca i stanju na bankomatima u
+                Podgorici, Budvi i Tivtu prije i nakon izvršenja krivičnog djela. Na osnovu
+                raspoložive dokumentacije vještak je utvrdio, da je na bankomatu identifikacione
+                šifre BEAB0032 dana 18.10.2019. godine, u 14:05:00 časova, odradjeno punjenje
+                bankomata sa novčanicama od 10,00 eura i 50,00 eura, u ukupnom iznosu od 50.000,00
+                eura, da je od trenutka punjenja do 19.10.2019. godine, do 21:16:23 časova,
+                evidentirane uspješne transakcije-isplate u iznosu od 4.390,00 eura raznim
+                klijentima, da je dana 20.10.2019. godine, u 03:04:00 časova, zaprimljeno
+                obavještenje od procesora, da su kasete prazne, a da je nakon obavljenog uvidjaja
+                dana 21.10.2019. godine i vadjenje kaseta iz bankomata od strane zaposlenih oštećene
+                NLB banke utvrdjeno, da se u kasetama nalazi 41 novčanica u apoenu od 10,00 eura i
+                40 komada novčanica u apoenima od 50,00 eura, što ukupno čini iznos od 2.410 eura.
+                Imajući u vidu početno stanje nakon punjenja bankomata dana 18.10.2019. godine, u
+                iznosu od 50.000,00 eura, obavljene uspješne transakcije do 19.10.2019. godine, u
+                iznosu od 4.390.00 eura, te zatečeni novac nakon izvršenog uvidjaja u kasetama
+                bankomata u iznosu od 2.410 eura može se zaključiti, da je šteta na navedenom
+                bankomatu 43.200,00 eura. Nadalje, na osnovu kretanja novca i stanja na bankomatu
+                BAEB0034, vještak je utvrdio, da je dana 17.10.2019. godine, u 10:16:00 časova,
+                izvršeno punjenje bankomata, novčanicama apoena od 10,00 i 50,00 eura, u ukupnom
+                iznosu od 50.000,00 eura. Da je od trenutka punjenja do 19.10.2019. godine, do
+                22:46:27 časova, evidentirano uspješnih transakcija-isplata u ukupnom iznosu od
+                19.641,00 euro raznim klijentima, da je nakon obavljenog uvidjaja dana 21.10.2019.
+                godine, izvršeno prebrojavanje novca u kasetama bankomata od strane nadležnog
+                službenog trezora NLB banke, kojom prilikom je utvrdjeno, da se u kasetama nalazi
+                ukupno 360,00 eura. Imajući u vidu početno stanje nakon punjenja bankomata dana
+                17.10.2019. godine, u iznosu od 50.000,00 eura, obavljene uspješne transakcije do
+                19.10.2019. godine, u iznosu od 19.640,00 eura, te zatečeni novac nakon izvršenog
+                uvidjaja u kasetama bankomata u iznosu od 360,00 eura, vještak je zaključio, da je
+                šteta na navedenom bankomatu 30.000,00 eura. Nadalje, na osnovu raspoložive
+                dokumentacije vještak je utvrdio i kretanje novca na bankomatu BAEB0018, na kojem je
+                dana 04.10.2019. godine, u 10:35:00 časova izvršeno punjenje novčanicama apoenima od
+                10,00 i 50,00 eura u ukupnom iznosu od 70.000,00 eura, da je od trenutka punjenja do
+                05.10.2019. godine, do 09:29:59 časova, evidentirano upješnih transakcija-isplata u
+                iznosu od 4.230,00 eura raznim klijentima, da je dana 05.10.2019. godine od strane
+                ovlašćenog lica zaposlenog u trezoru NLB banke utvrdjeno, da se u kasetama navedenog
+                bankomata nalazi 2.170 eura, pa je vještak imajući u vidu početno stanje na
+                bankomatu dana 04.10.2019. godine, u iznosu od 70.000,00 eura, iznos uspješnih
+                transakcija u iznosu od 4.230 eura, te zatečeno stanje nakon vadjenja kaseta u
+                bankomatu u iznosu od 2.170 eura, utvrdio, da je šteta na navedenom bankomatu iznosi
+                63.600,00 eura. Na osnovu prethodno navedenog, vještak je zaključio, da je ukupna
+                šteta na sva tri bankomata vlasništvo NLB banke 136.800,00 eura. Sud je nalaz i
+                mišljenje vještaka ekonomsko-finansijske N.N. cijenio kao stručan jasan, objektivan,
+                zasnovan na pravilima struke i nauke, pa je isti u cjelosti prihvatio. Iz sadržine
+                izvještaja o daktiloskopskom vještačenju Forenzičkog centra u Danilovgradu, broj
+                4277/19 od 08.11.2019. godine, utvrdjuje se, da je tom centru radi detekcije tragova
+                papilarnih linija i analize istih dostavljen komad bankomata pravougaonog oblika
+                dimenzija 16x9 cm plavo-sive boje, izuzet prilikom vršenja uvidjaja u zgradi
+                "Dž...a...", gdje je lociran bankomat NLB banke, te da daktiloskopskim ispitivanjem
+                navedenog predmeta nijesu detektovani tragovi papilarnih linija. Bliži izgled
+                predmeta koji je bio predmet vještačenja prikazan je i u fotodokumentaciji koji je
+                sastavni dio izvještaja. Sud je izvještaj o daktiloskopskom vještačenju cijenio kao
+                stručan jasan, objektivan, zasnovan na pravilima struke i nauke, pa je isti u
+                cjelosti prihvatio. Iz sadržine izvještaja o DNK vještačenju Forenzičkog centra u
+                Danilovgradu broj 4257/19 od 23.03.2020. godine, utvrdjuje se da je tom centru na
+                vještačenje dostavljen plastični dio plavo-sive boje pravougaonog oblika, izuzet
+                prilikom uvidjaja od strane krim tehničara OB Tivat, dio selotejp trake i referentni
+                uzorak DNK profila "I.". "Y".a. Na osnovu izvršenih DNK analiza i biostatističkog
+                proračuna utvrdjeno je, da je na uzorku izuzetom sa plastičnog dijela utvrdjeno
+                prisustvo biološkog materijala od minimum tri osobe, pri čemu rezultat DNK analize
+                ne podržava hipotezu, da je "I.". "Y". jedan od mogućih donora biološkog materijala,
+                da je na uzorku izuzetom sa spoljašnje površine dijela selotejp trake utvrdjena
+                manja količina biološkog materijala, koji potiče od minimum dvije osobe, s tim što
+                se nije bilo moguće izjasniti, da li je optuženi "I.". "Y". jedan od donora
+                biološkog materijala, dok je na isječcima krajeva dijela selotejp trake utvrdjeno
+                prisustvo biološkog materijala najmanje od četiri osobe, pri čemu rezultat DNK
+                analize daje ekstremno jaku podršku hipotezi, da je "I.". "Y". jedan od donora
+                biološkog materijala. Bliži izgled predmeta koji su dostavljeni na vještačenje i
+                bili predmet vještačenja, prikazan je i u fotodokumentaciji koja je sastavni dio
+                izvještaja. Sud je izvještaj o DNK vještačenju cijenio kao stručan jasan,
+                objektivan, zasnovan na pravilima struke i nauke, pa je isti u cjelosti prihvatio.
+                Iz sadržine izvještaja o DNK vještačenju Forenzičkog centra u Danilovgradu broj
+                4278/19 od 23.03.2020. godine, utvrdjuje se, da su tom centru na vještačenje
+                dostavljeni tragovi izuzeti od strane krim. tehničara prilikom vršenja uvidjaja od
+                strane CB Budva i to: bris izuzet sa izrezanog pravougaonog prednjeg dijela
+                bankomata, bris sa donjeg dijela ispod izrezanog pravougaonog komada bankomata, bris
+                sa gornjeg dijela iznad izrezanog pravougaonog komada bankomata, bris sa džeka plave
+                boje kabla u unutrašnjosti bankomata, bris sa kabla u unutrašnjosti bankomata, komad
+                sive selotejp trake i referentni DNK profil "I.". "Y".a. Na osnovu izvršenih DNK
+                analiza i biostatističkog proračuna utvrdjeno je, da je na brisu sa donjeg dijela
+                ispod izrezanog pravougaonog komada bankomata identifikovano prisustvo biološkog
+                materijala od minimum tri osobe, pri čemu nije postojala mogućnost i izjašnjenje, da
+                li je "I.". "Y". jedan od donora biološkog materijala. Da je na brisu sa gornjeg
+                dijela iznad izrezanog pravougaonog oblika bankomata utvrdjeno prisustvo biološkog
+                materijala od minimum dvije osobe, pri čemu rezultat DNK analize daje veoma jaku
+                podršku hipotezi, da je "I.". "Y".a jedan od donora biološkog materijala, da je na
+                brisu sa kabla u unutrašnjosti bankomata utvrdjeno prisustvo biloškog materijala od
+                minimum jedne osobe, pri čemu rezultat DNk analize daje ekstreno jaku podršku
+                hipotezu da je "I.". "Y". donor tog biološkog materijala, da je na komadu sive
+                selotejp trake utvrdjeno prisustvo biološkog materijala od minimum tri osobe, pri
+                čemu rezultat DNK analize daje ekstreno jaku podršku hipotezi, da je "I.". "Y".
+                jedan od donora biološkog materijala. Bliži izgled predmeta koji su dostavljeni na
+                vještačenje i bili predmet analiza prikazan je u fotodokumentaciji koja je sastavni
+                dio izvještaja. Sud je izvještaj o DNK vještačenju cijenio kao stručan jasan,
+                objektivan, zasnovan na pravilima struke i nauke, pa je isti u cjelosti prihvatio.
+                Iz sadržine zapisnika o pretresanju računara, mobilnih telefona i drugih uredjaja
+                Uprave policije-Odsjek za suzbijanje teških krivičnih djela broj 126/2 od
+                01.04.2010. godine, proizilazi, da su ovlašćeni policijski službenici navedenog
+                odsjeka postupajući po naredbi sudije za istragu Višeg suda u Podgorici, u prisustvu
+                optuženog "I.". "Y".a i njegovog branioca M.S., izvršili prenos podataka iz memorije
+                mobilnog telefona marke "Iphone" i SIM kartice koja je zatečena u njemu, računara
+                marke "Asus". Iz sadržine izvoda iz matične knjige vjenčanih broj 2195 od
+                30.08.2003. godine, Gradskog odjeljenja za registraciju akata i gradjanskog statusa
+                Uprave Ljevovske oblasti, proizilazi, da je optuženi "I.". "Y"., dana 30.08.2003.
+                godine sklopio brak sa O.V.. Iz sadržine izvoda iz matičnih knjiga rodjenih za sina
+                "I.". "Y".a, da je sin rodjen dana 11.02.2014. godine, kćerka I.A. rodjena dana
+                16.03.2011. godine i sin "I.". V. rodjen dana 30.06.2005. godine. Zbog konciznosti
+                obrazloženja i obimnosti dokazne gradje, sud će analizu i ocjenu pojedinih
+                preostalih dokaza - video materijala nadzornih kamera privatnog objekta, vlasništvo
+                L.Lj. (kamera broj 9),u koju je izvršio uvid na glavnom pretresu putem projekcije,
+                dati u dijelu obrazloženja konkretnih radnji koje se stavljaju na teret optuženom.
+                Cijeneći navode optužbe, odbranu optuženog, te sve provedene dokaze kako
+                pojedinačno, tako i u njihovoj međusobnoj vezi, ovaj sud nalazi, da je optuženi
+                "I.". "Y". izvršio produženo krivično djelo računarska prevara iz čl. 352. st. 3. u
+                vezi st. 1. u vezi čl. 23. i 49. Krivičnog zakonika Crne Gore, na način, u vrijeme i
+                na mjestu, kako je to predstavljeno u izreci presude. Naime, provedenim dokazima na
+                glavnom pretresu nesumnjivo je utvrdjeno, da je optuženi "I.". "Y". u noći izmedju
+                04 i 05.10.2019. godine, zajedno sa Č.V. u P..., u ul. N...T..., najprije otopili
+                plastični dio bankomata, vlasništvo oštećene NLB banke i kroz tako napravljen otvor
+                pristupili računarskom sistemu bankomata, na način što su posrestvom elektronskog
+                uredjaja-laptopa u sistem bankomata unijeli virus, a zatim putem računarskog
+                programa zadali komandu bankomatu da isplati sav novac koji se u njemu nalazi, kojom
+                prilikom je iz bankomata isplaćeno 63.600,00 eura, koji novac su potom prisvojili,
+                da bi optuženi "I.". "Y". zajedno sa B.A. dana 20.10.2019. godine, oko 03:00:00
+                časova u Tivtu na isti način, najprije otopili plastični dio bankomata oštećene NLB
+                banke, te kroz tako naprvljen otvor došli do računarskog sistema bankomata, na koji
+                su se povezali uz pomoć elektronskog uredjaja-laptopa i u sistem bankomata unijeli
+                virus koji je uticao na elektronsku obradu podataka, a zatim uz pomoć podesnog
+                programa zadali komandu bankomatu da isplati sav novac, nakon čega je iz bankomata
+                isplaćeno 43.200,00 eura, koji novac su prisvojili, da bi istog dana oko 05:00:00
+                časova u Budvi, takodje otopili plastični dio bankomata oštećene NLB banke i kroz
+                tako napravljen otvor pristupili računarskom sistemu bankomata, a zatim uz pomoć
+                elektronskog uredjaja- laptopa, u računarski sistem bankomata unijeli virus, koji je
+                uticao na funkcionisanje računarskog sistema bankomata, a zatim putem podesnog
+                računarskog programa zadali komandu bankomatu da isplati sav novac, kojom prilikom
+                je iz bankomata isplaćeno 30.000,00 eura, koji novac su takodje prisvojili. Naprijed
+                utvrdjeno činjenično stanje, sud je na nesumnjiv način utvrdio provedenim dokazima
+                na glavnom pretresu. Naime, da je u noći izmedju 04.i 05.10.2019. godine, u P..., u
+                ul. N.T. ..., u sklopu marketa "Idea" došlo do neovlašćenog pristupa računarskom
+                sistemu bankomata, vlasništvo oštećene NLB banke, nesumnjivo se utvrdjuje, iz
+                sadržine zapisnika o uvidjaju Uprave policije CB Podgorica od 10.10.2019. godine, iz
+                kojeg proizilazi, da su ovlašćeni policijski službenici tog Centra bezbjednosti
+                izlaskom na lice mjesta i neposrednim opažnjanjem, na bankomatu oštećene banke
+                uočili oštećenje iznad displeja bankomata veličine 10x5 cm, nastalo podesnim alatom,
+                a u što se sud uvjerio i uvidom u fotodokumentaciju tog Centra bezbjednosti od
+                05.10.2019. godine, na kojem je prikazan izgled lica mjesta, kao i zatečena
+                oštećenja na bankomatu. Nadalje, da je 20.10.2019. godine, izvršen neovlašćeni
+                pristup bankomatima oštećene NLB banke u Tivtu i Budvi nesumnjivo se utvrdjuje, iz
+                sadržine zapisnika o uvidjaju OB Tivat od 21.10.2019. godine i zapisnika o uvidjaju
+                Uprave policije CB Budva od 21.10.2019. godine, iz kojeg je sud nesumnjivo utvrdio,
+                da su ovlašćeni policijski službenici Odjeljenja bezbjednosti Tivat, izlaskom na
+                lice mjesta-autobuska stanica u Tivtu, gdje se u sklopu marketa "Franca" nalazi
+                bankomat NLB banke, neposrednim opažanjem uočili oštećenje iznad displeja bankomata
+                koje je načinjeno podesnim sredstvom u obliku narezanog dijela pravougaonog oblika,
+                dok je sa desne strane displeja u donjem dijelu zatečena zalijepljena selotejp
+                traka, koje je predmete, (odsječeni dio bankomata pravougaonog oblika i selotejp
+                traku) krim. tehničar izuzeo sa lica mjesta radi potrebnih vještačenja, dok su
+                ovlašćeni policijski službenici CB Budva izlaskom na lice mjesta ul. J... p...,
+                naselje V...V..., u prizemlju zgrade "Dž...a...", gdje se nalazi bankomat NLB banke,
+                broj BAEB0024, neposrednim opažanjem konstatovali oštećenja na istom i to prednjem
+                dijelu bankomata iznad displeja dimenzije 16x9 cm, dok je u donjem desnom uglu
+                bankomata zatečen zalijepljen komad sive selotejp trake, koju je krim. tehničar
+                fiksirao i izuzeo radi daljeg vještačenja. Sve činjenice koje proizilaze iz sadržine
+                zapisnika o uvidjaju, izgled lica mjesta, oštećenja na bankomatu, te zatečenih
+                tragova (selotejp trake) vjerodostojno su prikazani u fotodokumentaciji OB Tivat i
+                CB Budva od 21.10.2019. godine, a u što se sud uvjerio uvidom u iste. Nadalje,
+                činjenica da je optuženi "I.". "Y". zajedno sa izvjesnim Č.V. i B.A., kritičnom
+                prilikom u Podgorici, Tivtu i Budvi u računarski sistem bankomata oštećene NLB
+                banke, unio lažni računarski podatak i time uticao na rezultat elektronske obrade,
+                prenosa podataka i funkcionisanje računarskog sistema samih bankomata, sud je
+                nesumnjivo utvrdio, iz sadržine memorije, laptop računara marke "Asus", pronadjenog
+                prilikom pretresa p.m.v. marke "O.I.", vlasništvo optuženog "I.". "Y". na graničnom
+                prelazu Dobrakovo, a koji laptop računar je vlasništvo Š.J., kako to proizilazi iz
+                sadržina zapisnika o pretresanju Uprave policije-Stanica granične policije Bijelo
+                Polje, broj 205 od 16.11.2019. godine, a koja memorija je izuzeta prilikom pretresa
+                istog obavljenog po naredbi sudije za istragu Višeg suda u Podgorici, u prisustvu
+                optuženog "I.". "Y". i njegovog branioca, a koja je bila predmet analize od strane
+                vještaka iz oblasti digitalne forenzike B.S.. Naime, iz sadržine nalaza i mišljenja
+                pomenutog vještaka od 14.04.2020. godine, utvrdjuje se, da je tom vještaku na
+                vještačenje dostavljena ekstrakcija (forenzička slika laptopa marke "Asus", model
+                T-100HA, USB hub i USB bežična tastatura sa tuchpad-om), te da je vještak analizom
+                forenzičke slike laptopa na samom računaru konstatovao instaliranu ikonicu fajla
+                "iconGroup1.ica", za koju je uporedjivanjem sa grafičkim oblikom i pretragom po
+                otvorenim izvorima utvrdio, da ista pripada alatu, koji se koristi za napad na "ATM
+                jackpotting sa korišćenjem malwera" tačnog naziva "Wincor ATM malwer cutlet malwer".
+                Daljom analizom USB huba vještak je utvrdio, da je isti ručno prepravljan, tako što
+                je umjesto USB-a dodat USB B predvidjen za štampač. Dinamičkom analizom podataka
+                korišćenih na računu i fajla koji se takodje nalazio na laptop računaru
+                "Codecalc.exe, analizom tragova u fajlovima koji su se nalazili na računaru
+                "STIMULATOR.exe i cm17F.exe i uporedjivanjem sa podacima iz otvorenih izvora i
+                pratećih specifičnih računarskih komponenti nadjenih uz laptop (namjenski izradjen
+                USB hub i bežična tastatura sa tačpedom) vještak je zaključio, da se tako
+                kombinovani so�ver i hardver može koristiti kao dio alata, sa kojim se može
+                pristupiti nekoj od komunikacinih linija bankomata, konkretno USB porta bankomata
+                preko kojeg se mogao unijeti zlonamjerni kod-virus, čime bi bankomat izvršavao
+                zadate komande iz malicioznog koda i na taj način se uticalo na rezultat elektronske
+                obrade podataka, prenosa podataka i funkcionisanje računarskog sistema bankomata.
+                Nadalje, iz usmenog izjašnjenja vještaka datog na glavnom pretresu nesumnjivo se
+                utvrdjuje, da maliciozni so�ver pronadjen u memoriji računara funkcioniše na način,
+                što se posrestvom drugog so�vera "stimulatora" koji je takodje pronadjen u memoriji
+                računara posrestvom USB porta priključi na računar bankomata, nakon čega se dobije
+                informacija o stanju u kasetama samog bankomata, odnosno količini novca, nakon čega
+                se aktivira so�ver cm17F.exe, koji se nalazio u memoriji laptopa, peko kojeg se
+                dobije kod od bankomata, a zatim se aktivira so�ver "c0decalec.exe" u koji se kopira
+                kod i uz pomoć kalkulatora izračuna novi kod, koji se potom unosi u bankomat i
+                startuje rad bankomata, a nakon toga i prazni bankomat. Dakle, imajući u vidu
+                maliciozni so�ver pronadjen u memoriji prenosivog laptop računara i analizom istog
+                od strane vještaka iz oblasti digitalne forenzike i dovodeći sve to u vezu sa
+                činjenicom, da je na sva tri bankomata oštećene NLB banke, isječen dio bankomata
+                iznad displeja, kako bi se pristupilo računarskom sistemu samog bankomata,
+                nesumnjivo se može zaključiti da je optuženi "I.". "Y". zajedno sa izvjesnim Č.V. i
+                B.A., najprije podnesnim alatom, isjekao (istopio) dio bankomata gdje se nalazi
+                pristup računarskim instalacijama istog, a zatim su preko USB hub-a povezali laptop
+                računar marke "Asus" sa USB portom bankomata, a zatim na laptop računaru aktivirali
+                maliciozni so�ver, koji je uticao na funkcionisanje računarskog sistema bankomata,
+                nakon čega su posrestvom istog zadali komande bankomatima, da isplate sav novac koji
+                se u njima nalazio. Činjenicu, da je optuženi "I.". "Y". učestvovao u izvršenju
+                predmetnog krivičnog djela na način kako je to prehodno opisano, nesumnjivo se
+                utvrdjuje, iz rezultata DNK analize biološkog materijala pronadjenog i izuzetog
+                prilikom vršenja uvidjaja na bankomatu u Tivtu i Budvi. Naime, na krajevima isječaka
+                selotejp trake, pronadjene i izuzete na donjem dijelu oštećenog bankomata u Tivtu
+                prilikom vršenja uvidjaja, utvrdjeno je prisustvo biološkog materijala od najmanje
+                četiri osobe, pri čemu rezultat DNK analize daje ekstremno jaku podršku hipotezi, da
+                je upravo "I.". "Y". jedan od donora biološkog materijala, dok je analizom brisa
+                izuzetog sa gornjeg dijela iznad izrezanog pravougaonog komada bankomata u Budvi
+                utvrdjeno prisustvo biološkog materijala od minimum dvije osobe, pri čemu rezultat
+                DNK analize daje veoma jaku podršku hipotezi, da je optuženi "I.". "Y". donor
+                biološkog materijala, dok je na brisu izuzetog sa kabla u unutrašnjosti bankomata
+                utvdjeno prisustvo biološkog materijala od minimum jedne osobe, pri čemu DNK analiza
+                daje ekstremno jaku podršku hipotezi, da je optuženi "I.". "Y". donor tog biološkog
+                materijala, kao i na komadu sive selotejp trake pronadjene na donjem dijelu
+                bankomata, pri čemu rezultat DNK analize daje ekstremno jaku podršku hipotezi, da je
+                donor biološkog materijala na selotejp traci upravo optuženi "I.". "Y".. Konačno, ni
+                sam optuženi u navodima svoje odbrane nije sporio činjenicu, da je 03.10.2019.
+                godine, došao u Crnu Goru sa Č.V. avionom preko Istanbula, da je nakon dolaska jedne
+                noći jako kasno, "Č.V".nešto radio oko bankomata u Podgorici, ali nije znao da opiše
+                što tačno, da je vidio da je Č. uzeo novac iz bankomata, nakon čega su sjutradan
+                napustili Crnu Goru zajedno sa Š.J. i B.A. kolima marke "Opel Insignia", da je u
+                Crnu Goru došao ponovo 19.10.2019. godije, zajedno sa Š.J. i B.A. istim vozilom, da
+                su istog dana odlazili više puta u Tivat i Budvu. Medjutim, imajući u vidu naprijed
+                utvrdjeno činjenično stanje, a posebno činjenice koje proizilaze iz rezultata DNK
+                analize biološkog materijala izuzetih sa bankomata u Tivtu i Budvi, Forenzičkog
+                centra u Danilovgradu i dovodeći iste u vezu sa načinom na koje je optuženi zajedno
+                sa Č.V. i B.A,jem izvršio predmetno krivično djelo, a kako to proizilazi iz nalaza i
+                mišljenja vještaka digitalne forenzike, o čemu se sud prethodno izjasnio u presudi,
+                sud nije mogao prihvatiti navode odbrane optuženog, te stav branioca optuženog
+                iznijet u završnoj riječi, da se uloga optuženog svodila samo na to da vozi Č.V. i
+                B.A. i vodi računa da neko ne naidje, za vrijeme dok njih dvojica manipulišu sa
+                bankomatima oštećene NLB banke, pa je takve navode odbrane optuženog cijenio
+                sračunate na umanjenje krivice za izvršeno krivično djelo. Visinu pribavljene
+                prtivpravne imovinske koristi pri izvršenju predmetnog krivičnog djela, sud je na
+                nesumnjiv način utvrdio, iz sadržine nalaza i mišljenja vještaka
+                ekonomsko-finansijske struke N.N. od 03.04.2020. godine, te sadržine dopisa NLB
+                banke o kretanju i stanju novca na bankomatima u Podgorici, Budvi i Tivtu, prije i
+                nakon izvršenja krivičnog djela. Naime, iz sadržine nalaza, te navedenih dopisa
+                nesumnjivo se može utvrditi, da je na bankomatu NLB banke u Tivtu identifikacione
+                šifre BEAB032, dana 18.10.2019. godine, u 14:05:00 časova, izvršeno punjenje
+                bankomata u iznosu od 50.000,00 eura, da je od trenutka punjenja do 19.10.2019.
+                godine, do 21:16:23 časova, evidentirano uspješno izvršenih transakcija- isplata u
+                iznosu 4.390,00 eura raznim klijentima, da je dana 20.10.2019. godine, u 03:04:00
+                časova, zaprimljeno obavještenje od procesora bankomata, da su kasete prazne, a da
+                je nakon obavljenog uvidjaja dana 21.10.2019. godine i vadjenje kaseta iz bankomata
+                utvrdjeno, da se u istima nalazi 2.410,00 eura. Imajući u vidu početno stanje nakon
+                punjenja bankomata, obavljene uspješne transakcije, te zatečeni novac nakon
+                izvršenog uvidjaja utvrdjeno je, da je šteta, odnosno pribavljena protivpravna
+                imovinska korist na bankomatu u Tivtu 43.200,00 eura. Nadalje, utvrdjeno je, da je
+                na bankomatu u Budvi identifikacione oznake BAEB0034, dana 17.10.2019. godine, u
+                10:16:00 časova, izvršeno punjenje u ukupnom iznosu od 50.000,00 eura, da je od
+                trenutka punjenja do 19.10.2019. godine, do 22:46:27 časova, evidentirano ukupno
+                uspješnih transakcija-isplata u iznosu od 19.641,00 eura, a da je nakon obavljenog
+                uvidjaja u kasetama bankomata nadjeno 360,00 eura, pa imajući u vidu početno stanje
+                nakon punjenja, iznos obavljenih uspješnih transakcija, te zatečeni novac nakon
+                izvršenog uvidjaja, utvrdjeno je, da je na navedenom bankomatu otudjeno 30.000,00
+                eura. Na bankomatu u Podgorici identifikacione oznake BAEB0018, dana 04.10.2019.
+                godine, u 10:35:00 časova, izvršeno je punjenje novčanicama u ukupnom iznosu od
+                70.000,00 eura, da je od trenutka punjenja do 05.10.2019. godine, do 09:29:59
+                časova, evidentirano uspješnih transakcija-isplata u iznosu od 4.230,00 eura raznim
+                klijentima, a da je dana 05.10.2019. godine, nakon izvršenog uvidjaja utvrdjeno, da
+                se u kasetama bankomata nalazi 2.170,00 eura, pa imajući u vidu početno stanje na
+                bankomatu nakon punjenja, iznos uspješnih transakcija, te stanja novca nakon
+                vadjenja kaseta iz bankomata utvrdjeno je, da šteta na bankomatu u Podgorici iznosi
+                63.600,00 eura, a što sve ukupno čini iznos od 136.800,00 eura. Imajući u vidu
+                naprijed utvrdjeno činjenično stanje, ovaj sud nalazi, da su se u radnjama optuženog
+                "I.". "Y". stekli svi bitni elementi bića produženog krivičnog djela računarska
+                prevara iz čl. 352. st. 3. u vezi st. 1. u vezi čl. 49. Krivičnog zakonika Crne
+                Gore, obzirom da je provedenim dokazima na glavnom pretresu nesumnjivo utvrdjeno, da
+                je optuženi "I.". "Y". u oktobru 2019. godine, u Podgorici, Tivtu i Budvi, zajedno
+                sa Č.V. i B.A., unio lažni računarski podatak i tim uticao na rezultat elektronske
+                obrade, prenosa podataka i funkcionisanje računarskog sistema na bankomatima
+                oštećene NLB banke, u namjeri da za sebe pribavi protivpravnu imovinsku korist u
+                iznosu većem od 30.000,00 eura. Postupajući na način kako je to prethodno opisano,
+                optuženi "I.". "Y". je bio svjestan da unošenjem lažnih računarskih podataka u
+                funkcionisanju računarskog sistema bankomata, utiče na rezultat elektronske obrade
+                bankomata oštećene NLB banke, pa je to i htio, a sve u namjeri, da za sebe pribavi
+                protivpravnu imovinsku korist u iznosu većem od 30.000,00 eura, što znači, da je
+                optuženi bio svjestan svoga djela i htio njegovo izvršenje, zbog čega se u njegovim
+                radnjama kao subjektivni elemenat bića predmetnog krivičnog djela manifestovao
+                direktni umišljaj. Iz okolnosti konkretnog slučaja proizilazi, da je optuženi
+                predmetno krivično djelo izvršio sa izvjesnim Č.V. i B.A., ostvarujući zajedničku
+                odluku da izvrše krivično djelo, što znači, da je u izvršenju predmetnog krivičnog
+                djela postupao kao saizvršilac. Imajući u vidu, da je optuženi radnje izvršenja
+                krivičnog djela, za koje je oglašen krivim i osudjen, preduzeo u vremenskoj
+                povezanosti, koje predstavljaju cjelinu zbog postojanja istovjetnosti oštećenog,
+                istovrsnosti krivičnog djela, jedinstva prostora (radnje izvršenje krivičnog djela
+                preuzete na teritoriji Crne Gore) i jedinstva umišljaja koji je bio usmjeren na
+                pribavljanje protivpravne imovinske koristi, krivično djelo je kvalifikovano kao
+                jedno krivično djelo u produženom trajanju shodno čl. 49. st. 1. Krivičnog zakonika
+                Crne Gore. Sud je odbio kao neosnovan predlog branioca optuženog, da se u dopuni
+                dokaznog postupka izvrši uvid u medicinsku dokumentaciju za roditelje optuženog, jer
+                bi provodjenjem tih dokaza vodilo samo odugovlačenju postupka i uvećanju troškova, a
+                istima se ne bi utvrdile odlučne činjenice za predmetnu krivičnu stvar. Sud je
+                cijenio i ostale dokaze provedene u postupku, pa je našao da isti nijesu od uticaja
+                za drugačije presudjenje u ovoj krivičnoj stvari. Odlučujući o kazni za optuženog,
+                sud je najprije u smislu čl. 42. Krivičnog zakonika Crne Gore, cijenio sve okolnosti
+                od kojih zavisi da kazna bude manja ili veća (olakšavajuće ili otežavajuće
+                okolnosti), u okviru zakonom propisanog minimuma i maksimuma za predmetno krivično
+                djelo, pa je od olakšavajućih okolnosti na strani optuženog cijenio njegove lične
+                prilike, da je porodičan čovjek, otac troje mldb. djece, a što je sud utvrdio iz
+                izvoda iz matične knjige vjenčanih Uprave Ljevovske oblasti od 30.08.2003. godine,
+                te izvoda iz matičnih knjiga rodjenih za djecu, dok je kao otežavajuću okolnost sud
+                cijenio činjenicu, da je produženo krivično djelo učinjeno od najmanje tri krivična
+                djela računarske prevare iz čl. 352. st. 3. u vezi st. 1. Krivičnog zakonika Crne
+                Gore, pa je cijeneći naprijed navedene olakšavajuće i otežavajuće okolnosti,
+                optuženog osudio na kaznu zatvora u trajanju od 2 (dvije) godine i 8 (osam) mjeseci,
+                nalazeći da je tako odmjerena kazna srazmjerna stepenu krivice optuženog i težini
+                počinjenog krivičnog djela i da predstavlja onu kaznu koja je nužno potrebna da se
+                ostvari svrha kažnjavanja iz čl. 32. Krivičnog zakonika Crne Gore, da optuženi
+                ubuduće ne vrši krivična djela, u okviru opšte svrhe izricanja krivičnih sankcija iz
+                čl. 4 st. 2. Krivičnog zakonika Crne Gore. Shodno čl. 51. Krivičnog zakonika Crne
+                Gore, sud je optuženom "I.". "Y". u kaznu zatvora uračunao vrijeme provedeno u
+                pritvoru, počev od 16.11.2019. godine, od 12,45 časova, pa nadalje dok pritvor bude
+                trajao. Dužan je optuženi da na ime imovinsko-pravnog zahtjeva oštećenoj "NLB banci"
+                plati novčani iznos od 136.800,00 eura, a koji iznos je utvrdjen kao pribavljena
+                protivpravna imovinska korist u izvršenju predmetnog krivičnog djela, u roku od 15
+                dana po pravosnažnosti presude pod prijetnjom prinudne naplate. Kako je sud
+                optuženog oglasio krivim, to ga je shodno čl. 226. i 229. Zakonika o krivičnom
+                postupku, obavezao na plaćanje troškova krivičnog postupka-sudskog paušala u iznosu
+                150,00 eura, koji paušal je odmjeren shodno složenosti krivičnog postupka, dužini
+                njegovog trajanja i imovinskim prilikama optuženog, te da na ime troškova
+                vještačenja po vještaku iz oblasti digitalne forenzike S.B., plati novčani iznos od
+                1.573,00 eura i troškova po vještaku iz oblasti ekonomsko-finansijske struke N.N.,
+                plati novčani iznos od 264,00 eura, sve u roku od 15 dana po pravosnažnosti presude,
+                pod prijetnjom prinudnog izvršenja, dok će o ostalim troškovima sud odlučiti
+                naknadno posebnim rješenjem po pribavljanju podataka o njihovoj visini. Sa
+                izloženog, odlučeno je kao u izreci presude. <organization id="vsup"
+                    refersTo="#vsup">VIŠI SUD U PODGORICI</organization> Dana 07.12.2020. godine
+                ZAPISNIČAR PREDSJEDNIK VIJEĆA - SUDIJA Novčić Slobodanka Tabaš Predrag Dn-a: Po
+                primjerak presude dostaviti: - VDT Podgorica, - optuženom, - braniocu optuženog, -
+                ovlašćenom predstavniku oštećene NLB banke po pravosnažnosti presude. - a/a.
+                Postupljeno dana______________ </p>
+        </judgementBody>
+        <conclusions>
+        </conclusions>
+    </judgement>
+</akomaNtoso>

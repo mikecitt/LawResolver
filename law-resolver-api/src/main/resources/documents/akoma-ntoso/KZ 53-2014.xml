@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+     Akoma Ntoso Version 1.0. Part 2: Specifications
+     Committee Specification Draft 02 / Public Review Draft 02
+     04 May 2016
+     Copyright (c) OASIS Open 2016. All Rights Reserved.
+     Source: http://docs.oasis-open.org/legaldocml/akn-core/v1.0/csprd02/part2-specs/examples/
+     Latest version of the specification:
+http://docs.oasis-open.org.legaldocml/akn-core/v1.0/akn-core-v1.0-part2-specs.html
+     TC IPR Statement: https://www.oasis-open.org/committees/legaldocml/ipr.php
+-->
+<!--Akoma_Ntoso
+document-->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd
+                        "
+    xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17"
+    xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+    <!-- Level 5 of compliance -->
+    <judgement>
+        <meta>
+            <identification>
+                <FRBRWork>
+                    <FRBRauthor>
+                        OSNOVNI SUD U PLAVU
+                    </FRBRauthor>
+                    <FRBRdate date="2014-11-14">
+                        2014-11-14
+                    </FRBRdate>
+                    <FRBRtitle>
+                        K 53/2014
+                    </FRBRtitle>
+                    <FRBRcountry>
+                        CG
+                    </FRBRcountry>
+                </FRBRWork>
+            </identification>
+            <references>
+                <TLCOrganization id="osup" href="/ontology/organization/cg.osup"
+                    showAs="OSNOVNI SUD U PLAVU" />
+
+                <TLCPerson id="violeti" href="/ontology/person/judge/cg.violeti"
+                    showAs="Violeti Mitrović" />
+
+                <TLCPerson id="enisom" href="/ontology/person/editor/cg.enisom"
+                    showAs="Enisom Markišić" />
+
+                <TLCPerson id="po" href="/ontology/person/cg.po"
+                    showAs="P. O." />
+
+                <TLCPerson id="bh" href="/ontology/person/cg.bh"
+                    showAs="B. H." />
+
+                <TLCRole id="editor" href="/ontology/role/editor" showAs="Editor of Document" />
+                <TLCRole id="judge" href="/ontology/role/judge" showAs="Judge" />
+                <TLCRole id="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+                <TLCRole id="lawyer" href="/ontology/role/lawyer" showAs="Lawyer" />
+            </references>
+        </meta>
+        <judgementBody>
+            <p>
+                <organization id="osup" refersTo="#osup">OSNOVNI SUD U PLAVU</organization> K.br.
+                53/2014 U IME CRNE GORE <organization id="osup" refersTo="#osup">OSNOVNI SUD U PLAVU</organization>,
+                po sudiji <party id="violeti" refersTo="violeti" as="/judge">Violeti Mitrović</party>,
+                sa zapisničarem <party id="enisom" refersTo="enisom" as="/editor">Enisom Markišić</party>,
+                u krivičnom predmetu okrivljenog <party id="bh" refersTo="bh" as="">B. H.</party> iz
+                G., zbog krivičnog djela neovlašćeni pristup računarskom sistemu iz čl. 353 st. 2 u
+                vezi st. 1 Krivičnog zakonika Crne Gore, po optužnom predlogu Osnovnog državnog
+                tužilaštva u Plavu, KT.br. 98/2014 od 14.11.2014. godine, po održanom usmenom,
+                javnom i glavnom pretresu, u prisustvu zamjenika ODT u Plavu Rugovac Drite,
+                okrivljenog <party id="bh" refersTo="bh" as="">B. H.</party> iz G. i zakonskog
+                zastupnika oštećene opštine <party id="po" refersTo="po" as="">P. O.</party> Š. iz
+                P., donio je i javno objavio dana 18.12.2014 godine, P R E S U D U Okrivljeni <party
+                    id="bh" refersTo="bh" as="">B. H.</party> , JMBG ... , od oca I.1 i majke I.2
+                rodj. R. , rodjen ... godine, u B. , sa prebivalištem u G., državljanin Crne Gore,
+                zaposlen, oženjen, , pismen, završio visoku stručnu spremu, magistar informatičke
+                nauke, srednjeg imovnog stanja, neosuđivan. K r i v j e Osnovni Sud u Plavu K
+                53/2014 18. Decembar 2014 Što je : U periodu od 05. do 09. septembra 2014 godine, u
+                G., u dva navrata neovlašćeno pristupio računarksom sistemu od značaja za organe
+                lokalne samouprave opštine P., na način što se iz svoje kuće sa svog lap-top
+                računara marke “ HP-DLG-2150 US” povezao na interenet mrežu, pristupajući sa svoje
+                IP adrese ..., bez predhodne dozvole preko “ Webmail-a”unio u polje za unos
+                korisničkog imena ...@t-com.me i lozinke “...”, pa je tako pristupio navedenom
+                korisničkom nalogu i neovlašćeno pregledao sadržaje elektronske pošte opštine P.,
+                nakon čega je izvršio brisanje cjelokupne odlazne i dolazne pošte sadržane u
+                prijemnom i odlaznom sandučetu navedneog e – maila odnosno korisničkog naloga ,
+                opštine P., -čime je izvršio krivično djelo neovlašćeni pristup računarskom sistemu
+                iz čl. 353 st.2 u vezi st.1 Krivičnog Zakonika Crne Gore. -pa ga sud primjenom
+                citiranog Zakonskog propisa te čl. 2, 4, 5, 13, 15, 32, 39, 42,45, i 46 Zakonika
+                Crne Gore te čl. 226, i 374 ZKP CG. O S U Đ U J E Na novčanu kaznu u iznosu od
+                900,00 eura, koju je dužan da plati u roku od 3(tri) mjeseca od dana pravosnažnosti
+                presude. Ako osudjeni ne plati novčanu kaznu u odredjenom roku sud će novčanu kaznu
+                zamijeniti kaznom zatvora tako što će sa svakih započetih 25,00 eura novčane kazne
+                odrediti jedan dan zatvora, a ako osudjeni plati samo jedan dio novčane kazne sud će
+                ostatak kazne srazmjerno zamijeniti kaznom zatvora , pa ako osudjeni isplati ostatak
+                novčane kazne izvršenje kazne zatvora će se obustaviti. Okrivljeni se obavezuje da
+                na ime paušala uplati ovom sudu iznos od 50,00 eura, u roku od 15 dana po
+                pravosnažnosti presude pod prijetnjom prinudnog izvršenja. Imovinsko pravnog
+                zahtijeva nije bilo. O b r a z l o ž e nj e Obrazloženje je izostalo na osnovu čl.
+                458 st. 7 ZKP, jer su se stranke po objavljivanju presude odrekle prava na žalbu i
+                nijesu tražile njen pismeni otpravak. Inače, prilikom izbora vrste i visine krivične
+                sankcije koju treba primijeniti prema okrivljenom <party id="bh" refersTo="bh" as="">B.
+                H.</party>, za izvršeno krivično djelo, sud je pored težine, načina izvršenja i
+                društvene opasnosti krivičnog djela uzeo u obzir i stepen krivične odgovornosti
+                okrivljenog kao i sve ostale okolnosti koje su relevantne u tom pogledu. Tako je od
+                olakšavajućih okolnosti sud okrivljenom cijenio i uzeo u obzir da nije osudjivan, da
+                je mladje životne dobi, da je izrazio izuzetnu dozu kajanja u odnosu prema učinjenom
+                djelu, da je izrazio kajanje i žaljenje zbog njegovog izvršenja, da je u potpunosti
+                priznao njegovog izvršenja, dok oteževajućih okolnosti nije bilo. Sud je našao da u
+                konkretnom slučaju, s obzirom na navedene olakšavajuće okolnosti ima uslova da se
+                prema njemu primijeni blaža vrsta kazne, obzirom da su za ovo djelo alternativno
+                predvidjene novčana i kazna zatvora, te mu je i izrekao novčanu kaznu u naznačenom
+                iznosu. Sud je uvjerenja da je izrečena kazna srazmjerna težini izvršenog krivičnog
+                djela i stepenu krivično pravne odgodvornosti okrivljenog te da će se u konkretnom
+                slučaju i ovom vrstom i visinom kazne, u okviru opšte svrhe izricanja krivičnih
+                sankcija previdjene čl. 4. st.2 KZ, postići svrha kažnjavanja propisana čl. 32 istog
+                Zakona. Osnovano se može očekivati da će izrečena kazna pozitivno djelovati na
+                prevaspitanje okrivljenog i da će ista uticati na njega da ubuduće ne vrše krivična
+                djela. Iznos od 50,00 eura je paušal , koji je odmjeren s obzirom na složenost i
+                trajanje krivičnog postupka te obzirom na imovno stanje okrivljenog, shodno čl. 226
+                stav 3. ZKP. Na osnovu iznijetih razloga odlučeno je kao u izreci presude. <organization
+                    id="osup" refersTo="#osup">OSNOVNI SUD U PLAVU</organization> Dana 18.12.2014
+                godine Zapisničar, S U D I J A Enisa Markišić Violeta Mitrović NAPOMENA : Stranke su
+                se odrekle prava žalbe na presudu pa je ista pravosnažna danom njenog donošenja . </p>
+        </judgementBody>
+        <conclusions>
+        </conclusions>
+    </judgement>
+</akomaNtoso>

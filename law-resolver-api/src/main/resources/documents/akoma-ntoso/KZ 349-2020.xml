@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+     Akoma Ntoso Version 1.0. Part 2: Specifications
+     Committee Specification Draft 02 / Public Review Draft 02
+     04 May 2016
+     Copyright (c) OASIS Open 2016. All Rights Reserved.
+     Source: http://docs.oasis-open.org/legaldocml/akn-core/v1.0/csprd02/part2-specs/examples/
+     Latest version of the specification:
+http://docs.oasis-open.org.legaldocml/akn-core/v1.0/akn-core-v1.0-part2-specs.html
+     TC IPR Statement: https://www.oasis-open.org/committees/legaldocml/ipr.php
+-->
+<!--Akoma_Ntoso
+document-->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd
+                        "
+    xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17"
+    xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+    <!-- Level 5 of compliance -->
+    <judgement>
+        <meta>
+            <identification>
+                <FRBRWork>
+                    <FRBRauthor>
+                        VIŠI SUD U PODGORICI
+                    </FRBRauthor>
+                    <FRBRdate date="2019-12-24">
+                        2019-12-24
+                    </FRBRdate>
+                    <FRBRtitle>
+                        Kž 349/2020
+                    </FRBRtitle>
+                    <FRBRcountry>
+                        CG
+                    </FRBRcountry>
+                </FRBRWork>
+            </identification>
+            <references>
+                <TLCOrganization id="vsup" href="/ontology/organization/cg.vsup"
+                    showAs="VIŠI SUD U PODGORICI" />
+
+                <TLCPerson id="miroslava" href="/ontology/person/judge/cg.miroslava"
+                    showAs="Miroslava Bašovića" />
+
+                <TLCPerson id="sonje" href="/ontology/person/judge/cg.sonje"
+                    showAs="Sonje Cvetićanin Ognjenović" />
+
+                <TLCPerson id="dragice" href="/ontology/person/judge/cg.dragice"
+                    showAs="Dragice Vuković" />
+
+                <TLCPerson id="sanje" href="/ontology/person/editor/cg.sanje"
+                    showAs="Sanje Radosavović" />
+
+                <TLCPerson id="dp" href="/ontology/person/cg.dp"
+                    showAs="D. P." />
+
+                <TLCPerson id="sl" href="/ontology/person/cg.sl"
+                    showAs="S.L." />
+
+                <TLCPerson id="nt" href="/ontology/person/cg.nt"
+                    showAs="N. T." />
+
+                <TLCPerson id="md" href="/ontology/person/cg.md"
+                    showAs="M. D." />
+
+                <TLCPerson id="dd" href="/ontology/person/cg.dd"
+                    showAs="D. D." />
+
+                <TLCPerson id="nt" href="/ontology/person/cg.nt"
+                    showAs="N.T." />
+
+                <TLCRole id="editor" href="/ontology/role/editor" showAs="Editor of Document" />
+                <TLCRole id="judge" href="/ontology/role/judge" showAs="Judge" />
+                <TLCRole id="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+                <TLCRole id="lawyer" href="/ontology/role/lawyer" showAs="Lawyer" />
+            </references>
+        </meta>
+        <judgementBody>
+            <p> Kž.br.349/20 U IME CRNE GORE <organization id="vsup" refersTo="#vsup">VIŠI SUD U
+                PODGORICI</organization>, kao drugostepeni krivični, u vijeću sastavljenom od sudija <party
+                    id="miroslava" refersTo="miroslava" as="/judge">Miroslava Bašovića</party>, kao
+                predsjednika vijeća, <party id="sonje" refersTo="sonje" as="/judge">Sonje Cvetićanin
+                Ognjenović</party> i <party id="dragice" refersTo="dragice" as="/judge">Dragice
+                Vuković</party>, kao članova vijeća, uz učešće namještenika suda <party id="sanje"
+                    refersTo="sanje" as="/editor">Sanje Radosavović</party>, kao zapisničara u
+                krivičnom predmetu protiv optuženih I. Dj.a, zbog produženog krivičnog djela
+                računarska prevara iz člana 352. stav 2. u vezi stava 1. u vezi člana 49. stav 1.
+                Krivičnog zakonika Crne Gore, <party id="nt" refersTo="nt" as="">N. T.</party>, <party
+                    id="md" refersTo="md" as="">M. D.</party> i <party id="dp" refersTo="dp" as="">D.
+                P.</party>, zbog produženog krivičnog djela zloupotreba položaja u privrednom
+                poslovanju iz člana 272. stav 1. Krivičnog zakonika Crne Gore u sticaju sa
+                produženim krivičnim djelom računarska prevara iz člana 352 stav 2 u vezi stava 1
+                Krivičnog zakonika Crne Gore, u vezi člana 23 stav 2, člana 48 stav 1 i člana 49
+                stav 1 Krivičnog zakonika Crne Gore, <party id="sl" refersTo="sl" as="">S.L.</party>
+                , <party id="dd" refersTo="dd" as="">D. D.</party> i <party id="nt" refersTo="nt"
+                    as="">N.T.</party>, zbog produženog krivičnog djela zloupotreba položaja u
+                privrednom poslovanju iz člana 272 stav 1 Krivičnog zakonika Crne Gore u sticaju sa
+                produženim krivičnim djelom računarska prevara iz člana 352 stav 1 Krivičnog
+                zakonika Crne Gore, u vezi člana 23 stav 2, člana 48 stav 1 i člana 49 stav 1
+                Krivičnog zakonika Crne Gore (u daljem tekstu KZ CG), odlučujući po žalbama branioca
+                optuženih <party id="md" refersTo="md" as="">M. D.</party>, <party id="sl"
+                    refersTo="sl" as="">S.L.</party> i <party id="dd" refersTo="dd" as="">D. D.</party>,
+                advokata D. L., branioca optuženih <party id="sl" refersTo="sl" as="">S.L.</party> i <party
+                    id="dd" refersTo="dd" as="">D. D.</party>, advokata M. I.., branioca optuženog
+                I.Dj., advokata D. Ra. i branioca optuženih <party id="nt" refersTo="nt" as="">N.T.</party>
+                , <party id="md" refersTo="md" as="">M. D.</party> i <party id="dp" refersTo="dp"
+                    as="">D. P.</party>, advokata P. M. izjavljenim protiv presude Osnovnog suda u
+                Cetinju K.br.80/19 od 24.12.2019. godine, na sjednici vijeća, održanoj u prisustvu
+                branioca optuženih <party id="md" refersTo="md" as="">M. D.</party>, <party id="sl"
+                    refersTo="sl" as="">S.L.</party> i <party id="dd" refersTo="dd" as="">D. D.</party>,
+                advokata D. L. i branioca optuženih <party id="nt" refersTo="nt" as="">N.T.</party>, <party
+                    id="dp" refersTo="dp" as="">D. P.</party> i M. D., advokata P. M., a u odsustvu
+                državnog tužioca u VDT Podgorica, optuženih I.Dj., <party id="nt" refersTo="nt"
+                    as="">N.T.</party> i <party id="dp" refersTo="dp" as="">D. P.</party> i njhovih
+                branilaca advokata D. R. i M. I.., u smislu člana 393 stav 1 Zakonika o krivičnom
+                postupku (u daljem tekstu ZKP) i optuženih <party id="md" refersTo="md" as="">M. D.</party>
+                , <party id="sl" refersTo="sl" as="">S.L.</party> i <party id="dd" refersTo="dd"
+                    as="">D. D.</party>, u smislu čl.393 st.4 ZKP, dana 15.09.2020. godine, nakon
+                tajnog vijećanja i glaS. donio je P R E S U D U ODBIJAJU SE, kao neosnovane, žalba
+                branilaca optuženih I.Dj., <party id="nt" refersTo="nt" as="">N.T.</party>, <party
+                    id="md" refersTo="md" as="">M. D.</party>, <party id="dp" refersTo="dp" as="">D.
+                P.</party>, <party id="sl" refersTo="sl" as="">S.L.</party> i <party id="dd"
+                    refersTo="dd" as="">D. D.</party>, pa se presuda Osnovnog suda u Cetinju
+                K.br.80/19 od 24.12.2019. godine, POTVRDJUJE. Viši Sud u Podgorici Kž 349/2020 15.
+                Septembar 2020 O b r a z l o ž e nj e Presudom Osnovnog suda u Cetinju K.br.80/19 od
+                24.12.2019. godine, optuženi I.Dj., <party id="nt" refersTo="nt" as="">N. T.</party>
+                , <party id="md" refersTo="md" as="">M. D.</party>, <party id="dp" refersTo="dp"
+                    as="">D. P.</party>, <party id="sl" refersTo="sl" as="">S.L.</party> i D. D.
+                oglašeni su krivim da su učinili krivična djela i to optuženi I.Dj., kao
+                saizvršilac, sa optuženima N.om T.om, M.om D.em i <party id="dp" refersTo="dp" as="">D.
+                P.</party>, produženo krivično djelo računarska prevara iz člana 352. stav 2. u vezi
+                stava 1. u vezi člana 49. stav 1. KZ CG, a optuženi <party id="nt" refersTo="nt"
+                    as="">N. T.</party>, <party id="md" refersTo="md" as="">M. D.</party> i <party
+                    id="dp" refersTo="dp" as="">D. P.</party>, kao saizvršioci, produženo krivično
+                djelo zaloupotreba položaja u privrednom poslovanju iz člana 272. stav 1. KZ CG, u
+                vezi člana 23. stav 2., člana 48 stav 1. i člana 49. stav 1. KZ CG, optužene <party
+                    id="sl" refersTo="sl" as="">S.L.</party> i <party id="dd" refersTo="dd" as="">D.
+                D.</party>, kao saizvršioci, sa optuženim N.om T.om, produženo krivično djelo
+                zaloupotreba položaja u privrednom poslovanju iz člana 272. stav 1. KZ CG, u sticaju
+                sa produženim krivičnim djelom računarska prevara iz člana 352 stav 1 KZ CG, u vezi
+                člana 23. stav 2., čl.48 st.1 i člana 49. stav 1. KZ CG i osudjeni i to optuženi I.
+                Dj.na kaznu zatvora u trajanju od 6 (šest) mjeseci; optuženi <party id="nt"
+                    refersTo="nt" as="">N. T.</party>, <party id="md" refersTo="md" as="">M. D.</party>
+                i <party id="dp" refersTo="dp" as="">D. P.</party>, nakon prethodno utvrdjenih
+                pojedinačnih kazni zatvora za svako od učinjenih krivičnih djela i to za produženo
+                krivično djelo zaloupotreba položaja u privrednom poslovanju iz člana 272 stav 1
+                Krivičnog zakonika Crne Gore, u trajanju od po 3 (tri) mjeseca i za produženo
+                krivično djelo računarska prevara iz člana 352 stav 2. u vezi stava 1. Krivičnog
+                zakonika Crne Gore, u trajanju od po 6 (šest) mjeseci, osudjeni na jedinstvene kazne
+                zatvora u trajanju od po 8 (osam) mjeseci; optužene <party id="sl" refersTo="sl"
+                    as="">S.L.</party> i <party id="dd" refersTo="dd" as="">D. D.</party>, nakon
+                prethodno utvrdjenih pojedinačnih kazni zatvora za svako od učinjenih djela i to za
+                produženo krivično djelo zaloupotreba položaja u privrednom poslovanju iz člana 272
+                stav 1. Krivičnog zakonika Crne Gore, u trajanju od po 3 (tri) mjeseca i za
+                produženo krivično djelo računarska prevara iz člana 352 stav 1 Krivičnog zakonika
+                Crne Gore, u trajanju od po 3 (tri) mjeseca, osudjene na jedinstvene kazne zatvora u
+                trajanju od po 5 (pet) mjeseci. Istom presudom optuženi su obavezani da na ime
+                troškova krivičnog postupka, solidarno uplate iznos od 421,40€
+                (četiristodvadesetjeda neuročetrdesetcenti) i iznose od po 50,00 eura na ime sudskog
+                paušala, kao posebnog dijela troškova krivičnog postupka, sve u roku od 15 dana po
+                pravosnažnosti presude. Takodje su, optuženi I.Dj., <party id="nt" refersTo="nt"
+                    as="">N. T.</party>, <party id="md" refersTo="md" as="">M. D.</party> i <party
+                    id="dp" refersTo="dp" as="">D. P.</party>, obavezani da na ime imovniskopravnog
+                zahtjeva oštećenoj L. C. G., solidarno uplate iznos od 41.284,50€, a optuženi I.Dj., <party
+                    id="nt" refersTo="nt" as="">N. T.</party>, <party id="sl" refersTo="sl" as="">
+                S.L.</party> i <party id="dd" refersTo="dd" as="">D. D.</party> iznos od 35.163,50€,
+                u roku od 15 dana od dana pravosnažnosti presude. Protiv prvostepene presude žalbe
+                su, blagovremeno, izjavili branioci optuženih I.Dj., <party id="sl" refersTo="sl"
+                    as="">S.L.</party>, <party id="dd" refersTo="dd" as="">D. D.</party>, <party
+                    id="md" refersTo="md" as="">M. D.</party>, <party id="nt" refersTo="nt" as="">
+                N.T.</party> i D. P.. Branilac optuženog, I.Dj., advokat D. R., prvostepenu presudu
+                pobija zbog bitnih povreda odredaba krivičnog postupka, povrede KZ CG, pogrešno i
+                nepotpuno utvrdjenog činjeničnog stanja i odluke o krivičnoj sankciji. Predložio je
+                da Viši sud preinači presudu na način što će optuženog osloboditi od optužbe, ili
+                pak istu ukine i predmet vrati prvostepnom sudu na ponovno sudjenje. Branilac
+                optuženih, <party id="sl" refersTo="sl" as="">S.L.</party>, <party id="dd"
+                    refersTo="dd" as="">D. D.</party> i <party id="md" refersTo="md" as="">M. D.</party>,
+                advokat D. L. presudu pobija zbog bitnih povreda odredaba krivičnog postupka,
+                povrede KZ CG, pogrešno i nepotpuno utvrdjenog činjeničnog stanja i odluke o
+                krivičnoj sankciji. Predložio je da Viši sud preinači prvostepenu presudu na način
+                što će optužene osloboditi od optužbe, ili da istu ukine i otvori pretres pred
+                drugostepenim sudom. Advokat M.I. branilac optuženih, <party id="sl" refersTo="sl"
+                    as="">S.L.</party> i <party id="dd" refersTo="dd" as="">D. D.</party>, izjavila
+                je žalbu, zbog bitnih povreda odredaba krivičnog postupka, pogrešno i nepotpuno
+                utvrdjenog činjeničnog stanja, povrede KZ CG i odluke o krivičnoj sankciji.
+                Predložila je da Viši sud preinači prvostepenu presudu na način što će optužene
+                osloboditi od optužbe, ili pak da istu ukine i predmet vrati prvostepnom sudu na
+                ponovno sudjenje. Advokat P. M. branilac optuženih, <party id="md" refersTo="md"
+                    as="">M. D.</party>, <party id="nt" refersTo="nt" as="">N.T.</party> i <party
+                    id="dp" refersTo="dp" as="">D. P.</party>, žalbu je izjavio zbog pogrešno
+                utvrdjenog činjeničnog stanja, bitne povrede odredaba krivičnog postupka i kako je
+                naveo, pogrešne odluke. Predložio je da Viši sud preinači prvostepenu presudu na
+                način što će optužene osloboditi od optužbe, ili da presudu ukine i predmet vrati
+                prvostepnom sudu na ponovno sudjenje. Odgovora na žalbe nije bilo. Spisi predmeta
+                su, u smislu odredbe čl.392 st.5 ZKP, dostavljeni državnom tužiocu u Višem državnom
+                tužilaštvu u Podgorici, na razmatranje i prijedlog, koji je podneskom Ktž.br. 560/20
+                od 07.05.2020. godine, predložio da se žalbe branilaca optuženih, odbiju. Sjednica
+                vijeća je održana u prisustvu branioca optuženih, <party id="md" refersTo="md" as="">M.
+                D.</party>, <party id="sl" refersTo="sl" as="">S.L.</party> i <party id="dd"
+                    refersTo="dd" as="">D. D.</party>, advokata D. L. i branioca optuženih <party
+                    id="nt" refersTo="nt" as="">N.T.</party>, <party id="dp" refersTo="dp" as="">D.
+                P.</party> i <party id="md" refersTo="md" as="">M. D.</party>, advokata P. M.. Na
+                sjednicu nijesu pristupili optuženi <party id="md" refersTo="md" as="">M. D.</party>
+                , <party id="sl" refersTo="sl" as="">S.L.</party> i <party id="dd" refersTo="dd"
+                    as="">D. D.</party>, a u spisima stoji dokaz da su uredno obaviješteni, pa je
+                ista u smislu odredbe čl.393 st.4 ZKP, održana u njihovom odsustvu. Na sjednicu
+                vijeća, nijesu pozivani državni tužilac u VDT Podgorica, optuženi I.Dj., <party
+                    id="nt" refersTo="nt" as="">N. T.</party> i <party id="dp" refersTo="dp" as="">D.
+                P.</party> i njihovi branioci, advokati D. R. i M.I., jer nijesu zahtijevali da budu
+                obaviješteni o sjednici vijeća, a vijeće je našlo da njihovo prisustvo ne bi bilo
+                korisno za razjašnjenje stvari, pa je sjednica vijeća, u smislu odredbe čl.393 st.1
+                ZKP, održana u njihovom odusustvu. Branilac optuženih <party id="md" refersTo="md"
+                    as="">M. D.</party>, <party id="sl" refersTo="sl" as="">S.L.</party> i <party
+                    id="dd" refersTo="dd" as="">D. D.</party>, advokat D. L., je u riječi na
+                sjednici vijeća, naveo da u svemu ostaje pri navodima žalbe i prijedlogu iste, a
+                posebno je skrenuo pažnju na nalaze i mišljenja vještaka Stanišića i Dj.i njihova
+                izlaganja na glavnim pretresima pred prvostepenim sudom u ponovljenom postupku, a
+                što je istaknuto i u žalbi. Konkretno, vještak Stanišić je kroz svoj nalaz i
+                izjašnjenje decidno rekao da se u konkretnom slučaju ne može raditi o računarskoj
+                prevari, a optuženi su osudjeni za to, dok vještak Dj.u cjelosti se naslanja na
+                nalaz vještaka Stanišića, izjavljuje da je zadatak bio da utvrdi štetu koja je
+                nastupila oštećenima, što niti je bio zadatak, niti je moglo biti, već da li je
+                nastupila šteta, tako da smatram da je žalba u cjelosti osnovana i ostajem kod
+                prijedloga da se presuda preinači, odnosno da vijeće otvori glavni pretres pred
+                drugostepenim sudom i ono provede sve dokaze koje smatra potrebnim. Branilac
+                optuženih <party id="nt" refersTo="nt" as="">N.T.</party>, <party id="dp"
+                    refersTo="dp" as="">D. P.</party> i <party id="md" refersTo="md" as="">M. D.</party>,
+                advokat P. M. je u riječi na sjednici vijeća naveo da u svemu ostaje pri navodima
+                žalbe i prijedlogu iste, te da je cjelosti saglasan sa riječima kolege, te posebno
+                ukazao da vijeće uporedi nalaze vještaka ekonomsko finansijske struke i nalaz i
+                mišljenje vještaka IT struke, a što je već istakao i kolega D. L. Drugostepeni sud
+                je, na sjednici vijeća, ispitao pobijanu presudu, cijenio navode žalbi, riječi
+                branilaca na sjednici vijeća, razmotrio spise predmeta Osnovnog suda u Cetinju K.br.
+                80/19 i izjašnjenje VDT Ktž.br. 560/20 od 07.05.2020. godine, pa je našao: - da
+                žalbe nijesu osnovane. Drugostepeni sud je ispitao prvostepenu presudu po osnovu
+                zahvaćenosti bitnim povredama odredaba krivičnog postupka iz čl.386 st.1 ZKP, na
+                koje pazi po službenoj dužnosti u smislu čl.398 st.1 ZKP, pa je utvrdio da takve
+                bitne povrede odredaba krivičnog postupka nijesu učinjene, niti u prvostepenoj
+                presudi, niti u postupku koji je prethodio donošenju iste, kao ni povrede odredaba
+                krivičnog postupka, na koje ukazuju branioci optuženih u žalbama. Isto iz razloga
+                što je prvostepena presuda jasna i razumljiva, saglasna datim razlozima, koji nijesu
+                protivrječni ni medjusobno, niti sa izrekom pobijane presude, a o svim odlučnim
+                činjenicama prvostepeni sud je dao jasne, valjane i logične razloge, koje u svemu
+                prihvata i ovaj sud. Naime, prvostepeni sud je u izreci presude obavezao optužene da
+                na ime imovinskopravnog zahteva oštećenoj “L. CG”, solidarno uplate i to optuženi
+                Dj. I., T. N., D. M. i P. D. iznos od 41.284,50 eura, a optuženi Dj. I., T. N., L.
+                S. i <party id="dd" refersTo="dd" as="">D. D.</party> iznos od 35.163,50 eura, u
+                roku od 15 dana od dana pravosnažnosti presude pod prijetnjom prinudne naplate, pa
+                su neosnovani navodi žalbe branioca optuženog Ilije Dj.da je izreka pobijane presude
+                nejasna u tom dijelu, to jest da nije jasno da li optuženi trebaju solidarno da
+                plate oštećenoj “L.CG” utvrdjene iznose na ime imovinskopravnog zahtjeva. Po
+                nalaženju ovog suda izreka pobijane presude je i u tom dijelu jasna, jer je sud
+                naveo da su optuženi dužni da solidarno na ime imovniskopravnog zahtjeva plate
+                utvrdjene iznose, pa nije učinjena bitna povreda odredaba krivičnog postupka iz
+                čl.386 st.1 tač.8 ZKP, kako to branilac neosnovano ističe u žalbi. Prvostepeni sud
+                je na osnovu dokaza provedenih na glavnom pretresu te njihove svestrane ocjene, kako
+                pojedinačno, tako i u međusobnoj povezanosti, pa u vezi sa odbranama optuženih,
+                potpuno i pravilno utvrdio činjenično stanje, značajno za donošenje odluke u ovoj
+                krivičnoj stvari. Po nalaženju ovog suda, prvostepeni sud je, u skladu sa odredbom
+                čl.379 st.7 ZKP, odredjeno i potpuno iznio koje činjenice i iz kojih razloga je uzeo
+                kao dokazane, kojim razlozima se rukovodio prilikom utvrdjivanja pravnih pitanja, a
+                naročito prilikom utvrdjivanja da li postoji krivično djelo i krivica optuženih i za
+                utvrdjeno činjenično stanje, nasuprot navodima žalbi branilaca optuženih, dao jasne
+                i valjane razloge, koje u svemu prihvata i ovaj sud. Naime, nasuprot navodima žalbi
+                branilaca optuženih, pravilno je prvostepeni sud, po nalaženju ovog suda cijenio
+                nalaze i mišljenja vještaka ekonomsko finansijske struke i vještaka
+                informaciono-tehničke struke, kao jasne i valjane, pravilno nalazeći da je vještak
+                informaciono-tehničke struke na osnovu dostavljene dokumentacije mogao da utvrdi
+                obim spornih igara na ruletima van zvaničnog radnog vremena, prikaz finansijskih
+                transakcija sa datumima dogadjaja, igračkim pozicijama i osralim podacima koji
+                označavaju uplatu i isplatu u jedinicama koji se nazivaju krediti, dok se vještak
+                ekonomsko-finnasijske struke bavio visinom pričinjenje materijalne štete L. CG AD
+                Podgorica za svaki pojedinačni dan, to jest vještak inormaciono-tehničke struke se
+                nije bavio utvrdjivanjem visine pričinjene štete već isključivo prikazom
+                finansijskih transakcija sa datumima dogadjaja, igračkim pozicijama i ostalim
+                podacima koji označavaju uplatu i isplatu u jedinicama koji se nazivaju krediti, a
+                vještak ekonomsko-finansijske struke je tretirao transakcije u kojima je visina
+                ulaza veća od visine izlaza. Takodje je pravilan i zaključak suda u odnosu na
+                dokumentaciju koju je oštećena L. CG dala vještaku, nasuprot navodima žalbi
+                branilaca optuženih <party id="sl" refersTo="sl" as="">S.L.</party>, <party id="dd"
+                    refersTo="dd" as="">D. D.</party> i <party id="md" refersTo="md" as="">M. D.</party>,
+                da je ista dokumentacija valjana, jer je i vještak informaciono-tehničke struke u
+                nalazu i mišljenju istakao da nije imao razloga da sumnja u istinitost dokumentacije
+                koja mu je dostavljena. Nadalje, po nalaženju ovog suda neosnovani su i navodi
+                branilaca u odnosu na nalaz i mišljenje vještaka informaciono-tehničke struke.
+                Prednje iz razloga što, a kako to pravilno zaključuje prvostepeni sud, nalaz i
+                mišljenje je vještak dao u skladu sa odredbama ZKP, a pri tom su optuženi preko
+                svojih branilaca vršili uvid u sve spise, pa i nalaz i mišljenje vještaka, a potom
+                su na glavnom pretresu prilikom neposrenog saslušanja vještaka istom postavljali
+                pitanja i isticali prigovore, pa su nejasni navodi branioca optuženih <party id="md"
+                    refersTo="md" as="">M. D.</party>, <party id="sl" refersTo="sl" as="">S.L.</party>
+                i <party id="dd" refersTo="dd" as="">D. D.</party> da navedeni nalaz predstavlja
+                pravno nevaljan dokaz, te da se na istom nije mogla zasnivati presuda. Prednje
+                posebno kod činjenice što je sud navedeni nalaz i mišljenje cijenio kao i svaki
+                drugi dokaz u postupku, kako pojedinačno, tako i u medjusobnoj povezanosti, pa je
+                shodno odredbi čl.370 ZKP, na osnovu takve ocjene izveo zaključak da li je neka
+                činjenica utvrdjena. Takodje iz nalaza i mišljenja, dopunskog nalaza i mišljenja
+                vještaka informaciono-tehničke struke proizilazi da je ukupan ulaz na osnovu
+                izdvojenih podataka na ruletu u Budvi za period od 01.01.2013. godine do 31.12.2015.
+                godine, van radog vremena 1.010,00 €, a izlaz to jest isplata 13.080,00€, da je
+                ukupan ulaz na ruletu u Cetinju van radnog vremena 115.855,00 €, a izlaz, to jest
+                isplata 125.057,70 €, da je serviser ili drugo lice sa ključevima za otvaranje
+                zaštitnih panela moglo u bilo kom trenutku otvoriti kupolu, blokirati prekidače, a
+                da se takva situacija ne registruje u sistemu, te da se iz fajlova na koje se
+                uticalo u odredjenom vremenskom periodu, jedino može ostvariti razumna sumnja na
+                transakcije van navedenog radnog vremena. Dakle, kako to pravilno zaključuje
+                prvostepeni sud, kada se navedeni nalaz i mišljenje vještaka informaciono-tehničke
+                struke dovede u vezu sa ostalim provedenim dokazima, te odbranom optuženog I.
+                Dj.koji je na jasan i precizan način opisao kako je zajedno sa ostalim optuženima
+                ometao rad računarskog sistema ruleta, to jest da je otvarao mašinu, da su optuženi <party
+                    id="dp" refersTo="dp" as="">D. P.</party> i <party id="md" refersTo="md" as="">M.
+                D.</party> stavljali dio novca iz pazara u rulet, da bi on prije nego što bi kuglica
+                pala na neki nasumični broj istu uhvatio i ručno je položio na odigrani broj, nakon
+                čega bi sistem javljao da se dogodila greška, te da bi nakon toga on restartovao
+                mašinu, a što je sve radio i u poslovnici u Budvi sa optuženim N.om T.om, dodajući
+                da bi prisutni radnik koji bi tada završio smjenu isključivao nadzornu kameru, kada
+                bi on uticao na rulet na način na koji je prethodno opisao, to i po nalaženju ovog
+                suda, je nalaz i mišljenje vještaka informaciono-tehničke struke potvrdjen kako
+                drugim dokazima, tako i odbranom optuženog I.Dj.. Po nalaženju ovog suda, bez osnova
+                su i navodi žalbe branioca optuženih <party id="md" refersTo="md" as="">M. D.</party>
+                , <party id="sl" refersTo="sl" as="">S.L.</party> i <party id="dd" refersTo="dd"
+                    as="">D. D.</party> da je sporazum o naknadi štete od 17.08.2016. godine pravno
+                nevaljani dokaz, jer je taj dokaz pribavljen u skladu sa odredbama ZKP, a odluka
+                suda u parničnom postupku vezano za isti sporazum je bez uticaja na odluku u
+                krivičnom postupku. Pravilno je prvostepeni sud, i po nalaženju ovog suda, odbio
+                dokazne prijedloge odbrane da se u dokaznom postupku saslušaju predstavnici G. k.,
+                te da se u svojstvu svjedoka sasluša S. B. i za takvu svoju odluku, nasuprot
+                navodima žalbi branilaca optuženih, dao valjane razloge, bez potrebe da se isti
+                ponavljaju, a na koje se upućuje podnosioci žalbi. Isto kod činjenice da je, i
+                odredbom čl. 318 st.6 ZKP propisano je da je dužnost predsjednika vijeća da se stara
+                za svestrano pretresanje predmeta, utvrdjivanje istine i otklanjanje svega što
+                odugovlači postupak, a ne služi razjašnjenju stvari. A u prilog navedenom je i stav
+                Evropskog suda za ljudska prava, prema kom stavu odbijanje sudova da izvedu dokazne
+                predloge, može dovesti do ograničenja prava na odbranu, koje je nespojivo sa
+                garancijama pravičnog sudjenja u smislu čl. 6 Evropske konvencije za zaštitu
+                ljudskih prava i osnovnih sloboda (presuda Popov protiv Rusije, 26853/04 od
+                13.06.2016. godine, paragraf 188). Medjutim, prema istom stavu i po nalaženju ovog
+                suda, neprihvatanje predloga za provodjenje dokaza, na koje ukazuju branioci
+                optuženih <party id="md" refersTo="md" as="">M. D.</party>, <party id="sl"
+                    refersTo="sl" as="">S.L.</party>, <party id="dd" refersTo="dd" as="">D. D.</party>
+                u žalbama, nije imalo za posledicu da je na štetu optuženih pogrešno i nepotpuno
+                utvrdjeno činjenično stanje, a time nije izveden ni pogrešan zaključak u pogledu
+                postojanja navedenih krivičnih djela i krivice optuženih za učinjena krivična djela.
+                Prednje i kod činjenice da sud nije dužan da izvodi dokaze koji bi doveli do
+                odugovlačenja krivičnog postupka, kada utvrdi da je krivična stvar u dovoljnoj mjeri
+                rasvijetljena provedenim dokazima. U konačnom, za ukazati je da je odredbom čl. 352
+                KZ CG propisano krivično djelo računarska prevara i u stavu 1 odredjeno da isto čini
+                onaj ko unese, izmijeni, izbriše, propusti unošenje tačnog podatka ili na drugi
+                način prikrije ili lažno prikaže računarski podatak ili izvrši bilo kakvo ometanje
+                rada računarskog sistema i time utiče na rezultat elektronske obrade, prenosa
+                podataka i funkcioniS. računarskog sistema u namjeri da sebi ili drugom pribavi
+                protivpravnu imovinsku korist i time drugom prouzrokuje imovinsku štetu. Dakle,
+                radnja izvršenja kod ovog krivičnog djela određena je alternativno. Pa tako radnja
+                izvršenja može biti: a) unošenje netačnog podatka b) izmjena tačnog podatka; v)
+                brisanje tačnih podataka; g) propuštanje unošenja tačnog podatka, d) na drugi način
+                prikrije ili lažno prikaže računarski podatak ili đ) ometa rad računaskog sistema.
+                Da bi se radilo o ovom krivičnom djelu neophodno je da je uslijed činjenja ili
+                nečinjenja ostvaren određeni uticaj na rezultat elektronske obrade ili prenosa
+                podataka i funkcionisanje računarskog sistema, koji pretpostavlja odgovarajuću
+                izmjenu rezultata obrade ili prenosa podataka, u tom smislu da on ne odgovara
+                realnom stanju stvari. Subjektivna strana krivičnog djela je umišljaj i to direktni,
+                s obzirom da se djelo vrši sa namjerom da se sebi ili drugom pribavi protivpravna
+                imovinska korist i da se ujedno time drugom prouzrokuje štetu. Odnosno, namjera mora
+                biti upravljena u oba pravca – i da se sebi pribavi protivpravna imovinska korist i
+                da se drugom prouzrokuje šteta. Kvalifikovani oblik iz stava 2 ovog člana, postoji
+                onda kada je izvršenjem navedenog djela pribavljena imovinska korist koja prelazi
+                iznos od tri hiljade eura. S obzirom da se radi o kvalifikatornoj okolnosti i ona
+                mora biti obuhvaćena umišljajem učinioca. Dakle, imajući u vidu citiranu zakonsku
+                odredbu, i po nalaženju ovog suda, optuženi su, postupajući na način kako je to
+                opisano u izreci pobijane presude, ostvarili sve bitne, kako subjektivne, tako i
+                objektivne elemente bića krivičnog djela računarska prevara iz čl.352 KZ CG, koje im
+                je stavljeno ne teret optužnim aktom ovlašćenog tužioca. Sud je u tom pravcu (
+                strane od 26-32 obrazloženja) dao jasne i valjane razloge, koje ovaj sud nalazi da
+                nije potrebno ponavljati, već na iste upućuje podnosioce žalbi. Nadalje, i u odnosu
+                na zaključak da su optuženi <party id="nt" refersTo="nt" as="">N. T.</party>, <party
+                    id="md" refersTo="md" as="">M. D.</party>, <party id="dp" refersTo="dp" as="">D.
+                P.</party>, <party id="sl" refersTo="sl" as="">S.L.</party> i <party id="dd"
+                    refersTo="dd" as="">D. D.</party> kao saizvršioci, izvršili produženo krivično
+                djelo zaloupotreba položaja u privrednom poslovanju iz člana 272. stav 1. KZ CG u
+                vezi člana 23 stav 2. člana 49 stav 1 KZ CG, prvostepeni sud je dao jasne i valjane
+                razloge, koje ovaj sud nalazi da nema potrebe ponavljati, ali ukazuje braniocu
+                optuženih <party id="sl" refersTo="sl" as="">S.L.</party> i <party id="dd"
+                    refersTo="dd" as="">D. D.</party> da je odredbom čl.272 KZ CG propisano krivično
+                djelo zloupotreba položaja u privrednom poslovanju i u stavu 1 odredjeno da isto
+                čini odgovorno lice u privrednom društvu, drugom subjektu privrednog poslovanja ili
+                drugom pravnom licu koje zloupotrebom svog položaja ili povjerenja u pogledu
+                raspolaganja tuđom imovinom, prekoračenjem granica svog ovlašćenja ili nevršenja
+                svoje dužnosti pribavi sebi ili drugom protivpravnu imovinsku korist ili drugom
+                nanese štetu. Dakle, a kod činjenice da su optuženi bili zaposleni, u kritičnom
+                periodu, kod oštećene “L. CG” i to optuženi <party id="nt" refersTo="nt" as="">N. T.</party>
+                u svojstvu koordinatora oštećene za teritorije opština Cetinje i Budva, optuženi <party
+                    id="md" refersTo="md" as="">M. D.</party>, <party id="sl" refersTo="sl" as="">
+                S.L.</party> i <party id="dp" refersTo="dp" as="">D. P.</party>, u svojstvu
+                operatera u prostoru za priređivanje igara na sreću, a što sve proizilazi iz dopisa
+                L. Crne Gore ( o čemu je prvostepeni sud dao jasne razloge strana 34 obrazloženja),
+                to su nejasni navodi žalbe branioca optuženih da sud nije na nesumnjv način utvrdio
+                da su isti optuženi bili odgovorna lica u oštećenoj “L. CG”. Na potpuno i pravilno
+                utvrđeno činjenično stanje, prvostepeni sud je pravilno primijenio KZ CG kada je
+                utvrdio da su se u radnjama optuženih I.Dj., <party id="nt" refersTo="nt" as="">N.T.</party>
+                , <party id="md" refersTo="md" as="">M. D.</party>, <party id="dp" refersTo="dp"
+                    as="">D. P.</party>, <party id="sl" refersTo="sl" as="">S.L.</party> i <party
+                    id="dd" refersTo="dd" as="">D. D.</party>, stekli svi bitni elementi bića
+                krivičnih djela stavljenih im na teret optužnim aktom ovlašćenog tužioca, za koja su
+                i oglašeni krivim i osudjeni, pa nije povrijedjen KZ CG na štetu optuženih, kako se
+                to neosnovano ističe u žalbama branilaca optuženih, a na koje povrede ovaj sud pazi
+                i po službenoj dužnosti, shodno odredbi čl.398 ZKP. Po nalaženju ovog suda,
+                prvostepeni sud je, pravilno i potpuno utvrdio sve okolnosti koje u smislu čl.42 KZ
+                CG utiču na izbor vrste i visine krivične sankcije, pa je na strani opuženih I.Dj., <party
+                    id="nt" refersTo="nt" as="">N.T.</party>, <party id="md" refersTo="md" as="">M.
+                D.</party>, <party id="sl" refersTo="sl" as="">S.L.</party>, <party id="dp"
+                    refersTo="dp" as="">D. P.</party> i <party id="dd" refersTo="dd" as="">D. D.</party>,
+                kao olakšavajuću okolnost cijenio činjenicu da nijesu ranije osudjivani, na strani
+                optuženih <party id="nt" refersTo="nt" as="">N.T.</party> i <party id="md"
+                    refersTo="md" as="">M. D.</party> da su isti roditelji maloljetne djece, i u
+                odsustvu otežavajućih okolnosti, optužene osudio i to optuženog I. Dj.na kaznu
+                zatvora u trajanju od 6 (šest) mjeseci, optužene <party id="nt" refersTo="nt" as="">
+                N.T.</party>, <party id="md" refersTo="md" as="">M. D.</party> i <party id="dp"
+                    refersTo="dp" as="">D. P.</party>, nakon prethodno utvrdjenih pojedinačnih kazni
+                zatvora za svako od učinjenih krivičnih djela i to za produženo krivično djelo
+                zaloupotreba položaja u privrednom poslovanju iz člana 272 stav 1 Krivičnog zakonika
+                Crne Gore, u trajanju od po 3 (tri) mjeseca i za produženo krivično djelo računarska
+                prevara iz člana 352 stav 2. u vezi stava 1. Krivičnog zakonika Crne Gore, u
+                trajanju od po 6 (šest) mjeseci, na jedinstvene kazne zatvora u trajanju od po 8
+                (osam) mjeseci, a optužene S. L. i <party id="dd" refersTo="dd" as="">D. D.</party>,
+                nakon prethodno utvrdjenih pojedinačnih kazni zatvora za svako od učinjenih djela i
+                to za produženo krivično djelo zaloupotreba položaja u privrednom poslovanju iz
+                člana 272 stav 1. Krivičnog zakonika Crne Gore, u trajanju od po 3 (tri) mjeseca i
+                za produženo krivično djelo računarska prevara iz člana 352 stav 1 Krivičnog
+                zakonika Crne Gore, u trajanju od po 3 (tri) mjeseca, na jedinstvene kazne zatvora u
+                trajanju od po 5 (pet) mjeseci. Sud je u smislu odredbe čl.379 st. 8 ZKP za odluku o
+                krivičnim sankcijama dao jasne i valjane razloge, koje u cjelosti prihvata i ovaj
+                sud. Izrečene krivične sankcije su i po nalaženju ovog suda, srazmjerne težini
+                učinjenih krivičnih djela, optuženima kao saizvršiocima istih djela i okolnostima
+                pod kojima su krivična djela učinjena i istim će se ostvariti svrha kažnjavanja u
+                smislu odredbe čl.32 KZ CG, a u okviru opšte svrhe propisivanja i izricanja
+                krivičnih sankcija iz čl.4 stav 2 istog zakonika i iste će dovoljno uticati na
+                optužene da ubuduće ne vrše ovakva ili slična krivična djela, to jest, da će se
+                ostvariti svrha specijalne i generalne prevencije. Imajući u vidu prednje navedeno,
+                kao i činjenicu da je prvostepeni sud, po nalaženju ovog suda, činjenice na kojima
+                je zasnovao odluku o krivičnoj sankciji utvrdio sa istim stepenom izvjesnosti, kao i
+                činjenice od kojih zavisi odluka o krivici, a pri tom je u obrazloženju odredjeno
+                naveo kojim dokazima su utvrdjene činjenice od kojih zavisi odluka o krivičnim
+                sankcijama, kao i razloge na osnovu kojih uzima da one zaista postoje, neosnovani su
+                navodi i prijedlozi žalbi branilaca optuženih u tom pravcu. Drugostepeni sud je
+                cijenio i ostale navode žalbi, ali je našao da isti nijesu od uticaja na drugačiju
+                odluku. Na osnovu izloženog, a shodno odredbi čl.406 ZKP, odlučeno je kao u izreci
+                presude. <organization id="vsup" refersTo="#vsup">VIŠI SUD U PODGORICI</organization>
+                Dana, 15.09.2020.godine ZAPISNIČAR PREDSJEDNIK VIJEĆA – SUDIJA S. Radosavović s.r.
+                Miroslav Bašović s.r. za tačnost optravka ovjerava namještenik suda _____________ </p>
+        </judgementBody>
+        <conclusions>
+        </conclusions>
+    </judgement>
+</akomaNtoso>

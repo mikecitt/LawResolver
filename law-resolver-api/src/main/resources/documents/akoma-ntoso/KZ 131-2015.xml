@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+     Akoma Ntoso Version 1.0. Part 2: Specifications
+     Committee Specification Draft 02 / Public Review Draft 02
+     04 May 2016
+     Copyright (c) OASIS Open 2016. All Rights Reserved.
+     Source: http://docs.oasis-open.org/legaldocml/akn-core/v1.0/csprd02/part2-specs/examples/
+     Latest version of the specification:
+http://docs.oasis-open.org.legaldocml/akn-core/v1.0/akn-core-v1.0-part2-specs.html
+     TC IPR Statement: https://www.oasis-open.org/committees/legaldocml/ipr.php
+-->
+<!--Akoma_Ntoso
+document-->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd
+                        "
+    xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17"
+    xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+    <!-- Level 5 of compliance -->
+    <judgement>
+        <meta>
+            <identification>
+                <FRBRWork>
+                    <FRBRauthor>
+                        APELACIONI SUD CRNE GORE
+                    </FRBRauthor>
+                    <FRBRdate date="2015-03-24">
+                        2015-03-24
+                    </FRBRdate>
+                    <FRBRtitle>
+                        Kž 131/2015
+                    </FRBRtitle>
+                    <FRBRcountry>
+                        CG
+                    </FRBRcountry>
+                </FRBRWork>
+            </identification>
+            <references>
+                <TLCOrganization id="ascg" href="/ontology/organization/cg.ascg"
+                    showAs="APELACIONI SUD CRNE GORE" />
+
+                <TLCPerson id="zorana" href="/ontology/person/judge/cg.zorana"
+                    showAs="Zorana Smolovića" />
+
+                <TLCPerson id="milenke" href="/ontology/person/judge/cg.milenke"
+                    showAs="Milenke Žižić" />
+
+                <TLCPerson id="dragiše" href="/ontology/person/judge/cg.dragiše"
+                    showAs="Dragiše Rakočevića" />
+
+                <TLCPerson id="emine" href="/ontology/person/editor/cg.emine"
+                    showAs="Emine Alibalić" />
+
+                <TLCPerson id="pđ" href="/ontology/person/cg.pđ"
+                    showAs="P. Đ." />
+
+                <TLCPerson id="mp" href="/ontology/person/cg.mp"
+                    showAs="M. P." />
+
+                <TLCPerson id="mr" href="/ontology/person/cg.mr"
+                    showAs="M. R." />
+
+                <TLCRole id="editor" href="/ontology/role/editor" showAs="Editor of Document" />
+                <TLCRole id="judge" href="/ontology/role/judge" showAs="Judge" />
+                <TLCRole id="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+                <TLCRole id="lawyer" href="/ontology/role/lawyer" showAs="Lawyer" />
+            </references>
+        </meta>
+        <judgementBody>
+            <p> Kž.br.131/15 U IME CRNE GORE <organization id="ascg" refersTo="#ascg">APELACIONI SUD
+                CRNE GORE</organization>, u vijeću sastavljenom od sudija <party id="zorana"
+                    refersTo="zorana" as="/judge">Zorana Smolovića</party>, kao predsjednika vijeća, <party
+                    id="milenke" refersTo="milenke" as="/judge">Milenke Žižić</party> i <party
+                    id="dragiše" refersTo="dragiše" as="/judge">Dragiše Rakočevića</party>, kao
+                članova vijeća, uz učešće službenika suda <party id="emine" refersTo="emine"
+                    as="/editor">Emine Alibalić</party>, kao zapisničara, u krivičnom predmetu
+                protiv optuženih <party id="mp" refersTo="mp" as="">M. P.</party> i <party id="mr"
+                    refersTo="mr" as="">M. R.</party>, zbog krivičnog djela računarska prevara iz
+                čl.352 st.3 u vezi st.1 Krivičnog zakonika (KZ), rješavajući po žalbama Višeg
+                državnog tužioca u Podgorici, branioca optužene <party id="mp" refersTo="mp" as="">M.
+                P.</party>, advokata N. M. i branioca optuženog <party id="mr" refersTo="mr" as="">M.
+                R.</party>, advokata <party id="pđ" refersTo="pđ" as="">P. Đ.</party>, izjavljenih
+                protiv presude Višeg suda u Podgorici K.br.72/11 od 24.03.2015. godine, nakon javne
+                sjednice vijeća održane dana 15.10.2015. godine, u prisustvu zamjenika Vrhovnog
+                državnog tužioca R. Ć., optužene <party id="mp" refersTo="mp" as="">M. P.</party> i
+                njenog branioca, advokata N. M. i branioca optuženog <party id="mr" refersTo="mr"
+                    as="">M. R.</party>, advokata <party id="pđ" refersTo="pđ" as="">P. Đ.</party>,
+                a u odsustvu uredno obaviještenog optuženog M. R., nakon tajnog vijećanja i glasanja
+                istog dana, donio je P R E S U D U Odbijaju se kao neosnovane žalbe Višeg državnog
+                tužioca u Podgorici i branilaca optuženih <party id="mp" refersTo="mp" as="">M. P.</party>
+                i <party id="mr" refersTo="mr" as="">M. R.</party> izjavljene protiv presude Višeg
+                suda u Podgorici K.br.72/11 od 24.03.2015. godine. Povodom izjavljenih žalbi, a po
+                službenoj dužnosti, preinačava se presuda Višeg suda u Podgorici K.br.72/11 od
+                24.03.2015. godine i to u dijelu odluke o imovinskopravnom zahtjevu, na način što se
+                optuženi <party id="mp" refersTo="mp" as="">M. P.</party> i <party id="mr"
+                    refersTo="mr" as="">M. R.</party> obavezuju da oštećenoj NLB Montenegro banci
+                Podgorica, solidarno plate na ime imovinskopravnog zahtjeva iznos od 276.743,83€,
+                dok se za preostali dio mimo dosuđenog oštećena banka upućuje na parnicu. U ostalom
+                dijelu prvostepena presuda ostaje neizmijenjena. Apelacioni Sud CG Kž 131/2015 15.
+                Oktobar 2015 O b r a z l o ž e nj e Presudom Višeg suda u Podgorici K.br.72/11 od
+                24.03.2015. godine optuženi <party id="mp" refersTo="mp" as="">M. P.</party> i <party
+                    id="mr" refersTo="mr" as="">M. R.</party> oglašeni su krivim da su kao
+                saizvršioci izvršili krivično djelo računarska prevara iz čl.352 st.3 u vezi st.1
+                Krivičnog zakonika i osuđeni na kazne zatvora u trajanju od po 2 (dvije) godine, u
+                koje kazne im se uračunava vrijeme provedeno u pritvoru od 06.12.2006. godine do
+                07.12.2006. godine. Istom presudom optuženi su obavezani da na ime troškova
+                krivičnog postupka uplate Višem sudu u Podgorici iznos od 10.402,00€, te na ime
+                paušala iznose od po 100,00€, sve u roku od 15 dana po pravosnažnosti presude.
+                Prvostepenom presudom na ime imovinskopravnog zahtjeva oštećenoj "NLB Montenegro"
+                banci u Podgorici, kao pravnom sledbeniku "Euromarket" banke se dosuđuje iznos od
+                276.743,83€, dok se za iznos mimo dosuđenog banka upućuje na parnicu. Protiv
+                navedene presude žalbu je izjavio Viši državni tužilac u Podgorici zbog bitne
+                povrede krivičnog postupka čl.386 st.1 tač.8 Zakonika o krivičnom postupku, povrede
+                krivičnog zakonika iz čl.387 st.1 tač.3 Zakonika o krivičnom postupku i zbog odluke
+                o kazni iz čl.389 st.1 Zakonika o krivičnom postupku, sa predlogom da Apelacioni sud
+                Crne Gore, kao drugostepeni, uvaži razloge žalbe, ukine presudu Višeg suda u
+                Podgorici K.br.72/11 od 24.03.2015. godine i predmet vrati prvostepenom sudu na
+                ponovno suđenje. Branilac optužene <party id="mp" refersTo="mp" as="">M. P.</party>,
+                advokat N. M. je žalbu izjavio zbog bitne povrede odredaba krivičnog postupka,
+                povrede Krivičnog zakonika i pogrešno ili nepotpuno utvrđenog činjeničnog stanja, ne
+                stavljajući konačan predlog. Branilac optuženog <party id="mr" refersTo="mr" as="">M.
+                R.</party>, advokat <party id="pđ" refersTo="pđ" as="">P. Đ.</party> je izjavio
+                žalbu zbog bitne povrede odredaba krivičnog postupka, pogrešno i nepotpuno utvrđenog
+                činjeničnog stanja, povrede Krivičnog zakonika i odluke o krivičnoj sankciji, sa
+                predlogom da Apelacioni sud Crne Gore preinači presudu Višeg suda u Podgorici
+                K.br.72/11 od 24.03.2015. godine i optuženog <party id="mr" refersTo="mr" as="">M.
+                R.</party> oslobodi od optužbe ili da prvostepenu presudu ukine i predmet vrati
+                prvostepenom sudu na ponovno suđenje. Vrhovno državno tužilaštvo Crne Gore je u
+                smislu odredbe čl.392 st.1 Zakonika o krivičnom postupku dostavilo akt Ktž.br.220/15
+                od 18.09.2015. godine, sa predlogom da se uvaži kao osnovana žalba Višeg državnog
+                tužioca u Podgorici, a da se žalbe branilaca optuženih <party id="mp" refersTo="mp"
+                    as="">M. P.</party> i <party id="mr" refersTo="mr" as="">M. R.</party> odbiju
+                kao neosnovane. Na sjednici drugostepenog vijeća zamjenik Vrhovnog državnog tužioca
+                R. Ć. je izjavila da ostaje u svemu pri razlozima i predlogu podnijete žalbe Višeg
+                državnog tužioca u Podgorici i pisanom izjašnjenju na podnijete žalbe, pa je tražila
+                da se pobijana presuda ukine i predmet vrati prvostepenom sudu na ponovno suđenje, a
+                da se žalbe branilaca optuženih cijene kao neosnovane. Branilac optužene <party
+                    id="mp" refersTo="mp" as="">M. P.</party>, advokat N. M. je izjavio da u svemu
+                ostaje pri podnijetoj žalbi i razlozima žalbe, dodajući da u konkretnom slučaju
+                sudeće vijeće ima mogućnost da odbije optužbu, budući da se odbrana slaže sa
+                državnim tužiocem da je u konkretnom slučaju prva radnja počinjena 2002. godine kada
+                nije postojalo ovo krivično djelo, a da je potom za prvu radnju uzeta 2004. godina,
+                što znači da sud treba da odbije optužbu jer se vrijeme izvršenja djela računa po
+                prvoj preduzetoj radnji. Napomenuo je i to da vještaci nijesu imali originalnu
+                dokumentaciju za vještačenje, da je vještačenje obavljeno 2014. godine, tako da nije
+                moglo biti obavljeno validno vještačenje, jer su dokazi kontaminirani. Konačno,
+                napomenuo je i to što se tiče "SWIFT-a" da je nemoguće ući u bazu podataka ovog
+                sisitema, te da su optuženi mogli počiniti djelo na taj način, pogotovo imajući u
+                vidu da ovaj sistem u svijetu koristi više od 200.000 banaka. Optužena <party
+                    id="mp" refersTo="mp" as="">M. P.</party> je izjavila da ostaje u svemu pri
+                razlozima i predlogu žalbe njenog branioca, kao i njegovim navodima na sjednici
+                drugostepenog vijeća, s tim što je još dodala da dokumenta po osnovu kojih je
+                podignuta optužnica protiv nje nijesu originalna, ista su izdata od strane "NLB"
+                Banke, a ne "Euromarket" banke u kojoj je radila. Navela je i to da se radi o
+                velikoj mućki i sramoti, da ona i njena porodica nikada nijesu činili ovako nešto i
+                da je od ovog događaja njihov život pakao. Branilac optuženog <party id="mr"
+                    refersTo="mr" as="">M. R.</party>, advokat <party id="pđ" refersTo="pđ" as="">P.
+                Đ.</party> je izjavio da ostaje pri razlozima i predlogu podnijete žalbe i da nema
+                šta da doda. Po razmatranju prvostepene presude, žalbi i svih spisa predmeta, pazeći
+                po službenoj dužnosti na odredbe čl.398 st.1 Zakonika o krivičnom postupku,
+                Apelacioni sud je odlučio kao u izreci presude, a sa razloga koji slijede:
+                Prvostepena presuda i postupak koji je prethodio njenom donošenju ne sadrži bitne
+                povrede odredaba krivičnog postupka niti povrede Krivičnog zakonika, na koje
+                Apelacioni sud, kao drugostepeni sud, povodom žalbi, a u smislu odredbe čl.398 st.1
+                Zakonika o krivičnom postupku pazi po službenoj dužnosti. U provedenom postupku pred
+                prvostepenim sudom nijesu učinjene bitne povrede odredaba krivičnog postupka iz
+                čl.386 st.1 tač.8 i 9 Zakonika o krivičnom postupku na koje se ukazuje žalbama Višeg
+                državnog tužioca, branioca optužene <party id="mp" refersTo="mp" as="">M. P.</party>
+                i branioca optuženog <party id="mr" refersTo="mr" as="">M. R.</party>. Naime, žalbom
+                Višeg državnog tužioca se potencira da je izreka prvostepene presude nerazumljiva i
+                protivrječna razlozima, jer je iz iste prvostepeni sud izostavio radnje koje su
+                optuženi preduzimali i knjiženja i transakcije koje su vršili, iako u razlozima
+                pobijane presude se prvostepeni sud bavi ovim radnjama optuženih i iste obrazlaže,
+                pa je po mišljenju tužioca nejasno zašto je navedene radnje precizirane dispozitivom
+                optužnice prvostepeni sud izostavio iz izreke pobijane presude i time je učinio
+                nerazumljivom i protivrječnom razlozima, čime je učinio bitnu povredu krivičnog
+                postupka. Branilac optužene <party id="mp" refersTo="mp" as="">M. P.</party> u žalbi
+                ističe da u izreci pobijane presude ne postoji nijedan podatak u pogledu zajedničkog
+                djelovanja optuženih niti opis zajedničkog djelovanja optuženih u pogledu umišljaja
+                ili zajedničke namjere za ostvarenje zabranjene posledice. U žalbi branioca
+                optuženog M. R. se navodi da je pobijana presuda zahvaćena bitnim povredama odredaba
+                krivičnog postupka iz čl.386 st.1 tač.8 Zakonika o krivičnom postupku, jer je izreka
+                pobijane presude nerazumljiva, protivrječna sama sebi i razlozima presude, da su
+                razlozi o odlučnim činjenicama nejasni ili u znatnoj mjeri protivrječni i da o
+                odlučnim činjenicama postoji znatna protivrječnost između onoga što se navodi u
+                razlozima pobijane presude i zapisnika o datim iskazima u postupku i samih tih
+                zapisnika. Apelacioni sud nalazi, a nasuprot izjavljenim žalbama, da je prvostepena
+                presuda jasna i razumljiva, kako u izreci tako i u obrazloženju, da nema
+                protivrječnosti na koje se ukazuje žalbama i da ista sadrži razloge o svim odlučnim
+                činjenicama iz kojih se pouzdano zaključuje da su optuženi <party id="mp"
+                    refersTo="mp" as="">M. P.</party> i <party id="mr" refersTo="mr" as="">M. R.</party>
+                izvršili krivično djelo koje im je stavljeno na teret i koje su sve radnje preduzeli
+                radi izvršenja istog, dok se iz razloga prvostepene presude vidi, jasno i određeno,
+                koji dokazi potvrđuju odlučne činjenice o izvršenju krivičnog djela i kako je
+                prvostepeni sud cijenio izvedene dokaze, a što je sve u skladu sa sadržinom dokaza
+                na kojima se zasnivaju utvrđenja prvostepenog suda da su ovi optuženi izvršili
+                krivično djelo računarska prevara iz čl.352 st.3 u vezi st.1 Krivičnog zakonika, pa
+                se navodi žalbi da prvostepena presuda sadrži bitne povrede odredaba krivičnog
+                postupka iz čl.386 st.1 tač.8 i 9 Zakonika o krivičnom postupku pokazuju kao
+                neosnovani. I po ocjeni Apelacionog suda, a nasuprot žalbenim navodima, prvostepeni
+                sud je na osnovu svestrane i brižljive ocjene svih dokaza sa sigurnošću utvrdio da
+                su ovi optuženi izvršili krivično djelo koje je činjenično i pravno opisano u izreci
+                prvostepene presude. Nasuprot navodima žalbe branioca optužene <party id="mp"
+                    refersTo="mp" as="">M. P.</party>, a polazeći od sadržine izreke prvostepene
+                presude, Apelacioni sud nalazi da je izreka prvostepene presude razumljiva, jer su
+                opisani svi elementi krivičnog djela za koje su optuženi oglašeni krivim-vrijeme,
+                mjesto, način izvršenja, oblik vinosti, posljedica i data pravilna pravna
+                kvalifikacija. Nijesu osnovani žalbeni navodi branilaca optuženih da je činjenično
+                stanje u ovoj krivično pravnoj stvari pogrešno i nepotpuno utvrđeno. Naime, po
+                nalaženju ovog suda, nakon pravilne i potpune ocjene odbrane optuženih i dokaza
+                izvedenih na glavnom pretresu, prvostepeni sud je nesumnjivo utvrdio da su optuženi
+                M. P. i <party id="mr" refersTo="mr" as="">M. R.</party> izvršili krivično djelo
+                računarska prevara iz čl.352 st.3 u vezi st.1 Krivičnog zakonika, činjenično opisano
+                u izreci prvostepene presude. Ovakvo svoje utvrđenje, po nalaženju Apelacionog suda,
+                prvostepeni sud pravilno zasniva na nalazu vještaka finansijske struke i drugim
+                provedenim dokazima i pravilno utvrđuje da je optužena Perković sačinila deset
+                lažnih "SWIFT" poruka o navodnom prilivu novca na račun nerezidenta "Arketon Trading
+                Limited" u ukupnom iznosu od 276.743,83€, i pored toga što stvarnog priliva novca od
+                navedenih inobanaka nije bilo, a koji lažni podaci su unijeti u računarski sistem i
+                elektronsku bazu podataka "Euromarket" banke, a da je nakon toga optuženi <party
+                    id="mr" refersTo="mr" as="">M. R.</party> podigao ukupan iznos od 242.757,36€.
+                Pravilno prvostepeni sud utvrđuje da sačinjavanjem deset lažnih "SWIFT" poruka o
+                prilivu novca kojeg nije bilo, obradom tih lažnih "SWIFT" poruka, sačinjavanjem
+                lažnih izvještaja o naplati preko svoje radne stanice je optužena <party id="mp"
+                    refersTo="mp" as="">M. P.</party> unijela u računarski sistem lažne podatke,
+                čime je izmijenjen rezultat elektronske obrade podataka, na način što je lažno
+                prikazala priliv novca u iznosu od 276.743,83€, kojeg novca zapravo nije bilo, nakon
+                čega je optuženi <party id="mr" refersTo="mr" as="">M. R.</party>, a po dogovoru sa
+                optuženom Perković, sa računa ATL podigao navedeni iznos novca, a sve sa namjerom da
+                sebi i drugom pribave protivpravnu imovinsku korist i time drugom prouzrokuju
+                imovinsku štetu, koju posledicu preduzetih radnji su optuženi i ostvarili. Takođe po
+                nalaženju Apelacionog suda pravilno prvostepeni sud utvrđuje, da su optuženi <party
+                    id="mp" refersTo="mp" as="">M. P.</party> i <party id="mr" refersTo="mr" as="">M.
+                R.</party>, kao saizvršioci izvršili krivično djelo stavljeno im na teret, sa
+                umišljajem i zajedničnom namjerom da sebi i drugom pribave korist, a navedenoj banci
+                pričine štetu, budući da je na osnovu lažnih priliva stvorena mogućnost podizanja
+                gotovine sa navedenog računa ATL-a, koju su optuženi i realizovali, kako to nesporno
+                i proizilazi iz nalaza vještaka finansijske struke i iskaza saslušanih svjedoka i da
+                je očigledno da je optuženi <party id="mr" refersTo="mr" as="">M. R.</party> to
+                činio u dogovoru sa optuženom <party id="mp" refersTo="mp" as="">M. P.</party>, pri
+                čemu je imao ovlašćenje od svog oca B. R. da podiže novac sa računa ATL. Sa ovih
+                razloga i po nalaženju Apelacionog suda navodi žalbi branilaca optuženih da nema
+                dokaza da je optužena <party id="mp" refersTo="mp" as="">M. P.</party> sačinjavala
+                lažne "SWIFT" poruke i lažne podatke unosila u računarski sistem banke, gdje je bila
+                zaposlena, i da optuženi <party id="mr" refersTo="mr" as="">M. R.</party> nije znao
+                šta optužena <party id="mp" refersTo="mp" as="">M. P.</party> radi i da nije
+                saizvršilac eventualno izvršenog krivičnog djela od strane <party id="mp"
+                    refersTo="mp" as="">M. P.</party> se pokazuju kao neosnovani. Apelacioni sud u
+                cjelosti prihvata razloge i zaključke prvostepenog suda u odnosu na činjenična
+                utvrđenja o preduzetim radnjama od strane optuženih u izvršenju krivičnog djela i o
+                njihovom zajedničkom djelovanju kao saizvršilaca, jer je prvostepeni sud nesporno
+                utvrdio da su optuženi preduzetim radnjama uticali na rezultat elektronske obrade
+                podataka i prenos podataka, ostvarujući posledicu predmetnog krivičnog djela koja se
+                ogleda u izmijenjenom rezultatu elektronske obrade podataka, do koje ne bi došlo da
+                nijesu optuženi preduzeli radnju izvršenja. Pravilno prvostepeni sud cijeni i
+                subjektivnu stranu izvršilaca ovog krivičnog djela - optuženih, osim umišljaja
+                utvrđujući i namjeru optuženih da sebi i drugom pribave protivpravnu imovinsku
+                korist i drugom prouzrokuju štetu. U odnosu na prethodno navedene žalbene razloge,
+                mimo navedenog, podnosioci žalbi se upućuju na razloge prvostepene presude, bez
+                potrebe za njihovim ponavljanjem. Nasuprot iznijetim žalbenim navodima, pravilno je
+                prvostepeni sud, opredjeljujući vrijeme izvršenja predmetnog krivičnog djela na
+                period od 22.07.2004. godine kao datuma prve od navedenih 10 lažnih transakcija do
+                zaključno sa 10.01.2006. godine, kada je optužena P. sačinila izvještaje o naplati
+                za navedene iznose od 15.000, 5.000 i 13.983,20€, imao u vidu da je krivično djelo
+                računarska prevara kao poseban oblik krivičnog djela prevara propisano Krivičnim
+                zakonikom objavljenim u Službenom listu RCG br.70/2003, čija primjena je počela
+                03.04.2004. godine, da je krivično djelo računarska prevara specijalno u odnosu na
+                opšte krivično djelo prevare i da predstavlja poseban oblik prevare, ali da se
+                razlikuje od klasične prevare po tome što za računarsku prevaru nema dovođenja ili
+                održavanja u zabludi nekog lica, jer to u suštini nije ni moguće učiniti, pa se
+                računarska prevara ne može svrstati u opšte krivično djelo prevare, sa kojih razloga
+                je prvostepeni sud pravilno vrijeme izvršenja predmetnog krivičnog djela opredijelio
+                na navedeni period počev od dana 22.07.2004. godine, kao dana kada je nakon primjene
+                Krivičnog zakonika preduzeta prva radnja iz činjeničnog opisa radnje izvršenja
+                krivičnog djela i iz izreke pobijane presude izostavio radnje iz optužnice koje se
+                odnose na prethodni period od 27.09.2002. godine do aprila mjeseca 2004. godine, s
+                obzirom da tada važećim Krivičnim zakonom Crne Gore (Sl.list RCG br.42/93) nije bilo
+                propisano krivično djelo računarska prevara, već samo krivično djelo prevara iz
+                čl.149 KZ RCG. Pri činjeničnom opisu radnje izvršenja krivičnog djela i pravnoj
+                ocjeni krivičnog djela koje je optužnicom stavljeno na teret optuženima, opisane
+                inkriminacije u periodu od 27.09.2002. do 03.04.2004. godine, nijesu mogle biti
+                kvalifikovane kao krivično djelo računarska prevara, kako to pravilno utvrđuje
+                prvostepeni sud i opisane radnje za navedeni period izostavlja iz opisane radnje
+                izvršenja krivičnog djela po optužnici, jer te radnje, a koje se odnose na period od
+                2002-2004. godine nijesu mogle biti pravno kvalifikovane kao krivično djelo
+                računarska prevara, koje krivično djelo je prvi put propisano prethodno navedenom
+                odredbom KZ-a iz 2004. godine. Sa ovih razloga navodi žalbe tužioca i branilaca
+                optuženih da je prvostpeni sud trebao primijeniti Krivični zakon koji je važio u
+                vrijeme nastupanja posledice krivičnog djela, odnosno vrijeme dovršenja radnje
+                izvršenja - vrijeme preduzimanja poslednje djelatnosti koje ulazi u radnju izvršenja
+                (po žalbi tužioca), odnosno da je krivično djelo izvršeno preduzimanjem prve radnje,
+                bez obzira kada je posledica djela nastupila, imajući u vidu da je tužilac
+                kvalifikovao radnje optuženih kao jedno krivično djelo (po žalbi branioca optužene <party
+                    id="mp" refersTo="mp" as="">M. P.</party>), a u čemu se po navodima ovih žalbi
+                ogleda pogrešna primjena Krivičnog zakonika, su neosnovani. Prethodno navedeni
+                zaključci prvostepenog suda i po nalaženju Apelacionog suda su pravilni imajući u
+                vidu odredbe člana 2 i 5 Krivičnog zakonika, "Krivično djelo je djelo koje je
+                zakonom određeno kao krivično djelo koje je protivpravno i koje je skrivljeno" (član
+                5), i "Kazna ili druga krivična sankcija može izreći samo za djelo koje je, prije
+                nego što je učinjeno, bilo određeno kao krivično djelo i za koje je bila zakonom
+                propisana kazna" (član 2), jer iz ovih odredbi proizilazi da se na učinioca
+                krivičnog djela primjenjuje Zakon koji je važio u vrijeme izvršenja krivičnog djela,
+                jer je to nužna posledica načela zakonitosti. Predviđenost u zakonu krivičnog djela
+                je elemenat u opštem pojmu krivičnog djela koji radnje koje bi potencijalno mogle
+                biti radnje krivičnog djela svodi na one radnje preduzete u vrijeme u kojem su
+                zakonom određene kao krivično djelo i za koje je bila zakonom propisana kazna. Sa
+                ovih razloga pravilno je prvostepeni sud optužene <party id="mp" refersTo="mp" as="">M.
+                P.</party> i <party id="mr" refersTo="mr" as="">M. R.</party> osudio za navedeno
+                krivično djelo koje su ostvarili radnjama činjenično opisanim u izreci prvostepene
+                presude, posebno uzimajući u obzir vrijeme preduzetih radnji i propisanost u
+                Krivičnom zakoniku tih radnji kao krivičnog djela. Na utvrđeno činjenično stanje, a
+                nasuprot navodima žalbi branilaca optuženih i žalbe Višeg državnog tužioca,
+                prvostepeni sud je pravilno primijenio Krivični zakonik kada je radnje optuženih <party
+                    id="mp" refersTo="mp" as="">M. P.</party> i <party id="mr" refersTo="mr" as="">M.
+                R.</party> pravno ocijenio kao krivično djelo računarska prevara iz čl.352 st.3 u
+                vezi st.1 Krivičnog zakonika, pa nije povrijeđen Krivični zakonik na štetu
+                optuženih, o čemu ovaj sud takođe pazi po službenoj dužnosti u smislu čl.398 st.1
+                Zakonika o krivičnom postupku. Apelacioni sud je ispitao prvostepenu presudu i u
+                dijelu odluke o kazni, u kom dijelu se prvostepena presuda i osporava žalbama Višeg
+                državnog tužioca i branioca optuženog <party id="mr" refersTo="mr" as="">M. R.</party>,
+                dok je u odnosu na žalbu branioca optužene <party id="mp" refersTo="mp" as="">M. P.</party>
+                primijenio čl.401 Zakonika o krivičnom postupku, kojim je predviđeno da žalba zbog
+                pogrešno ili nepotpuno utvrđenog činjeničnog stanja ili zbog povrede Krivičnog
+                zakonika obuhvata i žalbu zbog odluke o krivičnoj sankciji, pa je našao da su
+                izjavljene žalbe u tom pravcu neosnovane. Naime, po nalaženju ovog suda, prvostepeni
+                sud je pravilno utvrdio i u dovoljnoj mjeri vrednovao sve činjenice, odnosno
+                okolnosti, koje su od uticaja na izbor vrste krivične sankcije i koje su od značaja
+                da kazna u ovoj krivično-pravnoj stvari bude veća ili manja. Nasuprot navodima
+                izjavljenih žalbi, Apelacioni sud nalazi da je prvostepeni sud pravilno cijenio od
+                olakšavajućih okolnosti na strani optužene <party id="mp" refersTo="mp" as="">M. P.</party>
+                da ranije nije osuđivana, dok je od otežavajućih okolnosti na strani optuženog <party
+                    id="mr" refersTo="mr" as="">M. R.</party> pravilno cijenio osuđivanost za
+                navedena krivična djela kao u izreci prvostepene presude, imajući pri tom u vidu
+                težinu učinjenog krivičnog djela i stepen krivice optuženih kao saizvršilaca, te
+                brojnost radnji koje su preduzeli odnosno količinu kriminalne aktivnosti koje su
+                optuženi preduzeli, pa je prvostepeni sud, po nalaženju Apelacionog suda, pravilno
+                postupio kada je optužene <party id="mp" refersTo="mp" as="">M. P.</party> i <party
+                    id="mr" refersTo="mr" as="">M. R.</party> osudio na kazne zatvora od po 2
+                (dvije) godine, u koje kazne im se uračunava vrijeme provedeno u pritvoru od
+                06.12.2006. godine do 07.12.2006. godine, nalazeći da je izrečena kazna zatvora
+                srazmjerna težini krivičnog djela i stepenu krivice optuženih i za očekivati da će
+                se istom postići svrha kažnjavanja iz čl.32 Krivičnog zakonika, a u okviru opšte
+                svrhe izricanja krivičnih sankcija iz čl.4 st.2 Krivičnog zakonika. Prvostepeni sud
+                je u izreci presude naveo da je na ime imovinskopravnog zahtjeva oštećenoj NLB
+                Montenegro banci Podgorica kao pravnom sledbeniku Euromarket banke dosudio iznos od
+                276.743,83€, dok je za iznos mimo dosuđenog oštećenu banku uputio na parnicu, a u
+                obrazloženju presude je naveo da je shodno čl.239 Zakonika o krivičnom postupku
+                oštećenoj banci dosudio imovinskopravni zahtjev u navedenom iznosu, u kojem iznosu
+                su u kritičnom periodu navedenom u izreci presude na osnovu navedenih lažnih naloga
+                izvršene isplate gotovine sa računa ATL, na čije je plaćanje optužene takođe
+                obavezao solidarno, dok je za ostatak do traženog iznosa od 1.940.072€ prvostepeni
+                sud oštećenu banku uputio na parnicu. Naime, po nalaženju Apelacionog suda,
+                prvostepeni sud je pogriješio zato što u izreci presude nije naveo ko je dužan da
+                plati iznos od 276.743,83€, koji iznos je na ime imovinskopravnog zahtjeva dosudio
+                oštećenoj banci, polazeći od osnova odgovornosti za prouzrokovanu štetu drugome,
+                koje predviđaju odredbe Zakona o obligacionim odnosima, odnosno od odredbe čl.213
+                istog zakona kojom je predviđeno da za štetu koju je više lica prouzrokovalo
+                zajedno, svi učesnici odgovaraju solidarno, a pri tom imajući u vidu da je
+                prvostepeni sud nesumnjivo utvrdio da su optuženi <party id="mp" refersTo="mp" as="">M.
+                P.</party> i <party id="mr" refersTo="mr" as="">M. R.</party> kao saizvršioci
+                izvršili krivično djelo koje im se stavlja na teret, a na štetu NLB Montenegro banke
+                Podgorica. Nadalje, članom 374 st.1 tač.7 Zakonika o krivičnom postupku je
+                predviđeno da presuda kojom se optuženi oglašava krivim sadrži i odluku o troškovima
+                krivičnog postupka i imovinskopravnom zahtjevu, dok je članom 389 st.4 Zakonika o
+                krivičnom postupku predviđeno da se odluka o imovinskopravnim zahtjevima može
+                pobijati ako je donesena suprotno zakonu. Međutim, odluka o imovinskopravnom
+                zahtjevu se temelji kao i svaka druga sudska odluka najprije na određenom
+                činjeničnom stanju, na koje se prrimjenjuje zakon, pa se prema tome nedostaci takve
+                odluke mogu nalaziti u pogrešno ili nepotpuno utvrđenom činjeničnom stanju (u odnosu
+                na odlučne činjenice na kojima se ona temelji) kao i u pogrešnoj primjeni zakona na
+                utvrđeno činjenično stanje, a osim toga pri donošenju odluke o imovinskopravnom
+                zahtjevu sud može povrijediti i pojedine procesne odredbe, a da pri tom takve
+                povrede ne zahvataju presudu u cjelosti, odnosno odluku o postojanju krivičnog
+                djela, krivici ili kazni. U praksi se povrede krivičnog postupka u odnosu na odluku
+                o imovinskopravnom zahtjevu najčešće ogledaju u tome što sud ne riješi u cjelosti
+                zahtjev oštećenog, odnosno da o jednom zahtjevu ne donese nikakvu odluku, u tome što
+                je ta odluka nerazumljiva, protivrječna ili nema uopšte razloga. Dakle, a imajući u
+                vidu prethodno navedeno, Apelacioni sud nalazi da je odluka o imovinskopravnom
+                zahtjevu nerazumljiva, sa razloga što prvostepeni sud u izreci presude nije naveo ko
+                je obavezan da nadoknadi štetu u iznosu od 276.743,83€ oštećenoj banci, imajući u
+                vidu prednje utvrđeno činjenično stanje, a pri tom drugostepeni sud može i bez
+                ukidanja prvostepene presude preinačiti odluku o imovinskopravnom zahtjevu. S toga
+                je ovaj sud povodom izjavljenih žalbi, a po službenoj dužnosti, preinačio presudu
+                Višeg suda u Podgorici K.br.72/11 od 24.03.2015. godine i to u dijelu odluke o
+                imovinskopravnom zahtjevu, na način što je optužene <party id="mp" refersTo="mp"
+                    as="">M. P.</party> i <party id="mr" refersTo="mr" as="">M. R.</party> obavezao
+                da oštećenoj NLB Montenegro banci Podgorica, solidarno plate na ime imovinskopravnog
+                zahtjeva iznos od 276.743,83€, dok je za preostali dio mimo dosuđenog oštećenu banku
+                uputio na parnicu. Ovaj sud je cijenio i sve ostale navode iz izjavljenih žalbi, pa
+                je našao da su isti bez uticaja na drugačije presuđenje ili su odgovori na te navode
+                sadržani u razlozima prvostepene presude. Sa iznijetih razloga i razloga prvostepene
+                presude, a na osnovu čl.406 i 409 Zakonika o krivičnom postupku, odlučeno je kao u
+                izreci ove presude. <organization id="ascg" refersTo="#ascg">APELACIONI SUD CRNE
+                GORE</organization> Podgorica, 15.10.2015.godine Zapisničar, PREDSJEDNIK VIJEĆA -
+                SUDIJA, Emina Alibalić,s.r. Zoran Smolović,s.r. </p>
+        </judgementBody>
+        <conclusions>
+        </conclusions>
+    </judgement>
+</akomaNtoso>

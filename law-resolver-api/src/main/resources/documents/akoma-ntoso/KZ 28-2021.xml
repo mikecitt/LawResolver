@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+     Akoma Ntoso Version 1.0. Part 2: Specifications
+     Committee Specification Draft 02 / Public Review Draft 02
+     04 May 2016
+     Copyright (c) OASIS Open 2016. All Rights Reserved.
+     Source: http://docs.oasis-open.org/legaldocml/akn-core/v1.0/csprd02/part2-specs/examples/
+     Latest version of the specification:
+http://docs.oasis-open.org.legaldocml/akn-core/v1.0/akn-core-v1.0-part2-specs.html
+     TC IPR Statement: https://www.oasis-open.org/committees/legaldocml/ipr.php
+-->
+<!--Akoma_Ntoso
+document-->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd
+                        "
+    xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17"
+    xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+    <!-- Level 5 of compliance -->
+    <judgement>
+        <meta>
+            <identification>
+                <FRBRWork>
+                    <FRBRauthor>
+                        APELACIONI SUD CRNE GORE
+                    </FRBRauthor>
+                    <FRBRdate date="2020-12-07">
+                        2020-12-07
+                    </FRBRdate>
+                    <FRBRtitle>
+                        Kž 28/2021
+                    </FRBRtitle>
+                    <FRBRcountry>
+                        CG
+                    </FRBRcountry>
+                </FRBRWork>
+            </identification>
+            <references>
+                <TLCOrganization id="ascg" href="/ontology/organization/cg.ascg"
+                    showAs="APELACIONI SUD CRNE GORE" />
+
+                <TLCPerson id="milenke" href="/ontology/person/judge/cg.milenke"
+                    showAs="Milenke Žižić" />
+
+                <TLCPerson id="rama" href="/ontology/person/judge/cg.rama"
+                    showAs="Rama Strikovića" />
+
+                <TLCPerson id="dragiše" href="/ontology/person/judge/cg.dragiše"
+                    showAs="Dragiše Rakočevića" />
+
+                <TLCPerson id="daliborke" href="/ontology/person/editor/cg.daliborke"
+                    showAs="Daliborke Komšić" />
+
+                <TLCPerson id="iy" href="/ontology/person/cg.iy"
+                    showAs="I.Y." />
+
+                <TLCPerson id="zb" href="/ontology/person/cg.zb"
+                    showAs="Z. B." />
+
+                <TLCRole id="editor" href="/ontology/role/editor" showAs="Editor of Document" />
+                <TLCRole id="judge" href="/ontology/role/judge" showAs="Judge" />
+                <TLCRole id="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+                <TLCRole id="lawyer" href="/ontology/role/lawyer" showAs="Lawyer" />
+            </references>
+        </meta>
+        <judgementBody>
+            <p> Kž.br.28/21 U IME CRNE GORE <organization id="ascg" refersTo="#ascg">APELACIONI SUD
+                CRNE GORE</organization>, u vijeću sastavljenom od sudija <party id="milenke"
+                    refersTo="milenke" as="/judge">Milenke Žižić</party>, kao predsjednika vijeća,
+                Rama Strikovića i <party id="dragiše" refersTo="dragiše" as="/judge">Dragiše
+                Rakočevića</party>, kao članova vijeća, uz učešće samostalnog referenta <party
+                    id="daliborke" refersTo="daliborke" as="/editor">Daliborke Komšić</party>, kao
+                zapisničara, u krivičnom predmetu protiv optuženog <party id="iy" refersTo="iy"
+                    as="">I.Y.</party>, zbog produženog krivičnog djela računarska prevara iz čl.
+                352 st. 3 u vezi st. 1 u vezi čl. 23 i 49 Krivičnog zakonika Crne Gore, rješavajući
+                po žalbi branioca optuženog, advokata Ž.D. iz C., izjavljene na presudu Višeg suda u
+                Podgorici K.br. 54/2020 od 07.12.2020. godine, u sjednici vijeća održanoj dana
+                07.04.2021. godine, u prisustvu optuženog, branioca optuženog i tumača za ruski
+                jezik <party id="zb" refersTo="zb" as="">Z. B.</party>, a nakon tajnog vijećanja i
+                glasanja, donio je P R E S U D U Odbija se kao neosnovana žalba branioca optuženog <party
+                    id="iy" refersTo="iy" as="">I.Y.</party> i p o t v r đ u j e presuda Višeg suda
+                u Podgorici K.br. 54/2020 od 07.12.2020. godine. O b r a z l o ž e nj e Presudom
+                Višeg suda u Podgorici K.br. 54/2020 od 07.12.2020. godine optuženi <party id="iy"
+                    refersTo="iy" as="">I.Y.</party> je oglašen krivim zbog produženog krivičnog
+                djela računarska prevara iz čl. 352 st. 3 u vezi st. 1 u vezi čl. 23 i 49 Krivičnog
+                zakonika Crne Gore i osuđen na kaznu zatvora u trajanju od 2 (dvije) godine i 8
+                (osam) mjeseci, u koju kaznu mu se uračunava vrijeme provedeno u pritvoru počev od
+                16.11.2019.godine od 12,45 časova, pa nadalje dok pritvor bude trajao. Dužan je
+                optuženi da na ime imovinsko-pravnog zahtjeva oštećenoj "N.b." plati novčani iznos
+                od 136.800,00 eura, u roku od 15 dana po pravosnažnosti presude pod prijetnjom
+                prinudne naplate. Istom presudom optuženi je dužan da na ime troškova krivičnog
+                postupka-sudskog paušala, plati sudu iznos od 150,00 eura, te da na ime vještačenja
+                po vještaku digitalne forenzike S.B., plati novčani iznos od 1.573,00 Apelacioni Sud
+                CG Kž 28/2021 07. April 2021 eura i po vještaku iz oblasti ekonomsko-finansijske
+                struke N.N., plati novčani iznos od 264,00 eura, sve u roku od 15 dana po
+                pravosnažnosti presude, pod prijetnjom prinudne naplate, dok će o ostalim troškovima
+                krivičnog postupka sud odlučiti naknadno posebnim rješenjem, po pribavljanju
+                podataka o njihovoj visini. Protiv te presude žalbu je izjavio branilac optuženog <party
+                    id="iy" refersTo="iy" as="">I.Y.</party>, advokat Ž.D., zbog bitnih povreda
+                odredaba krivičnog postupka, pogrešnog i nepotpuno utvrđenog činjeničnog stanja i
+                odluke o kazni, sa predlogom da Apelacioni sud usvoji žalbu branioca optuženog i
+                ukine presudu Višeg suda u Podgorici K.br. 54/2020 od 07.12.2020. godine i predmet
+                vrati prvostepenom sudu na ponovno razmatranje i odlučivanje, ili da preinači
+                pobijanu presudu u dijelu odluke o kazni i optuženom utvrdi blažu kaznu. Vrhovno
+                državno tužilaštvo Crne Gore je u smislu odredbe čl.392 st.5 Zakonika o krivičnom
+                postupku dostavilo akt Ktž.br.31/21 od 16.03.2021.godine, sa predlogom da se odbije
+                žalba branioca optuženog <party id="iy" refersTo="iy" as="">I.Y.</party>, advokata
+                Ž.D. i da se potvrdi presuda Višeg suda u Podgorici K.br. 54/2020 od 07.12.2020.
+                godine. Na sjednici vijeća drugostepenog suda branilac optuženog, advokat Ž. D. je
+                izjavio da ostaje u svemu pri razlozima i predlozima podnesene žalbe, posebno
+                navodeći da se optuženi nalazi u pritvoru godinu i po dana bez kontakta sa porodicom
+                i da je njegova porodica lošeg zdravstvenog stanja, sa kog razloga je mišljenja da
+                su se stekli uslovi da se optuženom ublaži kazna ispod zakonskog minimuma ili pak
+                izrekne minimalna kazna zaprijećena zakonom. Optuženi <party id="iy" refersTo="iy"
+                    as="">I.Y.</party> je izjavio da ostaje u svemu pri razlozima i predlogu žalbe
+                svog branioca i riječima na sjednici vijeća. Po razmatranju prvostepene presude,
+                izjavljene žalbe i svih spisa predmeta, pazeći po službenoj dužnosti na odredbe
+                čl.398 st.1 Zakonika o krivičnom postupku, Apelacioni sud je odlučio kao u izreci
+                ove presude, a sa sljedećih razloga: U postupku donošenja pobijane presude, kao ni u
+                samoj presudi, nijesu učinjene bitne povrede odredaba krivičnog postupka na čije
+                postojanje ovaj sud pazi po službenoj dužnosti, niti pak povrede na koje se
+                neodređeno ukazuje žalbom. Žalbom branioca optuženog se, kada je u pitanju žalbeni
+                osnov bitne povrede odredaba krivičnog postupka, u bitnom navodi da se kod
+                predmetnog krivičnog djela izvršeno u produženom trajanju pojedinačni iznosi ne mogu
+                sabirati, da se radnje saizvršilaštva moraju precizno predstaviti, te da prvostepeni
+                sud nije ocijenio sve provedene dokaze na glavnom pretresu, a što se posebno odnosi
+                na CD snimke i da je nasuprot odbrani optuženog, koja je od pokretanja krivičnog
+                postupka istovjetna, njegovoj odbrani malo vjerovao, a malo ne. Posebno se žalbom
+                navodi da su druga lica, ona koja je naznačio optuženi počinili predmetno krivično
+                djelo, a da je optuženi pomagač istima poslije izvršenog krivičnog djela. Dalje se u
+                žalbi osporava iznos novca koji je bio u bankomatu u P., te da je sud pogrešno
+                obavezao optuženog na isplatu imovinsko - pravnog zahtjeva oštećenoj banci na ukupan
+                iznos, pri činjenici da je nesporno učešće još dva lica u izvršenju krivičnog djela.
+                Posebno se žalbom osporava odluka o kazni koja po odbrani je previsoko odmjerena.
+                Nijesu prihvatljivi navodi žalbe da izreka pobijane presude ne sadrži opis radnje
+                saizvršilaštva i da su iznosi oduzetog novca iz bankomata (tri bankomata u P., T. i
+                B.), sabirani. Ovo iz razloga što je prvostepeni sud pravilno zaključio da radnje
+                optuženog, opisane u izreci pobijane presude sadrže sva obilježja bića krivičnog
+                djela za koje je oglašen krivim i osuđen, jer na takav zaključak upućuju izvedeni
+                dokazi i utvrđene činjenice u postupku. Razloge koje je dao prvostepeni sud u svojoj
+                presudi kako u pogledu postojanja krivičnog djela, tako i u pogledu krivice
+                optuženog za isto, prihvata u svemu i ovaj sud, pa s toga nijesu osnovani žalbeni
+                navodi da su iznosi oduzetog novca sabirani, da njesu opisane radnje saizvršilaštva
+                i da prvostepeni sud nije pravilno cijenio odbranu optuženog. U izreci prvostepene
+                presude opisana su kako objektivna tako i subjektivna obilježja krivičnog djela, za
+                koje je optuženi oglašen krivim, uz to, navedene su i druge činjenice i okolnosti od
+                koje zavisi pravilna primjena Krivičnog zakonika, posebno u pogledu postojanja
+                produženog krivičnog djela, saizvršilaštva u radnji izvršenja pojedinačnih krivičnih
+                djela koje ulaze u sastav produženog krivičnog djela i koje to radnje optuženi
+                preduzeo. Bez osnova su navodi žalbe da prvostepeni sud nije pravilno cijenio
+                odbranu optuženog jer istoj, kako se u žalbi navodi malo vjeruje, a malo ne vjeruje,
+                jer sud u jednom dijelu može prihvatiti odbranu, a u drugom dijelu istu ocijeniti
+                neprihvatljivom, navodeći jasne razloge zašto dio odbrane prihvata, a drugi dio ne.
+                U konkretnom slučaju, optuženi nije sporio da je zajedno sa druga dva lica kod
+                izvršenja pojedinačnih radnji predmetnog krivičnog djela bio prisutan, uz tvrdnju da
+                je njegova obaveza bila samo da vozi i da vodi računa da neko ne naiđe, koji dio
+                odbrane optuženog je prvostepeni sud prihvatio ali s pravom ne i drugi, u kojem
+                optuženi spori svoje učešće u radnji intervencije na bankomatima i oduzimanje iz
+                istih novca. Ovo sa razloga, jer je prvostepeni sud provedenim dokazima utvrdio, a
+                posebno DNK analizom biološkog materijala izuzetog prilikom vršenja uviđaja na
+                bankomatu u T. i B., da je upravo optuženi jedan od donora biološkog materijala, sa
+                ekstremno jakom podrškom toj hipotezi, na komadima selotejp trake pronađene na tim
+                bankomatima, a iz kojih dokaza je izveo pravilan zaključak da je optuženi učestvovao
+                sa drugim licima u intervenciji - mehaničkom oštećenju bankomata radi nesmetanog
+                pristupa računarskom sistemu bankomata. Pri prethodno navedenim činjenicama, bez
+                osnova su navodi žalbe da je optuženi u izvršenju predmetnog krivičnog djela, svakoj
+                pojedinačnoj radnji, bio samo jedna vrsta pomagača, a da su druga dva lica koja je
+                imenovao optuženi izvršioci krivičnog djela, jer i samo preduzete radnje optužeog,
+                koje u odbrani opisuje kao njegovu ulogu da vozi druga dva lica i da vodi računa da
+                neko ne naiđe su radnje saizvršilaštva u smislu člana 23 st. 2 Krivičnog zakonika
+                Crne Gore, a pri tome kako je to nesporno utvrdio prvostepeni sud optuženi je
+                preduzimao radnje na intervenciji na bankomatima u B. i T.. Takođe se neosnovano
+                žalbom ukazuje da je prvostepeni sud pogrešno utvrdio iznos novca u bankomatu u P. i
+                neosnovano samo optuženog obavezao na isplatu imovinsko - pravnog zahtjeva oštećenoj
+                "N.b.", jer je prvostepeni sud iznose novca u bankomatima, te iznose otuđenog novca
+                iz bankomata od strane optuženog i drugih lica, pravilno utvrdio po osnovu nalaza
+                vještaka finansijske struke. Kako je optuženi izvršilac, odnosno sa još dva lica
+                saizvršilac predmetnog krivičnog djela to ga je prvostepeni sud pravilno obavezao na
+                isplatu imovinsko - pravnog zahtjeva oštećenoj "N.b.". Neosnovano se žalbom branioca
+                optuženog i potencira da prvostepeni sud nije cijenio sve dokaze provedene na
+                pretresu, posebno CD snimke, jer iz tih snimaka, a kako je to konstatovano na
+                zapisniku o glavnom pretresu pred prvostepenim sudom, na intervenciju branioca
+                optuženog, jasno se ne mogu prepoznati lica koja preduzimaju određene radnje na
+                bankomatu, a prvostepeni sud se u presudi izjasnio da je cijenio i ostale dokaze pa
+                je našao da su bez uticaja na drugačije presuđenje, što je i po ocjeni ovog suda
+                dovoljno obrazloženje za dokaze koji su bez uticaja na utvrđeno činjenično stanje i
+                presuđenje, a i iz kojih se ne mogu utvrditi bilo koje činjenice. Sa prethodno
+                navedenih razloga, po nalaženju ovog suda, prvostepeni sud je nakon svestrane ocjene
+                odbrane optuženog i svih provedenih dokaza, van svake razumne sumnje utvrdio da je
+                optuženi izvršio radnje iz izreke pobijane presude, te da je pri tom postupao sa
+                umišljajem i na tako utvrđeno činjenično stanje pravilno primjenio Krivični zakonik,
+                jer se u radnjama optuženog stiču svi bitni elementi bića krivičnog djela iz čl. 352
+                st. 3 u vezi st. 1 u vezi čl. 23 i 49 Krivičnog zakonika Crne Gore, za koje je
+                oglašen krivim, sa kog razloga se neosnovano podnijetom žalbom tvrdi da je
+                prvostepeni sud u postupku i u presudi počinio bitne povrede odredaba krivičnog
+                postupka i pogrešno i nepotpuno utvrdio činjenično stanje. Ovaj sud je ispitao
+                pobijanu presudu i u dijelu odluke o kazni, pa je našao da je žalba u tom pravcu
+                neosnovana. Naime, prvostepeni sud je pri odmjeravanju kazne optuženom pravilno
+                utvrdio sve okolnosti u smislu čl. 42 Krivičnog zakonika Crne Gore, koje utiču da
+                kazna bude veća ili manja (olakšavajuće i otežavajuće okolnosti) i iste pravilno
+                cijenio. I po nalaženju ovog suda, odmjerena kazna zatvora optuženom je srazmerna
+                stepenu njeghove krivice i težini počinjenog krivičnog djela i predstavlja onu kaznu
+                koja je nužno potrebna da bi se ostvarila svrha kažnjavanja iz čl. 32 Krivičnog
+                zakonika Crne Gore, a u okviru opšte svrhe izricanja krivičnih sankcija iz čl. 4 st.
+                2 Krivičnog zakonika Crne Gore. Navodi žalbe i isticanje branioca optuženog na
+                sjednici vijeća ovog suda da olakašavajuće okolnosti koje je utvrdio prvostepeni sud
+                kao i loše zdravstveno stanje porodice optuženog i dužina trajanja pritvora, po
+                nalaženju ovog suda, ne daju osnova za ublažavanje izrečene kazne po pobijanoj
+                presudi na način kako to odbrana predlaže. Sa iznijetih razloga, a na osnovu čl.406
+                Zakonika o krivičnom postupku, odlučeno je kao u izreci ove presude. <organization
+                    id="ascg" refersTo="#ascg">APELACIONI SUD CRNE GORE</organization> Podgorica,
+                07.04.2021.godine Zapisničar, PREDSJEDNIK VIJEĆA - SUDIJA, Daliborka Komšić,s.r.
+                Milenka Žižić,s.r. </p>
+        </judgementBody>
+        <conclusions>
+        </conclusions>
+    </judgement>
+</akomaNtoso>

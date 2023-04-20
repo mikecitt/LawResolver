@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+     Akoma Ntoso Version 1.0. Part 2: Specifications
+     Committee Specification Draft 02 / Public Review Draft 02
+     04 May 2016
+     Copyright (c) OASIS Open 2016. All Rights Reserved.
+     Source: http://docs.oasis-open.org/legaldocml/akn-core/v1.0/csprd02/part2-specs/examples/
+     Latest version of the specification:
+http://docs.oasis-open.org.legaldocml/akn-core/v1.0/akn-core-v1.0-part2-specs.html
+     TC IPR Statement: https://www.oasis-open.org/committees/legaldocml/ipr.php
+-->
+<!--Akoma_Ntoso
+document-->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd
+                        "
+    xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17"
+    xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+    <!-- Level 5 of compliance -->
+    <act contains="originalVersion" name="publicLaw">
+        <meta>
+            <identification source="#palmirani">
+                <FRBRWork>
+                    <FRBRthis value="/cg/act/2017-07-06/044-17/!main" />
+                    <FRBRuri value="/cg/act/2017-07-06/044-17" />
+                    <FRBRdate date="2011-11-29" name="Generation" />
+                    <FRBRauthor href="#slist" as="#author" />
+                    <FRBRcountry value="cg" />
+                    <FRBRnumber value="044-17" />
+                    <FRBRname value="publicLaw" />
+                    <FRBRprescriptive value="true" />
+                    <FRBRauthoritative value="true" />
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/cg/act/2017-07-06/044-17/cg@/!main" />
+                    <FRBRuri value="/cg/act/2017-07-06/044-17/cg@" />
+                    <FRBRdate date="2012-05-09" name="Generation" />
+                    <FRBRauthor href="#palmirani" as="#editor" />
+                    <FRBRlanguage language="eng" />
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/cg/act/2017-07-06/044-17/cg@/!main.xml" />
+                    <FRBRuri value="/cg/act/2017-07-06/044-17/cg@.akn" />
+                    <FRBRdate date="2017-07-06" name="Generation" />
+                    <FRBRauthor href="#palmirani" as="#editor" />
+                    <preservation>
+                        <mods:physicalDescription xmlns:exslt="http://exslt.org/common">
+                            <mods:note type="source content type">deposited</mods:note>
+                            <mods:digitalOrigin>born digital</mods:digitalOrigin>
+                            <mods:extent>3 p.</mods:extent>
+                        </mods:physicalDescription>
+                    </preservation>
+                    <FRBRformat value="xml" />
+                </FRBRManifestation>
+            </identification>
+            <publication date="2003-12-25" name="PublicationDate" showAs="Publication Date"
+                number="070/03" />
+            <classification source="#palmirani">
+                <keyword value="criminalLaw" showAs="KRIVIČNI ZAKONIK CRNE GORE" dictionary="CG" />
+            </classification>
+            <lifecycle source="#palmirani">
+                <eventRef date="2003-12-25" id="e1" source="#ro1" type="generation" />
+                <eventRef date="2004-02-26" id="e2" source="#ro1" type="amendment" />
+            </lifecycle>
+            <references source="#palmirani">
+                <original id="ro1" href="/cg/act/2017-07-06/cg@/main" showAs="Original" />
+                <!-- new relationships -->
+                <activeRef eId="ra1" href="/cg/act/2015-03-26/11/!main"
+                    showAs="Zakon o izmjeni i dopuni Krivičnog zakonika Crne Gore" />
+                <activeRef eId="ra2" href="/cg/act/2015-07-29/12/!main"
+                    showAs="Zakon o izmjeni Krivičnog zakonika Crne Gore" />
+                <activeRef eId="ra3" href="/cg/act/2015-10-09/13/!main"
+                    showAs="Zakon o oduzimanju imovinske koristi stečene kriminalnom djelatnošću" />
+                <activeRef eId="ra4" href="/cg/act/2017-07-06/14/!main"
+                    showAs="Zakon o izmjenama i dopunama Krivičnog zakonika Crne Gore" />
+                <activeRef eId="ra5" href="/cg/act/2010-12-10/6/!main"
+                    showAs="Zakon o izmjenama Zakona i drugih propisa zbog ustavne promjene u nazivu države" />
+                <activeRef eId="ra6" href="/cg/act/2011-12-29/8/!main"
+                    showAs="Zakon o postupanju prema maloljetnicima u krivičnom postupku" />
+                <TLCPerson id="palmirani" href="/ontology/person/ak/palmirani" showAs="palmirani" />
+                <TLCOrganization id="slist" href="/ontology/organization/ak/cg.parliament"
+                    showAs="Službeni list Republike Crne Gore" />
+                <TLCConcept href="/ontology/concept/ActTitle" id="TheActTitle" showAs="Act Title" />
+                <TLCConcept href="/ontology/concept/ActLongTitle" id="TheActLongTitle"
+                    showAs="Act Long Title" />
+                <TLCConcept href="/ontology/concept/AssentDate" id="AssentDate" showAs="Assent" />
+                <TLCConcept href="/ontology/concept/CommencementDate" id="CommencementDate"
+                    showAs="Commencement" />
+                <TLCConcept href="/ontology/concept/ActNumber" id="TheActNumber" showAs="Act Number" />
+                <TLCConcept href="/ontology/concept/ActIdentifier" id="TheActIdentifier"
+                    showAs="Act Id" />
+            </references>
+        </meta>
+        <preface>
+            <block name="preface">
+                <docTitle id="ActTitle" refersTo="#TheActTitle">KRIVIČNI ZAKONIK CRNE GORE</docTitle>
+                <docDate date="2017-07-06" refersTo="#CommencementDate">06.07.2017.</docDate>
+                <docNumber id="ActNumber" />
+                <docNumber id="ActIdentifier" />
+            </block>
+        </preface>
+        <preamble>
+            <citations id="cit" name="lawCitations">
+                "Službeni list Republike Crne Gore", br. 070/03 od 25.12.2003, 013/04 od 26.02.2004,
+                047/06 od
+                25.07.2006, Službeni list Crne Gore", br. 040/08 od 27.06.2008, 025/10 od
+                05.05.2010, 073/10 od
+                10.12.2010, 032/11 od 01.07.2011, 064/11 od 29.12.2011, 040/13 od 13.08.2013, 056/13
+                od 06.12.2013,
+                014/15 od 26.03.2015, 042/15 od 29.07.2015, 058/15 od 09.10.2015, 044/17 od
+                06.07.2017
+            </citations>
+        </preamble>
+        <body>
+            <chapter id="chp28">
+                <num title="DVADESET OSMA">GLAVA DVADESET OSMA</num>
+                <heading>KRIVIČNA DJELA PROTIV BEZBJEDNOSTI RAČUNARSKIH PODATAKA</heading>
+                <section id="sct349">
+                    <num title="349">349</num>
+                    <heading>Oštećenje računarskih podataka i programa</heading>
+                    <paragraph id="sct349-par001">
+                        <num title="1">(1)</num>
+                        <content>
+                            <p>
+                                Ko neovlašćeno izbriše, izmijeni, ošteti, prikrije ili na drugi
+                                način
+                                učini neupotrebljivim računarski podatak ili
+                                program,
+                                kazniće se novčanom kaznom ili zatvorom do jedne godine.
+                            </p>
+                        </content>
+                    </paragraph>
+                    <paragraph id="sct349-par002">
+                        <num title="2">(2)</num>
+                        <content>
+                            <p>
+                                Ako je djelom iz stava 1 ovog člana prouzrokovana šteta u iznosu
+                                koji prelazi tri hiljade eura,
+                                učinilac će se kazniti zatvorom od tri mjeseca do tri godine.
+                            </p>
+                        </content>
+                    </paragraph>
+                    <paragraph id="sct349-par003">
+                        <num title="3">(3)</num>
+                        <content>
+                            <p>
+                                Ako je djelom iz stava 1 ovog člana prouzrokovana šteta u iznosu
+                                koji prelazi trideset hiljada eura,
+                                učinilac će se kazniti zatvorom od tri mjeseca do pet godina.
+                            </p>
+                        </content>
+                    </paragraph>
+                    <paragraph id="sct349-par004">
+                        <num title="4">(4)</num>
+                        <content>
+                            <p>
+                                Uređaji i sredstva kojima je učinjeno krivično djelo iz st. 1, 2 i 3
+                                ovog člana, ako su u svojini učinioca, oduzeće se.
+                            </p>
+                        </content>
+                    </paragraph>
+                </section>
+                <section id="sct350">
+                    <num title="350">350</num>
+                    <heading>Ometanje računarskog sistema</heading>
+                    <paragraph id="sct350-par001">
+                        <num title="1">(1)</num>
+                        <content>
+                            <p>
+                                Ko unese, uništi, izbriše, izmijeni, ošteti, prikrije ili na drugi
+                                način učini neupotrebljivim računarski podatak ili
+                                računarski sistem u namjeri da omete rad računarskog sistema,
+                                kazniće se novčanom kaznom ili zatvorom do tri godine.
+                            </p>
+                        </content>
+                    </paragraph>
+                    <paragraph id="sct350-par002">
+                        <num title="2">(2)</num>
+                        <content>
+                            <p>
+                                Ako je djelo iz stava 1 ovog člana učinjeno u odnosu na podatke i
+                                programe koji su od značaja za državne organe,
+                                javne službe, ustanove, privredna društva ili druge subjekte,
+                                kazniće se zatvorom od jedne do osam godina.
+                            </p>
+                        </content>
+                    </paragraph>
+                    <paragraph id="sct350-par003">
+                        <num title="3">(3)</num>
+                        <content>
+                            <p>
+                                Uređaji i sredstva kojima je učinjeno krivično djelo iz st. 1 i 2
+                                ovog člana, ako su u svojini učinioca, oduzeće se.
+                            </p>
+                        </content>
+                    </paragraph>
+                </section>
+                <section id="sct351">
+                    <num title="351">351</num>
+                    <heading>Pravljenje i unošenje računarskih virusa</heading>
+                    <paragraph id="sct351-par001">
+                        <num title="1">(1)</num>
+                        <content>
+                            <p>
+                                Ko napravi računarski virus u namjeri njegovog unošenja u tuđ
+                                računarski sistem,
+                                kazniće se novčanom kaznom ili zatvorom do jedne godine.
+                            </p>
+                        </content>
+                    </paragraph>
+                    <paragraph id="sct351-par002">
+                        <num title="2">(2)</num>
+                        <content>
+                            <p>
+                                Ako je učinilac unio računarski virus u tuđ računarski sistem i time
+                                prouzrokovao štetu,
+                                kazniće se novčanom kaznom ili zatvorom do dvije godine.
+                            </p>
+                        </content>
+                    </paragraph>
+                    <paragraph id="sct351-par003">
+                        <num title="3">(3)</num>
+                        <content>
+                            <p>
+                                Uređaj i sredstva kojima je učinjeno krivično djelo iz st. 1 i 2
+                                ovog člana oduzeće se.
+                            </p>
+                        </content>
+                    </paragraph>
+                </section>
+                <section id="sct352">
+                    <num title="352">352</num>
+                    <heading>Računarska prevara</heading>
+                    <paragraph id="sct352-par001">
+                        <num title="1">(1)</num>
+                        <content>
+                            <p>
+                                Ko unese, izmijeni, izbriše, propusti unošenje tačnog podatka ili na
+                                drugi način prikrije ili lažno prikaže
+                                računarski podatak ili izvrši bilo kakvo ometanje rada računarskog
+                                sistema i time utiče na rezultat elektronske
+                                obrade, prenosa podataka i funkcionisanja računarskog sistema u
+                                namjeri da sebi ili drugom pribavi protivpravnu
+                                imovinsku korist i time drugom prouzrokuje imovinsku štetu,
+                                kazniće se zatvorom od šest mjeseci do pet godina.
+                            </p>
+                        </content>
+                    </paragraph>
+                    <paragraph id="sct352-par002">
+                        <num title="2">(2)</num>
+                        <content>
+                            <p>
+                                Ako je djelom iz stava 1 ovog člana pribavljena imovinska korist
+                                koja prelazi iznos od tri hiljade eura,
+                                učinilac će se kazniti zatvorom od dvije do deset godina.
+                            </p>
+                        </content>
+                    </paragraph>
+                    <paragraph id="sct352-par003">
+                        <num title="3">(3)</num>
+                        <content>
+                            <p>
+                                Ako je djelom iz stava 1 ovog člana pribavljena imovinska korist
+                                koja prelazi iznos od trideset hiljade eura,
+                                učinilac će se kazniti zatvorom od dvije do dvanaest godina.
+                            </p>
+                        </content>
+                    </paragraph>
+                    <paragraph id="sct352-par004">
+                        <num title="4">(4)</num>
+                        <content>
+                            <p>
+                                Ko djelo iz stava 1 ovog člana učini samo u namjeri da drugog
+                                ošteti,
+                                kazniće se novčanom kaznom ili zatvorom do dvije godine.
+                            </p>
+                        </content>
+                    </paragraph>
+                </section>
+                <section id="sct353">
+                    <num title="353">353</num>
+                    <heading>Neovlašćeni pristup računarskom sistemu</heading>
+                    <paragraph id="sct353-par001">
+                        <num title="1">(1)</num>
+                        <content>
+                            <p>
+                                Ko neovlašćeno pristupi računarskom sistemu kao cjelini ili nekom
+                                njegovom dijelu,
+                                kazniće se novčanom kaznom ili zatvorom do jedne godine.
+                            </p>
+                        </content>
+                    </paragraph>
+                    <paragraph id="sct353-par002">
+                        <num title="2">(2)</num>
+                        <content>
+                            <p>
+                                Ako je učinilac djelo iz stava 1 ovog člana izvršio kršeći mjere
+                                zaštite računarskog sistema ili neovlašćeno
+                                pristupi računarskom sistemu koji je od značaja za državne organe,
+                                organe lokalne samouprave i ustanove kojima
+                                je povjereno vršenje javnih ovlašćenja,
+                                kazniće se novčanom kaznom ili zatvorom do tri godine.
+                            </p>
+                        </content>
+                    </paragraph>
+                    <paragraph id="sct353-par003">
+                        <num title="3">(3)</num>
+                        <content>
+                            <p>
+                                Kaznom iz stava 2 ovog člana kazniće se i ko izvrši neovlašćeno
+                                presrijetanje računarskih podataka, bez obzira na
+                                način njihovog prenosa, koji nijesu javne prirode, ka računarskom
+                                sistemu, od njega ili unutar samog sistema,
+                                uključujući i elektromagnetnu emisiju.
+                            </p>
+                        </content>
+                    </paragraph>
+                    <paragraph id="sct353-par004">
+                        <num title="4">(4)</num>
+                        <content>
+                            <p>
+                                Ko upotrijebi podatak dobijen na način predviđen iz st. 1, 2 i 3
+                                ovog člana,
+                                kazniće se novčanom kaznom ili zatvorom do tri godine.
+                            </p>
+                        </content>
+                    </paragraph>
+                    <paragraph id="sct353-par005">
+                        <num title="5">(5)</num>
+                        <content>
+                            <p>
+                                Ako su usljed djela iz stava 4 ovog člana nastupile teške posljedice
+                                za drugog, učinilac će se kazniti zatvorom od
+                                šest mjeseci do pet godina.
+                            </p>
+                        </content>
+                    </paragraph>
+                </section>
+                <section id="sct354">
+                    <num title="354">354</num>
+                    <heading>Zloupotreba uređaja i programa</heading>
+                    <paragraph id="sct354-par001">
+                        <num title="1">(1)</num>
+                        <content>
+                            <blockList id="sct354-par001-list1">
+                                <listIntroduction>
+                                    Ko proizvodi, prodaje, nabavlja radi upotrebe,
+                                    uvozi, distribuira i na drugi način stavlja na raspolaganje:
+                                </listIntroduction>
+                                <item id="sct354-par001-subpar001">
+                                    <num title="1">(1)</num>
+                                    <p> uređaje i računarske programe projektovane ili prilagođene
+                                        prvenstveno u svrhe izvršenja nekog od djela iz
+                                        čl. 349 do 353 ovog zakonika,
+                                    </p>
+                                </item>
+                                <item id="sct354-par001-subpar002">
+                                    <num title="2">(2)</num>
+                                    <p> računarske šifre ili slične podatke putem kojih se može
+                                        pristupiti računarskom sistemu kao cjelini ili nekom
+                                        njegovom dijelu sa namjerom da bude upotrijebljen u svrhu
+                                        izvršenja nekog od djela iz čl. 349 do 353 ovog
+                                        zakonika,
+                                    </p>
+                                </item>
+                            </blockList>
+                            <listWrapUp>
+                                kazniće se zatvorom od tri mjeseca do tri godine.
+                            </listWrapUp>
+                        </content>
+                    </paragraph>
+                    <paragraph id="sct354-par002">
+                        <num title="2">(2)</num>
+                        <content>
+                            <p>
+                                Ko posjeduje neka od sredstava iz stava 1 ovog člana, u namjeri da
+                                ih upotrijebi u svrhu izvršenja nekog od djela
+                                iz čl. 349 do 353,
+                                kazniće se novčanom kaznom ili zatvorom do jedne godine.
+                            </p>
+                        </content>
+                    </paragraph>
+                </section>
+            </chapter>
+        </body>
+    </act>
+</akomaNtoso>

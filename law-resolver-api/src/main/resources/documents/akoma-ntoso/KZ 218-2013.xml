@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+     Akoma Ntoso Version 1.0. Part 2: Specifications
+     Committee Specification Draft 02 / Public Review Draft 02
+     04 May 2016
+     Copyright (c) OASIS Open 2016. All Rights Reserved.
+     Source: http://docs.oasis-open.org/legaldocml/akn-core/v1.0/csprd02/part2-specs/examples/
+     Latest version of the specification:
+http://docs.oasis-open.org.legaldocml/akn-core/v1.0/akn-core-v1.0-part2-specs.html
+     TC IPR Statement: https://www.oasis-open.org/committees/legaldocml/ipr.php
+-->
+<!--Akoma_Ntoso
+document-->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd
+                        "
+    xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17"
+    xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+    <!-- Level 5 of compliance -->
+    <judgement>
+        <meta>
+            <identification>
+                <FRBRWork>
+                    <FRBRauthor>
+                        VIŠI SUD U PODGORICI
+                    </FRBRauthor>
+                    <FRBRdate date="2012-10-23">
+                        2012-10-23
+                    </FRBRdate>
+                    <FRBRtitle>
+                        Kž 218/2013
+                    </FRBRtitle>
+                    <FRBRcountry>
+                        CG
+                    </FRBRcountry>
+                </FRBRWork>
+            </identification>
+            <references>
+                <TLCOrganization id="vsup" href="/ontology/organization/cg.vsup"
+                    showAs="VIŠI SUD U PODGORICI" />
+
+                <TLCPerson id="miljane" href="/ontology/person/judge/cg.miljane"
+                    showAs="Miljane Pavlićević" />
+
+                <TLCPerson id="branke" href="/ontology/person/judge/cg.branke"
+                    showAs="Branke Bošković" />
+
+                <TLCPerson id="hasnije" href="/ontology/person/judge/cg.hasnije"
+                    showAs="Hasnije Simonović" />
+
+                <TLCPerson id="orović" href="/ontology/person/editor/cg.orović"
+                    showAs="Orović Ivane" />
+
+                <TLCPerson id="pi" href="/ontology/person/cg.pi"
+                    showAs="P. I." />
+
+                <TLCRole id="editor" href="/ontology/role/editor" showAs="Editor of Document" />
+                <TLCRole id="judge" href="/ontology/role/judge" showAs="Judge" />
+                <TLCRole id="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+                <TLCRole id="lawyer" href="/ontology/role/lawyer" showAs="Lawyer" />
+            </references>
+        </meta>
+        <judgementBody>
+            <p> Kž.br. 218/2013 U IME CRNE GORE <organization id="vsup" refersTo="#vsup">VIŠI SUD U
+                PODGORICI</organization>, kao drugostepeni krivični, u vijeću sastavljenom od sudija <party
+                    id="miljane" refersTo="miljane" as="/judge">Miljane Pavlićević</party>, kao
+                predsjednika vijeća, <party id="branke" refersTo="branke" as="/judge">Branke
+                Bošković</party> i <party id="hasnije" refersTo="hasnije" as="/judge">Hasnije
+                Simonović</party>, kao članova vijeća, uz učešće <party id="orović"
+                    refersTo="orović" as="/editor">Orović Ivane</party>, kao zapisničara, u
+                krivičnom predmetu protiv okrivljenog <party id="pi" refersTo="pi" as="">P. I.</party>,
+                zbog krivičnog djela računarska prevara iz čl. 352 st. 1 KZ, odlučujući po žalbi
+                Osnovnog državnog tužilaštva u Podgorici, protiv presude Osnovnog suda u Podgorici,
+                K.br. 845/2012 od 23.10.2012. godine, kao i odgovoru na tu žalbu koji je podnio
+                okrivljeni, u sjednici vijeća održanoj dana 14.02.2013. godine, donio je P R E S U D
+                U ODBIJA SE kao neosnovana žalba Osnovnog državnog tužilaštva u Podgorici, pa se
+                POTVRĐUJE presuda Osnovnog suda u Podgorici, K.br. 845/2012 od 23.10.2012. godine. O
+                b r a z l o ž e n j e Pobijanom presudom okrivljeni <party id="pi" refersTo="pi"
+                    as="">P. I.</party> oglašen je krivim zbog krivičnog djela računarska prevara iz
+                čl. 352 st. 1 KZ, činjenično bliže opisanog u izreci iste, za čije izvršenje mu je
+                izrečena uslovna osuda, tako što mu je utvrđena kazna zatvora u trajanju od 6
+                mjeseci i istovremeno određeno da se ta kazna neće izvršiti ukoliko okrivljeni u
+                roku od 2 godine po pravosnažnosti presude ne učini novo krivično djelo. Istom
+                presudom okrivljeni je obavezan da sudu naknadi troškove krivičnog postupka. Protiv
+                te presude žalbu je blagovremeno izjavilo Osnovno državno tužilaštvo u Podgorici, a
+                istu pobija zbog odluke o krivičnoj sankciji, s predlogom da se pobijana presuda
+                preinači, na način što bi se okrivljeni za izvršenje predmetnog krivičnog djela
+                osudio na adekvatnu kaznu zatvora. Svojim blagovremeno podnijetim odgovorom na žalbu
+                ODT, okrivljeni Pavlović Igor je predložio da se pobijana presuda potvrdi. Više
+                državno tužilaštvo u Podgorici, u svom izjašnjenju Ktž.br. 205/2013 od 13.02.2013.
+                godine, predložilo je da se uvaži žalba ODT u Podgorici. Viši sud je u sjednici
+                vijeća, o kojoj stranke nijesu obavještavane, u smislu čl. 460 st. 1 ZKP, razmotrio
+                cjelokupne spise predmeta, ispitao pobijanu presudu i ocijenio navode žalbe i
+                odgovora na žalbu, pa je našao: - da je žalba neosnovana. U toku donošenja pobijane
+                presude i u samoj presudi nijesu počinjene bitne povrede odredaba krivičnog
+                postupka, niti povrede Krivičnog zakonika, na čije postojanje drugostepeni sud pazi
+                po službenoj dužnosti u smislu čl. 398 st. 1 ZKP. Uostalom, na postojanje istih se
+                ne ukazuje ni izjavljenim pravnim lijekom. Ispitujući prvostepenu presudu u dijelu
+                odluke o krivičnoj sankciji, po mišljenju ovog suda, prvostepeni sud je saglasno
+                odredbi čl. 42 KZ pravilno i potpuno utvrdio sve okolnosti koje su od uticaja na
+                izbor krivične Viši Sud u Podgorici Kž 218/2013 14. Februar 2013 sankcije i njenu
+                visinu, pa je u odsustvu otežavajućih ispravno vrednovao značaj i prirodu više
+                olakšavajućih okolnosti na strani okrivljenog P., te je kaznu zatvora odmjerio u
+                trajanju predviđenom posebnim minimumom kazne kojom je zaprijećeno izvršenje
+                predmetnog krivičnog djela. Ocjenjujući da su u konkretnom ispunjeni uslovi iz čl.
+                54 KZ, sud prvog stepena je izvršenje utvrđene kazne zatvora pravilno uslovio
+                budućim ponašanjem okrivljenog u periodu od 2 godine po pravosnažnosti presude, pri
+                tom dajući valjane razloge u smislu čl. 379 st. 8 ZKP. Navedena krivična sankcija -
+                mjera upozorenja, je i po ocjeni ovog suda, primjerena izvršenom krivičnom djelu i
+                okrivljenom kao izvršiocu, te kao takva predstavlja onu mjeru sa kojom će se u svemu
+                postići cilj i svrha izricanja uslovne osude predviđena čl. 52 st. 2 KZ, a u okviru
+                opšte svrhe krivičnih sankcija iz čl. 4 st. 2 KZ. Sledstveno tome, žalbom ODT u
+                Podgorici se bez osnova predlaže izricanje strožije krivične sankcije po vrsti.
+                Činjenica da je P. u različitim fazama postupka mijenjao pojedine navode svoje
+                odbrane ne može se, saglasno čl. 42 st. 1 KZ, cijeniti kao otežavajuća okolnost,
+                imajući u vidu da je pravilima krivičnog postupka omogućeno ostvarenje prava koje je
+                okrivljenom zagarantovano i ustavnim normama - da slobodno izabere način na koji će
+                iznijeti svoje stavove i suprotstaviti ih tvrdnjama tužioca, bez bojazni od
+                negativnih posljedica u slučaju negiranja istih. Navodi odbrane okrivljenog u smislu
+                odredbe čl. 42 st. 1 KZ predstavljaju okolnost koja utiče na odmjeravanje kazne
+                jedino u slučaju priznanja svih tačaka optužbe (što, sa svoje strane, takođe ne
+                dolazi u obzir ukoliko je dokazna građa prikupljena prije priznanja učinioca i
+                nesumnjivo potkrjepljuje činjenične navode optužbe), u kom slučaju se smatra
+                olakšavajućom. Žalbom se neutemeljeno navodi da su okolnosti koje je sud prvog
+                stepena cijenio "svojstvene svim licima tog uzrasta", obzirom da je žalilac u
+                dosadašnjem radu sigurno imao priliku da se uvjeri u notornu suprotnost citiranog.
+                Konačno, u krivično-pravnom smislu ne postoje okolnosti koje "spadaju u kategoriju
+                opšteg karaktera", kakvom žalilac ocjenjuje mladost okrivljenog u vrijeme
+                preduzimanja inkriminisane radnje, imajući u vidu da se mjerodavne okolnosti koje se
+                odnose na ličnost učinioca vrednuju u svakom konkretnom slučaju, te bi uopštavanje
+                određenih rezultiralo njihovim obezvrjeđivanjem, u čemu se zakonodavne intencije
+                svakako ne ogledaju. Sa izloženog, a primjenom čl. 406 ZKP, odlučeno je kao u
+                izreci. Zapisničar, Predsjednik vijeća - sudija, Orović Ivana,s.r. Miljana
+                Pavlićević,s.r. Odjeljenje sudske prakse sudija ____________________ </p>
+        </judgementBody>
+        <conclusions>
+        </conclusions>
+    </judgement>
+</akomaNtoso>

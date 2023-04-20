@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+     Akoma Ntoso Version 1.0. Part 2: Specifications
+     Committee Specification Draft 02 / Public Review Draft 02
+     04 May 2016
+     Copyright (c) OASIS Open 2016. All Rights Reserved.
+     Source: http://docs.oasis-open.org/legaldocml/akn-core/v1.0/csprd02/part2-specs/examples/
+     Latest version of the specification:
+http://docs.oasis-open.org.legaldocml/akn-core/v1.0/akn-core-v1.0-part2-specs.html
+     TC IPR Statement: https://www.oasis-open.org/committees/legaldocml/ipr.php
+-->
+<!--Akoma_Ntoso
+document-->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd
+                        "
+    xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17"
+    xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+    <!-- Level 5 of compliance -->
+    <judgement>
+        <meta>
+            <identification>
+                <FRBRWork>
+                    <FRBRauthor>
+                        APELACIONI SUD CRNE GORE
+                    </FRBRauthor>
+                    <FRBRdate date="2015-07-16">
+                        2015-07-16
+                    </FRBRdate>
+                    <FRBRtitle>
+                        Kž 37/2016
+                    </FRBRtitle>
+                    <FRBRcountry>
+                        CG
+                    </FRBRcountry>
+                </FRBRWork>
+            </identification>
+            <references>
+                <TLCOrganization id="ascg" href="/ontology/organization/cg.ascg"
+                    showAs="APELACIONI SUD CRNE GORE" />
+
+                <TLCPerson id="zorana" href="/ontology/person/judge/cg.zorana"
+                    showAs="Zorana Smolovića" />
+
+                <TLCPerson id="rama" href="/ontology/person/judge/cg.rama"
+                    showAs="Rama Strikovića" />
+
+                <TLCPerson id="dragiše" href="/ontology/person/judge/cg.dragiše"
+                    showAs="Dragiše Rakočevića" />
+
+                <TLCPerson id="milice" href="/ontology/person/editor/cg.milice"
+                    showAs="Milice Rašović" />
+
+                <TLCPerson id="bp" href="/ontology/person/cg.bp"
+                    showAs="B.P." />
+
+                <TLCPerson id="sm" href="/ontology/person/cg.sm"
+                    showAs="S.M." />
+
+                <TLCPerson id="nm" href="/ontology/person/cg.nm"
+                    showAs="N.M." />
+
+                <TLCPerson id="rv" href="/ontology/person/cg.rv"
+                    showAs="R.V." />
+
+                <TLCPerson id="dm" href="/ontology/person/cg.dm"
+                    showAs="D.M." />
+
+                <TLCPerson id="nm" href="/ontology/person/cg.nm"
+                    showAs="N. M." />
+
+                <TLCPerson id="mv" href="/ontology/person/cg.mv"
+                    showAs="M. V." />
+
+                <TLCPerson id="jp" href="/ontology/person/cg.jp"
+                    showAs="J.P." />
+
+                <TLCPerson id="mč" href="/ontology/person/cg.mč"
+                    showAs="M.Č." />
+
+                <TLCPerson id="sk" href="/ontology/person/cg.sk"
+                    showAs="S.K." />
+
+                <TLCPerson id="ba" href="/ontology/person/cg.ba"
+                    showAs="B. A." />
+
+                <TLCPerson id="zb" href="/ontology/person/cg.zb"
+                    showAs="Z. B." />
+
+                <TLCPerson id="sm" href="/ontology/person/cg.sm"
+                    showAs="S. M." />
+
+                <TLCPerson id="dđ" href="/ontology/person/cg.dđ"
+                    showAs="D. Đ." />
+
+                <TLCPerson id="vs" href="/ontology/person/cg.vs"
+                    showAs="V.S." />
+
+                <TLCPerson id="dk" href="/ontology/person/cg.dk"
+                    showAs="D.K." />
+
+                <TLCRole id="editor" href="/ontology/role/editor" showAs="Editor of Document" />
+                <TLCRole id="judge" href="/ontology/role/judge" showAs="Judge" />
+                <TLCRole id="defendant" href="/ontology/role/defendant" showAs="Defendant" />
+                <TLCRole id="lawyer" href="/ontology/role/lawyer" showAs="Lawyer" />
+            </references>
+        </meta>
+        <judgementBody>
+            <p> Kž.br.37/16 U IME CRNE GORE <organization id="ascg" refersTo="#ascg">APELACIONI SUD
+                CRNE GORE</organization>, u vijeću sastavljenom od sudija <party id="zorana"
+                    refersTo="zorana" as="/judge">Zorana Smolovića</party>, kao predsjednika vijeća, <party
+                    id="rama" refersTo="rama" as="/judge">Rama Strikovića</party> i <party
+                    id="dragiše" refersTo="dragiše" as="/judge">Dragiše Rakočevića</party>, kao
+                članova vijeća, uz učešće službenika suda <party id="milice" refersTo="milice"
+                    as="/editor">Milice Rašović</party>, kao zapisničara, u krivičnom predmetu
+                protiv optuženih <party id="mč" refersTo="mč" as="">M.Č.</party>, <party id="nm"
+                    refersTo="nm" as="">N.M.</party>, <party id="vs" refersTo="vs" as="">V.S.</party>
+                , <party id="nm" refersTo="nm" as="">N.M.</party>, <party id="sk" refersTo="sk"
+                    as="">S.K.</party>, <party id="dk" refersTo="dk" as="">D.K.</party>, <party
+                    id="bp" refersTo="bp" as="">B.P.</party>, <party id="rv" refersTo="rv" as="">
+                R.V.</party>, <party id="bp" refersTo="bp" as="">B.P.</party> i <party id="sm"
+                    refersTo="sm" as="">S. M.</party>, zbog krivičnog djela kriminalno udruživanje
+                iz čl.401 st.2 u vezi st.1 Krivičnog zakonika Crne Gore (KZ CG) u sticaju sa
+                krivičnim djelom računarska prevara iz čl.352 st.3 u vezi st.1 Krivičnog zakonika
+                Crne Gore, rješavajući po žalbama Višeg državnog tužioca u Podgorici, branioca
+                optuženog <party id="mč" refersTo="mč" as="">M.Č.</party>, advokata <party id="dđ"
+                    refersTo="dđ" as="">D. Đ.</party>, zajedničkoj žalbi branilaca optuženih <party
+                    id="nm" refersTo="nm" as="">N.M.</party>, <party id="vs" refersTo="vs" as="">
+                V.S.</party> i <party id="bp" refersTo="bp" as="">B.P.</party>, advokata B.A.i D.
+                D., branioca optuženog <party id="nm" refersTo="nm" as="">N.M.</party>, advokata D.
+                M., branioca optuženog <party id="sk" refersTo="sk" as="">S.K.</party>, advokata
+                Č.D., branioca optuženog <party id="dk" refersTo="dk" as="">D.K.</party>, advokata <party
+                    id="nm" refersTo="nm" as="">N. M.</party>, koji je izjavio žalbu i za optuženog <party
+                    id="bp" refersTo="bp" as="">B.P.</party> i branioca optuženih <party id="rv"
+                    refersTo="rv" as="">R.V.</party> i <party id="sm" refersTo="sm" as="">S.M.</party>,
+                advokata <party id="zb" refersTo="zb" as="">Z. B.</party> kao i odgovorima na žalbu
+                Višeg državnog tužioca, koje su podnijeli branilac optuženog <party id="nm"
+                    refersTo="nm" as="">N.M.</party>, advokat <party id="mv" refersTo="mv" as="">M.
+                V.</party>., branioci optuženih <party id="nm" refersTo="nm" as="">N.M.</party>, <party
+                    id="vs" refersTo="vs" as="">V.S.</party> i <party id="bp" refersTo="bp" as="">
+                B.P.</party>, advokati <party id="ba" refersTo="ba" as="">B. A.</party> i D. D.,
+                branilac optuženog <party id="sk" refersTo="sk" as="">S.K.</party>, advokat Č.D.,
+                branilac optuženog <party id="dk" refersTo="dk" as="">D.K.</party>, advokat <party
+                    id="nm" refersTo="nm" as="">N. M.</party>, koji je dostavio odgovor na žalbu i
+                za optuženog <party id="bp" refersTo="bp" as="">B.P.</party>, izjavljenih protiv
+                presude Višeg suda u Podgorici K.br.109/13 od 16.07.2015.godine, nakon javne
+                sjednice održane dana 14.04.2016.godine, u prisustvu državnog tužioca u Vrhovnom
+                državnom tužilaštvu Đurđine Ivanović, optuženih <party id="mč" refersTo="mč" as="">
+                M.Č.</party>, <party id="nm" refersTo="nm" as="">N.M.</party>, <party id="sk"
+                    refersTo="sk" as="">S.K.</party>, <party id="dk" refersTo="dk" as="">D.K.</party>
+                , <party id="bp" refersTo="bp" as="">B.P.</party>, <party id="rv" refersTo="rv"
+                    as="">R.V.</party> i <party id="bp" refersTo="bp" as="">B.P.</party> i branilaca
+                optuženih advokata D. Đ., <party id="ba" refersTo="ba" as="">B. A.</party>, <party
+                    id="dm" refersTo="dm" as="">D.M.</party>, Čeda D., <party id="nm" refersTo="nm"
+                    as="">N. M.</party>, po zamjeničkom punomoćju advokata <party id="zb"
+                    refersTo="zb" as="">Z. B.</party> za optužene <party id="sm" refersTo="sm" as="">S.
+                M.</party>. i <party id="rv" refersTo="rv" as="">R.V.</party>, advokata <party
+                    id="jp" refersTo="jp" as="">J.P.</party> i advokata <party id="mv" refersTo="mv"
+                    as="">M. V.</party>, a u odsustvu uredno obaviještenih optuženih <party id="vs"
+                    refersTo="vs" as="">V.S.</party>, <party id="sm" refersTo="sm" as="">S.M.</party>
+                i <party id="nm" refersTo="nm" as="">N.M.</party>, nakon tajnog vijećanja i glasanja
+                istog dana, donio je P R E S U D U Odbijaju se kao neosnovane žalbe Višeg državnog
+                tužioca u Podgorici i branilaca optuženih <party id="vs" refersTo="vs" as="">V.S.</party>
+                , <party id="sk" refersTo="sk" as="">S.K.</party>, <party id="bp" refersTo="bp"
+                    as="">B.P.</party>, <party id="rv" refersTo="rv" as="">R.V.</party>, <party
+                    id="bp" refersTo="bp" as="">B.P.</party> i <party id="sm" refersTo="sm" as="">
+                S.M.</party> i u odnosu na ove optužene p o t v r đ u j e presuda Višeg suda u
+                Podgorici K.br.109/2013 od 16.07.2015.godine. Apelacioni Sud CG Kž 37/2016 14. April
+                2016 Uvažavaju se žalbe branilaca optuženih <party id="mč" refersTo="mč" as="">M.Č.</party>
+                i <party id="nm" refersTo="nm" as="">N.M.</party> i u odnosu na ove optužene p r e i
+                n a č a v a presuda Višeg suda u Podgorici K.br.109/2013 od 16.07.2015.godine, u
+                dijelu odluke o kazni, na način što sud ovim optuženima primjenom čl.42 i 48
+                Krivičnog zakonika Crne Gore prethodno za krivično djelo kriminalno udruživanje iz
+                čl.401 st.2 u vezi st.1 Krivičnog zakonika Crne Gore uzima kao utvrđenu kaznu
+                zatvora u trajanju od po 2 (dvije) godine, dok im za krivično djelo prevara iz
+                čl.244 st.4 u vezi st.1 Krivičnog zakonika Crne Gore utvrđuje kaznu zatvora u
+                trajanju od po 3 (tri) godine, pa ih sud primjenom čl.42, 48 i 51 Krivičnog zakonika
+                Crne Gore o s u đ u j e na jedinstvenu kaznu zatvora u trajanju od po 4 (četiri)
+                godine i 6 (šest) mjeseci, u koju kaznu im se uračunava vrijeme provedeno u pritvoru
+                i to optuženom <party id="mč" refersTo="mč" as="">M.Č.</party> od 31.08.2012.godine
+                pa nadalje, a optuženom <party id="nm" refersTo="nm" as="">N.M.</party> od
+                31.08.2012.godine do 14.05.2014.godine. Uvažava se žalba branioca optuženog <party
+                    id="dk" refersTo="dk" as="">D.K.</party> u dijelu odluke o oduzimanju imovinske
+                koristi, a povodom te žalbe i po službenoj dužnosti u tom dijelu i u odnosu na
+                optužene S. K. i <party id="rv" refersTo="rv" as="">R.V.</party> p r e i n a č a v a
+                presuda Višeg suda u Podgorici K.br.109/2013 od 16.07.2015.godine, tako što se iz
+                ove presude u odnosu na optužene <party id="dk" refersTo="dk" as="">D.K.</party>,
+                Sašu Klikovca i <party id="rv" refersTo="rv" as="">R.V.</party>, odluka o oduzimanju
+                imovinske koristi otklanja. U preostalom dijelu u odnosu na optužene <party id="mč"
+                    refersTo="mč" as="">M.Č.</party>, <party id="nm" refersTo="nm" as="">N. M.</party>
+                i <party id="dk" refersTo="dk" as="">D.K.</party> prvostepena presuda ostaje
+                neizmijenjena. O b r a z l o ž e nj e Presudom Višeg suda u Podgorici K.br.109/2013
+                od 16.07.2015.godine optuženi <party id="mč" refersTo="mč" as="">M.Č.</party>, <party
+                    id="nm" refersTo="nm" as="">N.M.</party>, <party id="vs" refersTo="vs" as="">
+                V.S.</party>, <party id="sk" refersTo="sk" as="">S.K.</party>, <party id="dk"
+                    refersTo="dk" as="">D.K.</party>, <party id="bp" refersTo="bp" as="">B.P.</party>
+                , <party id="rv" refersTo="rv" as="">R.V.</party>, <party id="bp" refersTo="bp"
+                    as="">B.P.</party> i <party id="sm" refersTo="sm" as="">S.M.</party> su oglašeni
+                krivim zbog krivičnog djela kriminalno udruživanje iz čl.401 st.2 u vezi st.1
+                Krivičnog zakonika Crne Gore, optuženi <party id="mč" refersTo="mč" as="">M.Č.</party>
+                , <party id="nm" refersTo="nm" as="">N.M.</party>, <party id="sk" refersTo="sk"
+                    as="">S.K.</party>, <party id="dk" refersTo="dk" as="">D.K.</party> i <party
+                    id="rv" refersTo="rv" as="">R.V.</party> u sticaju sa krivičnim djelom prevara
+                iz čl.244 st.4 u vezi st.1 Krivičnog zakonika Crne Gore, optuženi <party id="vs"
+                    refersTo="vs" as="">V.S.</party> i <party id="bp" refersTo="bp" as="">B.P.</party>
+                u sticaju sa krivičnim djelom prevara iz čl.244 st.3 u vezi st.1 Krivičnog zakonika
+                Crne Gore, a optuženi <party id="bp" refersTo="bp" as="">B.P.</party> u sticaju sa
+                krivičnim djelom prevara u pokušaju iz čl.244 st.4 u vezi st.1 u vezi čl.20
+                Krivičnog zakonika Crne Gore, a optužena <party id="sm" refersTo="sm" as="">S.M.</party>
+                u sticaju sa krivičnim djelom prevara u pokušaju iz čl.244 st.1 u vezi čl.20
+                Krivičnog zakonika Crne Gore, pa je prvostepeni sud optuženima prethodno utvrdio
+                kazne zatvora i to optuženom <party id="mč" refersTo="mč" as="">M.Č.</party> za
+                krivično djelo kriminalno udruživanje iz čl.401 st.2 u vezi st.1 Krivičnog zakonika
+                Crne Gore kaznu zatvora u trajanju od 2 (dvije) godine, za krivično djelo prevara iz
+                čl.244 st.4 u vezi st.1 Krivičnog zakonika Crne Gore kaznu zatvora u trajanju od 5
+                (pet) godina, optuženom <party id="nm" refersTo="nm" as="">N.M.</party> za krivično
+                djelo kriminalno udruživanje iz čl.401 st.2 u vezi st.1 Krivičnog zakonika Crne Gore
+                kaznu zatvora u trajanju od 2 (dvije) godine, za krivično djelo prevara iz čl.244
+                st.4 u vezi st.1 Krivičnog zakonika Crne Gore kaznu zatvora u trajanju od 5 (pet)
+                godina, optuženom V. S. za krivično djelo kriminalno udruživanje iz čl.401 st.2 u
+                vezi st.1 Krivičnog zakonika Crne Gore kaznu zatvora u trajanju od 6 (šest) mjeseci,
+                za krivično djelo prevara iz čl.244 st.3 u vezi st.1 Krivičnog zakonika Crne Gore
+                kaznu zatvora u trajanju od 1 (jednu) godinu i 6 (šest) mjeseci, optuženom <party
+                    id="sk" refersTo="sk" as="">S.K.</party> za krivično djelo kriminalno
+                udruživanje iz čl.401 st.2 u vezi st.1 Krivičnog zakonika Crne Gore kaznu zatvora u
+                trajanju od 6 (šest) mjeseci, za krivično djelo prevara iz čl.244 st.4 u vezi st.1
+                Krivičnog zakonika Crne Gore kaznu zatvora u trajanju od 2 (dvije) godine, optuženom
+                D. K. za krivično djelo kriminalno udruživanje iz čl.401 st.2 u vezi st.1 Krivičnog
+                zakonika Crne Gore kaznu zatvora u trajanju od 6 (šest) mjeseci, za krivično djelo
+                prevara iz čl.244 st.4 u vezi st.1 Krivičnog zakonika Crne Gore kaznu zatvora u
+                trajanju od 1 (jedne) godine i 6 (šest) mjeseci, optuženom B. P. za krivično djelo
+                kriminalno udruživanje iz čl.401 st.2 u vezi st.1 Krivičnog zakonika Crne Gore kaznu
+                zatvora u trajanju od 6 (šest) mjeseci, za krivično djelo prevara iz čl.244 st.3 u
+                vezi st.1 Krivičnog zakonika Crne Gore kaznu zatvora u trajanju od 2 (dvije) godine,
+                optuženom R. V. za krivično djelo kriminalno udruživanje iz čl.401 st.2 u vezi st.1
+                Krivičnog zakonika Crne Gore kaznu zatvora u trajanju od 6 (šest) mjeseci, za
+                krivično djelo prevara iz čl.244 st.4 u vezi st.1 Krivičnog zakonika Crne Gore kaznu
+                zatvora u trajanju od 2 (dvije) godine, optuženom <party id="bp" refersTo="bp" as="">
+                B.P.</party> za krivično djelo kriminalno udruživanje iz čl.401 st.2 u vezi st.1
+                Krivičnog zakonika Crne Gore kaznu zatvora u trajanju od 2 (dva) mjeseca, za
+                krivično djelo prevara u pokušaju iz čl.244 st.4 u vezi st.1 u vezi čl.20 Krivičnog
+                zakonika Crne Gore kaznu zatvora u trajanju od 1 (jedne) godine i optuženoj S. M. za
+                krivično djelo kriminalno udruživanje iz čl.401 st.2 u vezi st.1 Krivičnog zakonika
+                Crne Gore kaznu zatvora u trajanju od 2 (dva) mjeseca, za krivično djelo prevara u
+                pokušaju iz čl.244 st.1 u vezi čl.20 Krivičnog zakonika Crne Gore kaznu zatvora u
+                trajanju od 6 (šest) mjeseci, pa su osuđeni i to optuženi <party id="mč"
+                    refersTo="mč" as="">M.Č.</party> i <party id="nm" refersTo="nm" as="">N.M.</party>
+                na jedinstvenu kaznu zatvora u trajanju od po 6 (šest) godina i 6 (šest) mjeseci, u
+                koje kazne im se uračunava vrijeme provedeno u pritvoru i to optuženom <party
+                    id="mč" refersTo="mč" as="">M.Č.</party> počev od 31.08.2012.godine, pa nadalje,
+                dok pritvor bude trajao, a optuženom <party id="nm" refersTo="nm" as="">N.M.</party>
+                počev od 31.08.2012.godine do 14.05.2014.godine, optuženi <party id="vs"
+                    refersTo="vs" as="">V.S.</party> na jedinstvenu kaznu zatvora u trajanju od 1
+                (jedne) godine i 10 (deset) mjeseci, u koju kaznu mu se uračunava vrijeme provedeno
+                u pritvoru počev od 05.09.2012.godine do 14.05.2014.godine, optuženi <party id="sk"
+                    refersTo="sk" as="">S.K.</party> na jedinstvenu kaznu zatvora u trajanju od 2
+                (dvije) i 4 (četiri) mjeseca, u koju kaznu mu se uračunava vrijeme provedeno u
+                pritvoru počev od 13.09.2012.godine do 14.05.2014.godine, optuženi <party id="dk"
+                    refersTo="dk" as="">D.K.</party> na jedinstvenu kaznu zatvora u trajanju od 1
+                (jedne) godine i 10 (deset) mjeseci, u koju kaznu mu se uračunava vrijeme provedeno
+                u pritvoru počev od 31.08.2012.godine do 14.05.2014.godine, optuženi <party id="bp"
+                    refersTo="bp" as="">B.P.</party> na jedinstvenu kaznu zatvora u trajanju od 2
+                (dvije) godine i 4 (četiri) mjeseca, u koju kaznu mu se uračunava vrijeme provedeno
+                u pritvoru počev od 31.08.2012.godine do 14.05.2014.godine, optuženi <party id="rv"
+                    refersTo="rv" as="">R.V.</party> na jedinstvenu kaznu zatvora u trajanju od 2
+                (dvije) godine i 4 (četiri) mjeseca, u koju kaznu mu se uračunava vrijeme provedeno
+                u pritvoru počev od 31.08.2012.godine do 14.05.2014.godine, optuženi <party id="bp"
+                    refersTo="bp" as="">B.P.</party> na jedinstvenu kaznu zatvora u trajanju od 1
+                (jedne) godine i 1 (jedan) mjesec, u koju kaznu mu se uračunava vrijeme provedeno u
+                pritvoru počev od 31.08.2012.godine do 14.05.2014.godine i optužena <party id="sm"
+                    refersTo="sm" as="">S.M.</party> na jedinstvenu kaznu zatvora u trajanju od 7
+                (sedam) mjeseci, u koju kaznu joj se uračunava vrijeme provedeno u pritvoru počev od
+                31.08.2012.godine do 14.05.2014.godine. Istom presudom optuženi su obavezani da na
+                ime troškova krivičnog postupka - sudskog paušala plate Višem sudu novčani iznos od
+                po 200,00 eura, kao i da plate ostale troškove postupka u roku od 15 dana po
+                pravosnažnosti presude, uz prijetnju prinudne naplate. Na osnovu čl.482 Zakonika o
+                krivičnom postupku, u vezi čl.112 i 113 st.1 Krivičnog zakonika Crne Gore od
+                optuženih <party id="mč" refersTo="mč" as="">M.Č.</party>, <party id="nm"
+                    refersTo="nm" as="">N.M.</party>, <party id="sk" refersTo="sk" as="">S.K.</party>
+                , <party id="dk" refersTo="dk" as="">D.K.</party>, <party id="bp" refersTo="bp"
+                    as="">B.P.</party> i <party id="rv" refersTo="rv" as="">R.V.</party> se oduzima
+                imovinska korist pribavljena izvršenjem krivičnog djela u ukupnom iznosu od
+                223.516,17 eura, koju su optuženi obavezni solidarno uplatiti u Budžet Crne Gore, u
+                roku od 15 dana po pravosnažnosti presude pod prijetnjom prinudne naplate. Istom
+                presudom optuženi <party id="nm" refersTo="nm" as="">N.M.</party> je na osnovu
+                čl.373 st.1 tač.2 Zakonika o krivičnom postupku je oslobođen od optužbe da je
+                izvršio krivično djelo kriminalno udruživanje iz čl.401 st.2 u vezi st.1 Krivičnog
+                zakonika Crne Gore u sticaju sa krivičnim djelom računarska prevara iz čl.352 st.3 u
+                vezi st.1 Krivičnog zakonika Crne Gore. Troškovi krivičnog postupka u odnosu na ovog
+                optuženog padaju na teret budžetskih sredstava suda. Protiv te presude žalbu je
+                izjavio Viši državni tužilac u Podgorici zbog bitne povrede odredaba krivičnog
+                postupka iz čl.386 st.1 tač.8 i 9 Zakonika o krivičnom postupku, pogrešno utvrđenog
+                činjeničnog stanja iz čl.388 st.1 Zakonika o krivičnom postupku i odluke o kazni iz
+                čl.389 st.1 Zakonika o krivičnom postupku, sa predlogom da Apelacioni sud Crne Gore
+                uvaži žalbu tužioca i pobijanu presudu Višeg suda u Podgorici K.br.109/2013 od
+                16.07.2015.godine ukine i predmet vrati na ponovni postupak i odluku ili istu
+                preinači tako što će optužene oglasiti krivim za krivična djela koja su im
+                optužnicom stavljena na teret i osuditi po zakonu. Branilac optuženog <party id="mč"
+                    refersTo="mč" as="">M.Č.</party>, advokat <party id="dđ" refersTo="dđ" as="">D.
+                Đ.</party> je izjavio žalbu zbog bitne povrede odredaba krivičnog postupka, pogrešno
+                i nepotpuno utvrđenog činjeničnog stanja, povrede Krivičnog zakonika i odluke o
+                kazni, sa predlogom da Apelacioni sud Crne Gore, kao drugostepeni, presudu Višeg
+                suda u Podgorici K.br.109/2013 od 16.07.2015.godine ukine i predmet vrati na ponovni
+                postupak i odlučivanje prvostepenom sudu ili da istu preinači na način što će
+                optuženog osloboditi od optužbe ili preinači u dijelu odluke o kazni na način što će
+                smanjiti kaznu optuženom <party id="mč" refersTo="mč" as="">M.Č.</party>. Branioci
+                optuženih <party id="nm" refersTo="nm" as="">N.M.</party>, <party id="vs"
+                    refersTo="vs" as="">V.S.</party> i <party id="bp" refersTo="bp" as="">B.P.</party>,
+                advokati <party id="ba" refersTo="ba" as="">B. A.</party>i D. D. su izjavili
+                zajedničku žalbu zbog bitne povrede odredaba krivičnog postupka, povrede Krivičnog
+                zakonika, pogrešno ili nepotpuno utvrđenog činjeničnog stanja i odluke o krivičnoj
+                sankciji, sa predlogom da Apelacioni sud ukine prvostepenu presudu i vrati na
+                ponovno suđenje ili istu preinači tako što će otvoriti glavni pretres i neposredno
+                utvrditi sve odlučne činjenice, te optužene osloboditi od optužbe. Branilac
+                optuženog <party id="nm" refersTo="nm" as="">N.M.</party>, advokat <party id="dm"
+                    refersTo="dm" as="">D.M.</party> je izjavio žalbu zbog svih zakonskih razloga,
+                sa predlogom da Apelacioni sud Crne Gore, u postupku po žalbi, presudu Višeg suda u
+                Podgorici K.br.109/2013 od 16.07.2015.godine ukine i spise predmeta vrati na ponovni
+                postupak i odlučivanje prvostepenom sudu ili da istu preinači na način što će
+                optuženog <party id="nm" refersTo="nm" as="">N. M.</party>osloboditi od optužbe.
+                Branilac optuženog <party id="sk" refersTo="sk" as="">S.K.</party>, advokat Č.D. je
+                izjavio žalbu zbog bitne povrede odredaba krivičnog postupka iz čl.385 st.1 tač.1 u
+                vezi čl.386 st.1 tač.3, 5 i 8 Zakonika o krivičnom postupku, povrede Krivičnog
+                zakonika i pogrešno i nepotpuno utvrđenog činjeničnog stanja, sa predlogom da
+                Apelacioni sud Crne Gore preinači presudu Višeg suda u Podgorici K.br.109/2013 od
+                16.07.2015.godine i donese presudu kojom se optuženi <party id="sk" refersTo="sk"
+                    as="">S.K.</party> oslobađa od optužbe da je izvršio krivična djela koja mu se
+                stavljaju na teret ili da istu ukine i predmet vrati prvostepenom sudu na ponovni
+                postupak i odlučivanje. Branilac optuženog <party id="dk" refersTo="dk" as="">D.K.</party>,
+                advokat <party id="nm" refersTo="nm" as="">N. M.</party> je izjavio žalbu zbog svih
+                zakonskih osnova, sa predlogom da Apelacioni sud Crne Gore usvoji žalbu na način što
+                će preinačiti osporenu presudu i optuženog <party id="dk" refersTo="dk" as="">D.K.</party>
+                osloboditi od optužbe, uključujući i neosnovanu mjeru oduzimanja nepostojeće
+                imovinske koristi ili da pobijanu presudu ukine i istu vrati prvostepenom sudu na
+                ponovni postupak. Branilac optuženog <party id="bp" refersTo="bp" as="">B.P.</party>,
+                advokat <party id="nm" refersTo="nm" as="">N. M.</party> je izjavio žalbu zbog svih
+                zakonskih osnova, sa predlogom da Apelacioni sud Crne Gore usvoji ovu žalbu na način
+                što će preinačiti osporenu presudu i optuženog <party id="bp" refersTo="bp" as="">
+                B.P.</party> osloboditi od optužbe ili da pobijanu presudu ukine i vrati na ponovni
+                postupak. Branilac optuženih <party id="sm" refersTo="sm" as="">S.M.</party> i <party
+                    id="rv" refersTo="rv" as="">R.V.</party>, advokat <party id="zb" refersTo="zb"
+                    as="">Z. B.</party> je izjavio žalbu zbog pogrešno i nepotpuno utvrđenog
+                činjeničnog stanja, bitne povrede odredaba krivičnog postupka i povrede Krivičnog
+                zakonika, sa predlogom da Apelacioni sud Crne Gore, nakon uvida u spise predmeta i
+                navoda ove žalbe, ukine presudu Višeg suda u Podgorici K.br.109/2013 od
+                16.07.2015.godine i predmet vrati prvostepenom sudu na ponovni postupak i odluku ili
+                da istu preinači i optužene oslobodi od optužbe. Odgovor na žalbu Višeg državnog
+                tužioca u Podgorici je dostavio branilac optuženog <party id="nm" refersTo="nm"
+                    as="">N.M.</party>, advokat M.V., sa predlogom da Apelacioni sud odbije kao
+                neosnovane navode predmetne žalbe u odnosu na ovog optuženog i istog pravosnažno
+                oslobodi krivice za krivično djelo koje mu je optužnicom stavljeno na teret.
+                Branioci optuženih <party id="nm" refersTo="nm" as="">N.M.</party>, <party id="vs"
+                    refersTo="vs" as="">V.S.</party> i <party id="bp" refersTo="bp" as="">B.P.</party>,
+                advokati <party id="ba" refersTo="ba" as="">B. A.</party> i D. D. su dostavili
+                zajednički odgovor na žalbu Višeg državnog tužioca u Podgorici, sa predlogom da
+                Apelacioni sud istu odbije kao neosnovanu. Branilac optuženog <party id="sk"
+                    refersTo="sk" as="">S.K.</party>, advokat Č. D. je dostavio odgovor na žalbu
+                Višeg državnog tužioca u Podgorici, sa predlogom da se žalba tužioca, u dijelu u
+                kojem se traži da se ovaj optuženi oglasi krivim za krivična djela koja su mu
+                optužnicom stavljena na teret, odbije kao neosnovana. Branilac optuženog <party
+                    id="dk" refersTo="dk" as="">D.K.</party>, advokat <party id="nm" refersTo="nm"
+                    as="">N. M.</party> je dostavio odgovor na žalbu Višeg državnog tužioca u
+                Podgorici, sa predlogom da Apelacioni sud odbije žalbu tužioca kao neosnovanu u
+                odnosu na optuženog <party id="dk" refersTo="dk" as="">D.K.</party> i uvaži žalbu
+                branioca ovog optuženog. Branilac optuženog <party id="bp" refersTo="bp" as="">B.P.</party>,
+                advokat <party id="nm" refersTo="nm" as="">N. M.</party> je dostavio odgovor na
+                žalbu Višeg državnog tužioca u Podgorici, sa predlogom da Apelacioni sud odbije
+                žalbu tužioca kao neosnovanu u odnosu na optuženog <party id="bp" refersTo="bp"
+                    as="">B.P.</party> i uvaži žalbu branioca ovog optuženog. Na sjednici
+                drugostepenog vijeća državni tužilac u Vrhovnom državnom tužilaštvu Đurđina Ivanović
+                je izjavila da u svemu ostaje pri navodu u predlogu Višeg državnog tužioca u
+                Podgorici kao i predlogu iz pisanog akta, odnosno da se žalba Višeg državnog tužioca
+                uvaži, a da se žalbe branilaca optuženih odbiju kao neosnovane. Branilac optuženog <party
+                    id="mč" refersTo="mč" as="">M.Č.</party>, advokat <party id="dđ" refersTo="dđ"
+                    as="">D. Đ.</party> je izjavio da u svemu ostaje pri predlogu i razlozima
+                podnijete žalbe uz napomenu da u izreci prvostepene presude stoji "da su optuženi
+                dovođenjem u zabludu što predstava radnju krivičnog djela prevare, to nije navedeno
+                u mjestu gdje treba da stoji u optužnici". Optuženi <party id="mč" refersTo="mč"
+                    as="">M.Č.</party> je izjavio da ostaje pri razlozima i predlogu iz žalbe svog
+                branioca i njegovim navodima na sjednici vijeća. Branilac optuženog <party id="nm"
+                    refersTo="nm" as="">N.M.</party>, advokat D. M. je izjavio da u svemu ostaje pri
+                razlozima i predlogu žalbe. Branilac optuženih <party id="nm" refersTo="nm" as="">
+                N.M.</party>, <party id="vs" refersTo="vs" as="">V.S.</party> i <party id="bp"
+                    refersTo="bp" as="">B.P.</party>, advokat <party id="ba" refersTo="ba" as="">B.
+                A.</party> je izjavio da ostaje u svemu pri razlozima i predlogu podnijete žalbe,
+                kao i odgovora na žalbu državnog tužioca. Optuženi <party id="nm" refersTo="nm"
+                    as="">N.M.</party> je izjavio da ostaje pri razlozima i predlogu iz žalbe svog
+                branioca i njegovim navodima na sjednici vijeća. Optuženi <party id="bp"
+                    refersTo="bp" as="">B.P.</party> je izjavio da ostaje pri razlozima i predlogu
+                iz žalbe svog branioca i njegovim navodima na sjednici vijeća. Branilac optuženog <party
+                    id="sk" refersTo="sk" as="">S.K.</party>, advokat Č.D. je izjavio da ostaje pri
+                navodima i predlozima svoje žalbe i odgovora na žalbu državnog tužioca. Optuženi <party
+                    id="sk" refersTo="sk" as="">S.K.</party> je izjavio da ostaje pri razlozima i
+                predlogu iz žalbe svog branioca i njegovim navodima na sjednici vijeća. Branilac
+                optuženih <party id="dk" refersTo="dk" as="">D.K.</party> i <party id="bp"
+                    refersTo="bp" as="">B.P.</party>, advokat <party id="nm" refersTo="nm" as="">N.
+                M.</party> je izjavio da ostaje pri navodima i predlozima svoje žalbe i odgovora na
+                žalbu državnog tužioca. Optuženi <party id="dk" refersTo="dk" as="">D.K.</party> je
+                izjavio da ostaje pri razlozima i predlogu iz žalbe svog branioca i njegovim
+                navodima na sjednici vijeća. Optuženi <party id="bp" refersTo="bp" as="">B.P.</party>
+                je izjavio da ostaje pri razlozima i predlogu iz žalbe svog branioca i njegovim
+                navodima na sjednici vijeća. Branilac optuženih <party id="rv" refersTo="rv" as="">
+                R.V.</party> i <party id="sm" refersTo="sm" as="">S.M.</party>, advokat J. P. je
+                izjavila da ostaje pri navodima i predlozima izjavljene žalbe. Optuženi <party
+                    id="rv" refersTo="rv" as="">R.V.</party> je izjavio da ostaje pri razlozima i
+                predlogu iz žalbe svog branioca i njegovim navodima na sjednici vijeća. Branilac
+                optuženog <party id="nm" refersTo="nm" as="">N.M.</party>, advokat <party id="mv"
+                    refersTo="mv" as="">M. V.</party> je izjavio da ostaje pri razlozima i predlogu
+                odgovora na žalbu državnog tužioca. Vrhovno državno tužilaštvo Crne Gore je u smislu
+                odredbe čl.392 st.5 Zakonika o krivičnom postupku dostavilo akt Ktž.br.47/16 od
+                24.02.2016.godine, sa predlogom da se uvaži kao osnovana žalba Višeg državnog
+                tužioca u Podgorici Kt.br.84/12 od 16.11.2015.godine i odbiju kao neosnovane žalbe
+                branilaca optuženih <party id="mč" refersTo="mč" as="">M.Č.</party>, <party id="nm"
+                    refersTo="nm" as="">N.M.</party>, <party id="vs" refersTo="vs" as="">V.S.</party>
+                , <party id="sk" refersTo="sk" as="">S.K.</party>, <party id="dk" refersTo="dk"
+                    as="">D.K.</party>, <party id="bp" refersTo="bp" as="">B.P.</party>, <party
+                    id="rv" refersTo="rv" as="">R.V.</party>, <party id="bp" refersTo="bp" as="">
+                B.P.</party> i <party id="sm" refersTo="sm" as="">S.M.</party>, izjavljeni protiv
+                presude Višeg suda u Podgorici K.br.109/2013 od 16.07.2015.godine. Po razmatranju
+                prvostepene presude, žalbi, odgovora na žalbu i svih spisa ovog predmeta, pazeći po
+                službenoj dužnosti na odredbe čl.398 st.1 Zakonika o krivičnom postupku, Apelacioni
+                sud je odlučio kao u izreci presude, a sa razloga koji slijede: Polazeći od razloga
+                izjavljenih žalbi, po nalaženju Apelacionog suda, nijesu osnovane žalbe Višeg
+                državnog tužioca i branilaca optuženih u kojima se navodi da je prvostepena presuda
+                zahvaćena bitnim povredama odredaba krivičnog postupka, a koje povrede se po
+                navodima žalbi sastoje u tome što je izreka pobijane presude nerazumljiva,
+                protivrječna sama sebi i razlozima presude, da nijesu navedeni razlozi o odlučnim
+                činjenicama, a da su dati razlozi protivrječni i nejasni i da o odlučnim činjenicama
+                postoji znatna protivrječnost između onoga što se navodi u razlozima presude o
+                sadržini isprava i zapisnika o iskazima datim u postupku i samih tih isprava,
+                odnosno da je optužba prekoračena u smilslu odredbe čl.369 st.1 Zakonika o krivičnom
+                postupku, a u čemu su po navodima žalbi sadržane bitne povrede odredaba krivičnog
+                postupka iz čl.386 st.1 tač.5, 8 i 9 Zakonika o krivičnom postupku. U postupku
+                donošenja pobijane presude kao ni u samoj presudi nijesu učinjene bitne povrede
+                odredaba krivičnog postupka na čije postojanje ovaj sud kao drugostepeni pazi po
+                službenoj dužnosti, niti pak one povrede na koje se ukazuje žalbama Višeg državnog
+                tužioca u Podgorici i branilaca optuženih. Po nalaženju Apelacionog suda,
+                prvostepena presuda je u svemu jasna i razumljiva, kako u izreci tako i u
+                obrazloženju i sadrži razloge o svim odlučnim činjenicama iz kojih se pouzdano
+                zaključuje da su optuženi <party id="mč" refersTo="mč" as="">M.Č.</party>, <party
+                    id="nm" refersTo="nm" as="">N.M.</party>, <party id="vs" refersTo="vs" as="">
+                V.S.</party>, <party id="sk" refersTo="sk" as="">S.K.</party>, <party id="dk"
+                    refersTo="dk" as="">D.K.</party>, <party id="bp" refersTo="bp" as="">B.P.</party>
+                , <party id="rv" refersTo="rv" as="">R.V.</party>, <party id="bp" refersTo="bp"
+                    as="">B.P.</party> i <party id="sm" refersTo="sm" as="">S.M.</party> izvršili
+                krivična djela koja su im stavljena na teret, na način kako je to činjenično opisano
+                u izreci prvostepene presude, koje su sve radnje preduzeli radi izvršenja istih, dok
+                se iz razloga prvostepene presude vidi jasno i određeno, koji dokazi potvrđuju
+                odlučne činjenice i kako je prvostepeni sud cijenio izvedene dokaze, a što je sve u
+                skladu sa sadržinom dokaza na kojima se zasnivaju utvrđenja prvostepenog suda da su
+                optuženi izvršili krivična djela koja su im stavljena na teret i za koje su osuđeni
+                kao u izreci prvostepene presude. Ne stoje iznijeti žalbeni navodi da je prvostepeni
+                sud prekoračio optužbu u smislu čl.369 st.1 Zakonika o krivičnom postupku, čime je
+                počinio bitnu povredu odredaba krivičnog postupka iz čl.386 st.1 tač.5 Zakonika o
+                krivičnom postupku. Naime, po ocjeni ovog suda, prvostepeni sud s pravom nije
+                prihvatio pravnu ocjenu djela iz optužnice Višeg državnog tužioca u Podgorici da su
+                optuženi izvršili krivično djelo računarska prevara iz čl.352 st.3 u vezi st.1
+                Krivičnog zakonika Crne Gore, već je pravilno radnje optuženih kvalifikovao i to u
+                odnosu na optužene <party id="mč" refersTo="mč" as="">M.Č.</party>, <party id="nm"
+                    refersTo="nm" as="">N. M.</party> <party id="sk" refersTo="sk" as="">S.K.</party>
+                , <party id="dk" refersTo="dk" as="">D.K.</party> i <party id="rv" refersTo="rv"
+                    as="">R.V.</party> kao krivično djelo prevara iz čl.244 st.4 u vezi st.1
+                Krivičnog zakonika Crne Gore, optuženih <party id="vs" refersTo="vs" as="">V.S.</party>
+                i <party id="bp" refersTo="bp" as="">B.P.</party> kao krivično djelo prevara iz
+                čl.244 st.3 u vezi st.1 Krivičnog zakonika Crne Gore, optuženog <party id="bp"
+                    refersTo="bp" as="">B.P.</party> kao krivično djelo prevara u pokušaju iz čl.244
+                st.4 u vezi st.1 u vezi čl.20 Krivičnog zakonika Crne Gore, a u odnosu na optuženu <party
+                    id="sm" refersTo="sm" as="">S. M.</party> kao krivično djelo prevara u pokušaju
+                iz čl.244 st.1 u vezi čl.20 Krivičnog zakonika Crne Gore. Krivično djelo računarska
+                prevara iz čl.352 Krivičnog zakonika Crne Gore čini ono lice koje unese, izmijeni,
+                izbriše, propusti unošenje tačnog podatka ili na drugi način prikrije ili lažno
+                prikaže računarski podatak ili izvrši bilo kakvo ometanje rada računarskog sistema i
+                time utiče na rezultat elektronske obrade, prenosa podataka i funkcionisanja
+                računarskog sistema, u namjeri da sebi ili drugom pribavi protivpravnu korist i time
+                drugom prouzrokuje imovinsku štetu. Dakle, posljedica ovih preduzetih radnji jeste
+                da se dobije određeno stanje na računaru ili u računarskom sistemu koje ne bi bilo
+                dobijeno niti bi se do njega moglo doći, a da nije taj podatak unijet, izbrisan,
+                promijenjen. Pored tog objektivnog uslova, mora postojati i subjektivni uslov ovog
+                krivičnog djela, odnosno da je umišljaj učinioca upravljen da se unese, ošteti ili
+                prikrije taj podatak u računarski sistem, sa namjerom da se sebi ili nekom drugom
+                pribavi korist, i to protivpravna imovinska korist ili da se drugom prouzrokuje
+                šteta. Krivično djelo računarska prevara je zapravo specijalis krivično djelo u
+                odnosu na krivično djelo prevara, jer ono i jeste poseban oblik prevare, ali ono što
+                ga razlikuje od klasične prevare jeste što za računarsku prevaru nema dovođenja u
+                zabludu ili održavanja u zabludi nekog lica, jer to u suštini nije ni moguće
+                učiniti, pa se računarska prevara ne može svrstati u opšte krivično djelo prevare.
+                Naime, svim optuženima je bilo stavljeno na teret da su netačnim podacima i lažnim
+                prikazivanjem činjenica i računarskih podataka, u računarski sistem banke, uticali
+                na rezultat elektronske obrade podataka i funkcionisanje bankarskog računarskog
+                sistema, u namjeri da za sebe i drugom pribave protivpravnu imovinsku korist u
+                iznosu većem od 30.000 eura, na način što je optuženi <party id="mč" refersTo="mč"
+                    as="">M.Č.</party> zajedno sa ostalim optuženima, koristeći se programerskim
+                vještinama, lažno se predstavljajući kao vlasnici žiro računa, davao instrukcije da
+                se sa računa otvorenih u inostranim bankama izvrši prenos novčanih sredstava na
+                devizne račune optuženih otvorenih kod crnogorskih poslovnih banaka. Slijedeći
+                zakonsku definiciju krivičnog djela računarska prevara, radnje koje se optužnicom
+                stavljaju na teret optuženima i činjenice utvrđene izvedenim dokazima na glavnom
+                pretresu, prvostepeni sud je pravilno zaključio da u ovom slučaju nije došlo do
+                kompromitacije - ometanja računarskog sistema banaka, u kojima je i iniciran
+                transfer novca niti je izvršeno bilo kakvo ometanje računarskog sistema koje bi
+                imalo za posljedicu pogrešan rezultat elektronske obrade, prenosa podataka i
+                funkcionisanje računarskog sistema, pri tom imajući u vidu sadržinu nalaza i
+                mišljenja vještaka za informatiku i programersku opremu i činjenice utvrđene
+                presretnutim razgovorima optuženog <party id="mč" refersTo="mč" as="">M.Č.</party>
+                sa službenikom "UBS" banke i sadržinu prepiske putem i - mail sa službenikom "Credit
+                Suisse", koje dokaze je prvostepeni sud pravilno cijenio, a Apelacioni sud kao
+                pravilne prihvata. Pravilan je zaključak prvostepenog suda da optuženi <party
+                    id="mč" refersTo="mč" as="">M.Č.</party>, a kako mu je to stavljeno na teret
+                predmetnom optužnicom, nije koristeći svoje računarske vještine, netačnim podacima i
+                lažnim prikazivanjem činjenica i računarskih podataka uticao na funkcionisanje
+                bankarskog računarskog sistema, već je optuženi Č. lažnim prikazivanjem činjenica,
+                odnosno lažno se predstavljajući kao vlasnik žiro računa oštećenih u inostranim
+                bankama, putem i - maila, dao instrukcije da se sa računa oštećenih izvrši prenos
+                novčanih sredstava na devizne račune optuženih otvorene u crnogorskim poslovnim
+                bankama i na taj način doveo u zabludu službenike tih banaka da su stavrni vlasnici
+                računa inicirali transakcije novca i postupajući po navedenim instrukcijama,
+                kreirali swi� poruke, po osnovu kojih je potom izvršen transfer novčanih sredstava.
+                Dakle, prvostepeni sud je pravilno postupio kada je izmijenio činjenične navode u
+                izreci pobijane presude u odnosu na činjenične navode iz optužnice, nalazeći da na
+                taj način nije povrijeđen objektivni identitet optužnice, imajući u vidu da se
+                prvostepeni sud kretao u okviru istog događaja odnosno činjeničnog opisa iz optužbe,
+                na osnovu kojeg je presuda i donijeta, s tim što je u izvjesnoj mjeri izmijenio
+                činjenični opis iz optužnice, u dijelu koji se odnosi na zakonska obilježja
+                krivičnog djela prevara iz čl.244 Krivičnog zakonika Crne Gore, a izmijenjeni
+                činjenični opis nije nepovoljniji za optužene. Naime, činjenični opis iz optužnice
+                je sadržao sva zakonska obilježja krivičnog djela prevara iz čl.244 Krivičnog
+                zakonika Crne Gore i bez obzira što zakonska obilježja krivičnog djela računarska
+                prevara iz čl.352 Krivičnog zakonika Crne Gore kao bitno obilježje ne sadrži
+                dovođenje u zabludu, a koji elemenat je bio sadržan u činjeničnom opisu predmetne
+                optužnice. S obzirom na prednje navedeno, kako iz činjeničnog opisa optužnice
+                proizilazi elemenat krivičnog djela prevara - dovođenje u zabludu, to je prvostepeni
+                sud bio ovlašćen da izmijeni pravnu ocjenu djela i optužene oglasi krivim za
+                krivično djelo prevara iz čl.244 Krivičnog zakonika Crne Gore. Krivičnim zakonikom
+                Crne Gore krivično djelo računarska prevara je svrstano u glavi dvadeset osmoj u
+                krivična djela protiv bezbjednosti računarskih podataka, dok je krivično djelo
+                prevara svrstano u glavi dvadeset drugoj u krivična djela protiv imovine. Zaštitni
+                objekat kod krivičnog djela računarska prevara je bezbjednost računarskog podatka,
+                dok je kod krivičnog djela prevara zaštitni objekat imovina. Kao što je ranije
+                navedeno, krivično djelo računarska prevara je zapravo specijalis krivično djelo u
+                odnosu na krivično djelo prevara, jer ono i jeste poseban oblik prevare, ali ono što
+                ga razlikuje od klasične prevare jeste što za računarsku prevaru nema dovođenja u
+                zabludu ili održavanja u zabludi nekog lica, jer to u suštini nije ni moguće
+                učiniti, pa se računarska prevara ne može svrstati u opšte krivično djelo prevare.
+                Nasuprot navodima izjavljenih žalbi, prvostepeni sud nije prekoračio optužbu odnosno
+                povrijedio identitet presude i optužbe u smislu čl.369 st.1 Zakonika o krivičnom
+                postupku. Naime, nema povrede objektivnog identiteta ako sud zasniva presudu na
+                činjeničnom stanju utvrđenom na glavnom pretresu, koje se razlikuje od činjeničnog
+                stanja opisanog u optužbi, ako nije nepovoljnije za optuženog, pod uslovom da se u
+                osnovi radi o istom životnom događaju. Dakle, prvostepeni sud se u konkretnom
+                slučaju pravilno kretao u okviru istog događaja odnosno činjeničnog opisa iz
+                optužbe, na osnovu kojeg je presuda i donijeta, s tim što je u izvjesnoj mjeri
+                izmijenio činjenični opis iz optužnice, u dijelu koji se odnosi na zakonska
+                obilježja krivičnog djela prevara iz čl.244 Krivičnog zakonika Crne Gore, a
+                izmijenjeni činjenični opis nije nepovoljniji za optužene. Dakle, činjenični opis iz
+                optužnice je sadržao sva zakonska obilježja krivičnog djela prevara iz čl.244
+                Krivičnog zakonika Crne Gore i bez obzira što zakonska obilježja krivičnog djela
+                računarska prevara iz čl.352 Krivičnog zakonika Crne Gore kao bitno obilježje ne
+                sadrži dovođenje u zabludu, a koji elemenat je bio sadržan u činjeničnom opisu
+                predmetne optužnice. Iz navedenog se zaključuje, a suprotno izjavljenim žalbama, da
+                su optuženi iznoseći odbranu u odnosu na krivično djelo računarska prevara, iznijeli
+                odbranu i u odnosu na krivično djelo prevara, imajući u vidu činjenicu da je
+                krivično djelo računarska prevara samo poseban oblik prevare. Neosnovani su iznijeti
+                navodi žalbi da kriminalno udruženje može imati samo jednog organizatora i da
+                postojanje dva organizatora isključuje mogućnost postojanja predmetnog krivičnog
+                djela odnosno da bi se u tom slučaju moglo raditi o saizvršilaštvu. Shodno zakonskoj
+                definiciji, krivično djelo kriminalno udruživanje iz čl.401 Krivičnog zakonika Crne
+                Gore čini onaj ko organizuje grupu ili drugo udruženje koja ima za cilj vršenje
+                krivičnih djela za koje se može izreći kazna zatvora od pet godina ili teža kazna.
+                Organizator kriminalne grupe ili udruženja je lice koje određuje cilj stvaranja
+                grupe ili udruženja, okuplja članove, kojima daje određene uloge i zadatke,
+                organizuje cjelokupno funkcionisanje kriminalne grupe ili udruženja, bez kojeg
+                kriminalna grupa ili udruženje ne bi moglo postojati. Nasuprot navodima izjavljenih
+                žalbi, a polazeći od zakonske definicije kriminalnog udruživanja, Krivičnim
+                zakonikom nije precizirano koliko kriminalna grupa ili udruženje može imati
+                organizatora, odnosno da li može imati samo jednog ili više organizatora. Naime,
+                prvostepeni sud je pravilno utvrdio da je optuženi <party id="mč" refersTo="mč"
+                    as="">M.Č.</party>, kao organizator kriminalnog udruženja osmislio plan
+                djelovanja u cilju vršenja krivičnog djela prevara, dok je optuženi <party id="nm"
+                    refersTo="nm" as="">N.M.</party>, takođe kao organizator kriminalnog udruženja,
+                vrbovao pripadnike tog udruženja, optužene <party id="vs" refersTo="vs" as="">V.S.</party>,
+                S. K., <party id="dk" refersTo="dk" as="">D.K.</party>, <party id="bp" refersTo="bp"
+                    as="">B.P.</party>, <party id="rv" refersTo="rv" as="">R.V.</party>, <party
+                    id="bp" refersTo="bp" as="">B.P.</party> i <party id="sm" refersTo="sm" as="">S.
+                M.</party>, koji su prihvatili ulogu tog kriminalnog udruženja i učešća u njemu u
+                cilju izvršenja krivičnog djela prevara, odnosno optuženi <party id="mč"
+                    refersTo="mč" as="">M.Č.</party> je posredstvom optuženog <party id="nm"
+                    refersTo="nm" as="">N.M.</party> i samom optuženom <party id="nm" refersTo="nm"
+                    as="">N.M.</party> davao naloge u kojim poslovnim bankama u Crnoj Gori će
+                optuženi pripadnici kriminalnog udruženja otvoriti devizne račune, što su oni i
+                učinili, nakon čega je optuženi <party id="nm" refersTo="nm" as="">N.M.</party>
+                putem SMS poruka po otvaranju računa optuženom <party id="mč" refersTo="mč" as="">
+                M.Č.</party> prosleđivao SMS poruke sa podacima o deviznim računima i instrukcijama
+                za plaćanje, nakon čega je optuženi <party id="mč" refersTo="mč" as="">M.Č.</party>
+                sačinjavao i prosleđivao naloge za transfer novca, sa lažnim podacima, da su stvarni
+                vlasnici računa u stranim bankama naložili prenos sredstava sa svojih žiro računa na
+                račune optuženih <party id="nm" refersTo="nm" as="">N.M.</party>, <party id="vs"
+                    refersTo="vs" as="">V.S.</party>, <party id="sk" refersTo="sk" as="">S.K.</party>
+                , <party id="dk" refersTo="dk" as="">D.K.</party>, <party id="bp" refersTo="bp"
+                    as="">B.P.</party>, <party id="rv" refersTo="rv" as="">R.V.</party>, <party
+                    id="bp" refersTo="bp" as="">B.P.</party> i <party id="sm" refersTo="sm" as="">
+                S.M.</party>, koji računi su bili otvoreni kod domaćih poslovnih banaka i na taj
+                način doveo u zabludu ovlašćena službena lica tih banaka, da putem swi� poruka
+                izvrše transfer novca. Po ocjeni ovog suda, iz naprijed navedenog proizilazi da su
+                optuženi <party id="mč" refersTo="mč" as="">M.Č.</party> i <party id="nm"
+                    refersTo="nm" as="">N.M.</party> svojim radnjama zajedno organizovali kriminalno
+                udruženje u cilju vršenja krivičnog djela prevara, da su njihove radnje međusobno
+                uslovljene, zavise jedne od drugih, da su oba optužena preuzela na sebe svoj dio
+                organizovanja kriminalnog udruženja, bez čega ne bi postojalo i funkcionisalo
+                kriminalno udruženje u konkretnom slučaju. Imajući u vidu prednje navedene razloge,
+                navodi žalbi da kriminalnu grupu ili udruženje u cilju vršenja krivičnih djela može
+                organizovati samo jedno lice su bez osnova. Suprotno iznijetim žalbenim navodima,
+                prvostepeni sud je pravilno zaključio da su optuženi <party id="mč" refersTo="mč"
+                    as="">M.Č.</party> i <party id="nm" refersTo="nm" as="">N.M.</party> stvorili
+                kriminalno udruženje, koje ima više od tri člana, kao i plan za izvršenje krivičnog
+                djela prevara, a da su optuženi <party id="vs" refersTo="vs" as="">V.S.</party>, <party
+                    id="sk" refersTo="sk" as="">S.K.</party>, <party id="dk" refersTo="dk" as="">
+                D.K.</party>, <party id="bp" refersTo="bp" as="">B.P.</party>, <party id="rv"
+                    refersTo="rv" as="">R.V.</party>, <party id="bp" refersTo="bp" as="">B.P.</party>
+                i <party id="sm" refersTo="sm" as="">S.M.</party>, kao pripadnici tog kriminalnog
+                udruženja zajednički preduzimali radnje neophodne za funkcionisanje udruženja
+                formiranog radi vršenja krivičnog djela prevara iz čl.244 Krivičnog zakonika Crne
+                Gore, svjesni pripadnosti tom kriminalnom udruženju, što znači da je kod svih
+                optuženih postojala svijest i volja za izvršenje predmetnog krivičnog djela, pa se u
+                radnjama optuženih kao subjektivni element bića ovog krivičnog djela manifestovao
+                direktni umišljaj. Pravilno je utvrđenje prvostepenog suda da su se optuženi
+                udružili u grupu odnosno kriminalno udruženje u cilju vršenja krivičnog djela
+                prevara, odnosno da su bili svjesni da postupajući na prethodno opisani način,
+                lažnim prikazivanjem činjenica, dovode u zabludu ovlašćene službenike inostranih
+                banaka, da na štetu tuđe imovine – oštećenih izvrše transfer novca na račune
+                optuženih, izuzev na račun optuženog <party id="mč" refersTo="mč" as="">M.Č.</party>,
+                pa su to i htjeli, a sve u cilju pribavljanja protivpravne imovinske koristi. Dakle,
+                pripadnici kriminalnog udruženja su prihvatajući plan i naloge organizatora
+                udruženja u cilju realizacije dogovora otvorili devizne račune na svoje ime, a
+                optuženi <party id="mč" refersTo="mč" as="">M.Č.</party> je prosleđivao naloge, sa
+                lažnim podacima da su stvarni vlasnici računa u stranim bankama naložili prenos
+                sredstava sa svojih žiro računa, koje poruke su sadržale i instrukcije za plaćanje
+                ka deviznim računima sa SWIFT kodovima optuženih pripadnika kriminalnog udruženja,
+                koje instrukcije su preko optuženog <party id="nm" refersTo="nm" as="">N.M.</party>,
+                putem SMS poruka dostavljane optuženom Čujoviću, na koji način su doveli u zabludu
+                ovlašćena lica u bankama stranih država, koja su po prijemu naloga, postupali sa
+                instrukcijama koje su u njima sadržane i izvršili transfer novčanih sredstava. S
+                obzirom na prednje navedeno, pripadnici kriminalnog udruženja su bili svjesni da u
+                okviru zajedničkog djelovanja, prihvatajući plan i naloge organizatora kriminalnog
+                udruženja u cilju realizacije prethodnog dogovora, dovode u zabludu ovlašćena
+                službena lica u bankama stranih država odnosno da su zajedničkim radnjama u okviru
+                kriminalnog udruženja bitno doprinijeli izvršenju krivičnog djela prevara, sa kojim
+                ciljem je i formirano kriminalno udruženje, a u kom pravcu se žalbeni navodi
+                pokazuju neosnovanim. Po nalaženju Apelacionog suda, neosnovano se izjavljenim
+                žalbama osporava pravilnost i potpunost utvrđenog činjeničnog stanja, kao i
+                pravilnost izvedenih zaključaka iz prvostepene presude, jer je prvostepeni sud na
+                osnovu dokaza izvedenih na glavnom pretresu i njihove svestrane ocjene, pojedinačne
+                i u međusobnoj vezi, pa sve u vezi sa odbranom optuženih, pravilno utvrdio odlučne
+                činjenice, koje je u prvostepenoj presudi valjano obrazložio i na kojima je zasnovao
+                svoje zaključke o postojanju krivičnih djela kao i krivice optuženih. Na osnovu
+                izvedenih dokaza i nakon njihove pravilne ocjene, kao i pravilne ocjene odbrane
+                optuženih, po ocjeni ovog suda, a nasuprot navodima izjavljenih žalbi, prvostepeni
+                sud je pravilno utvrdio da su optuženi <party id="mč" refersTo="mč" as="">M.Č.</party>
+                , <party id="nm" refersTo="nm" as="">N.M.</party>, <party id="vs" refersTo="vs"
+                    as="">V.S.</party>, <party id="sk" refersTo="sk" as="">S.K.</party>, <party
+                    id="dk" refersTo="dk" as="">D.K.</party>, <party id="bp" refersTo="bp" as="">
+                B.P.</party>, <party id="rv" refersTo="rv" as="">R.V.</party>, <party id="bp"
+                    refersTo="bp" as="">B.P.</party> i <party id="sm" refersTo="sm" as="">S.M.</party>
+                izvršili krivično djelo kriminalno udruživanje iz čl.401 st.2 u vezi st.1 Krivičnog
+                zakonika Crne Gore, a optuženi <party id="mč" refersTo="mč" as="">M.Č.</party>, <party
+                    id="nm" refersTo="nm" as="">N.M.</party>, <party id="sk" refersTo="sk" as="">
+                S.K.</party>, <party id="dk" refersTo="dk" as="">D.K.</party> i <party id="rv"
+                    refersTo="rv" as="">R.V.</party> u sticaju sa krivičnim djelom prevara iz čl.244
+                st.4 u vezi st.1 Krivičnog zakonika Crne Gore, optuženi <party id="vs" refersTo="vs"
+                    as="">V.S.</party> i <party id="bp" refersTo="bp" as="">B.P.</party> u sticaju
+                sa krivičnim djelom prevara iz čl.244 st.3 u vezi st.1 Krivičnog zakonika Crne Gore,
+                optuženi <party id="bp" refersTo="bp" as="">B.P.</party> u sticaju sa krivičnim
+                djelom prevara u pokušaju iz čl.244 st.4 u vezi st.1 u vezi čl.20 Krivičnog zakonika
+                Crne Gore i optužena <party id="sm" refersTo="sm" as="">S.M.</party> u sticaju sa
+                krivičnim djelom prevara u pokušaju iz čl.244 st.1 u vezi čl.20 Krivičnog zakonika
+                Crne Gore, činjenično opisana u izreci prvostepene presude, postupajući sa direktnim
+                umišljajem. Nasuprot navodima žalbe Višeg državnog tužioca, prvostepeni sud je
+                pravilno postupio kada je optuženog N. M. oslobodio optužbe kojom je predstavljeno
+                da je izvršio krivično djelo kriminalno udruživanje iz čl.401 st.2 u vezi st.1
+                Krivičnog zakonika Crne Gore u sticaju sa krivičnim djelom računarska prevara iz
+                čl.352 st.3 u vezi st.1 Krivičnog zakonika Crne Gore, na osnovu čl.373 st.1 tač.2
+                Zakonika o krivičnom postupku, jer nije dokazano da je učinio djela za koja je
+                optužen. I po nalaženju Apelacionog suda, provedenim dokazima na glavnom pretresu
+                prvostepeni sud nije mogao nesumnjivo utvrditi da je optuženi <party id="nm"
+                    refersTo="nm" as="">N.M.</party> zajedno sa svojim bratom optuženim <party
+                    id="nm" refersTo="nm" as="">N. M.</party>, u svojoj porodičnoj kući i u motelu
+                "Šarović" za optuženog <party id="mč" refersTo="mč" as="">M.Č.</party> obezbijedio
+                uslove i tehničku podršku i od novca koji je pribavljen izvršenjem krivičnog djela
+                sebi pribavio protivpravnu imovinsku korist u vrijednosti oduzetog putničkog
+                motornog vozila marke "BMW", reg.oznake PJ DS 696, koji potiče od izvršenja
+                krivičnog djela, kako mu je optužnicom stavljeno na teret. Polazeći od sadržine dva
+                presretnuta telefonska razgovora između optuženog <party id="bp" refersTo="bp" as="">
+                B.P.</party> i optuženih N. i <party id="nm" refersTo="nm" as="">N.M.</party>,
+                sadržine finansijske dokumentacije crnogorskih poslovnih banaka odnosno nalaza i
+                mišljenja vještaka ekonomsko – finansijske struke, iz čega ne proizilazi da je
+                optuženi <party id="nm" refersTo="nm" as="">N.M.</party> imao otvoren račun u
+                poslovnim bankama u Crnoj Gori, pravilno prvostepeni sud nije mogao utvrditi odlučne
+                činjenice da je optuženi <party id="nm" refersTo="nm" as="">N.M.</party> kao
+                pripadnik kriminalnog udruženja u svojoj kući i motelu "Šarović" zajedno sa svojim
+                bratom optuženim <party id="nm" refersTo="nm" as="">N. M.</party>stvorio uslove i
+                tehničku podršku optuženom <party id="mč" refersTo="mč" as="">M.Č.</party>, u cilju
+                vršenja krivičnog djela računarska prevara iz čl.352 st.3 u vezi st.1 Krivičnog
+                zakonika Crne Gore. Imajući u vidu prethodno navedeno, pravilno je postupio
+                prvostepeni sud kada je u sumnji postojanja činjenica koja čine bitna obilježja
+                predmetnih krivičnih djela odlučio na način kako je to povoljnije za optuženog, a
+                shodno čl.3 st.3 Zakonika o krivičnom postupku i optuženog <party id="nm"
+                    refersTo="nm" as="">N. M.</party> u nedostatku dokaza oslobodio od optužbe
+                shodno čl.373 st.1 tač.2 Zakonika o krivičnom postupku, o čemu su u pobijanoj
+                presudi dati uvjerljivi i dovoljni razlozi, koji navodima izjavljene žalbe nijesu
+                dovedeni u sumnju i koje kao pravilne prihvata i Apelacioni sud. Na utvrđeno
+                činjenično stanje, prvostepeni sud je pravilno primijenio Krivični zakonik kada je
+                radnje optuženih <party id="mč" refersTo="mč" as="">M.Č.</party>, <party id="nm"
+                    refersTo="nm" as="">N.M.</party>, <party id="vs" refersTo="vs" as="">V.S.</party>
+                , <party id="sk" refersTo="sk" as="">S.K.</party>, <party id="dk" refersTo="dk"
+                    as="">D.K.</party>, <party id="bp" refersTo="bp" as="">B.P.</party>, <party
+                    id="rv" refersTo="rv" as="">R.V.</party>, <party id="bp" refersTo="bp" as="">
+                B.P.</party> i <party id="sm" refersTo="sm" as="">S.M.</party> pravno ocijenio kao
+                krivično djelo kriminalno udruživanje iz čl.401 st.2 u vezi st.1 Krivičnog zakonika
+                Crne Gore, u sticaju sa krivičnim djelom prevara iz čl.244 Krivičnog zakonika Crne
+                Gore, i to radnje optuženih <party id="mč" refersTo="mč" as="">M.Č.</party>, <party
+                    id="nm" refersTo="nm" as="">N.M.</party>, <party id="sk" refersTo="sk" as="">
+                S.K.</party>, <party id="dk" refersTo="dk" as="">D.K.</party> i <party id="rv"
+                    refersTo="rv" as="">R.V.</party> kao krivično djelo prevara iz čl.244 st.4 u
+                vezi st.1 Krivičnog zakonika Crne Gore, optuženih <party id="vs" refersTo="vs" as="">
+                V.S.</party> i <party id="bp" refersTo="bp" as="">B.P.</party> kao krivično djelo
+                prevara iz čl.244 st.3 u vezi st.1 Krivičnog zakonika Crne Gore, optuženog <party
+                    id="bp" refersTo="bp" as="">B.P.</party> kao krivično djelo prevara u pokušaju
+                iz čl.244 st.4 u vezi st.1 u vezi čl.20 Krivičnog zakonika Crne Gore i optužene <party
+                    id="sm" refersTo="sm" as="">S.M.</party> kao krivično djelo prevara u pokušaju
+                iz čl.244 st.1 u vezi čl.20 Krivičnog zakonika Crne Gore, pa ni Krivični zakonik
+                nije povrijeđen na štetu optuženih, o čemu takođe ovaj sud vodi računa po službenoj
+                dužnosti u smislu čl.398 st.1 Zakonika o krivičnom postupku. Apelacioni sud je
+                ispitao prvostepenu presudu i u dijelu odluke o kazni, koja se osporava žalbama
+                Višeg državnog tužioca u Podgorici, branioca optuženog <party id="mč" refersTo="mč"
+                    as="">M.Č.</party>, branilaca optuženog <party id="nm" refersTo="nm" as="">N.M.</party>,
+                branilaca optuženih <party id="vs" refersTo="vs" as="">V.S.</party> i <party id="bp"
+                    refersTo="bp" as="">B.P.</party>, branioca optuženih <party id="bp"
+                    refersTo="bp" as="">B.P.</party> i <party id="dk" refersTo="dk" as="">D.K.</party>,
+                dok je u odnosu na žalbe branioca optuženog <party id="sk" refersTo="sk" as="">S.K.</party>
+                i branioca optuženih <party id="rv" refersTo="rv" as="">R.V.</party> i <party
+                    id="sm" refersTo="sm" as="">S.M.</party> primijenio odredbu čl.401 Zakonika o
+                krivičnom postupku, kojom je predviđeno da žalba zbog pogrešno i nepotpuno utvrđenog
+                činjeničnog stanja ili zbog povrede Krivičnog zakonika obuhvata i žalbu zbog odluke
+                o kazni, pa je našao da su žalbe Višeg državnog tužioca, branilaca optuženih <party
+                    id="vs" refersTo="vs" as="">V.S.</party> i <party id="bp" refersTo="bp" as="">
+                B.P.</party>, branioca optuženih <party id="bp" refersTo="bp" as="">B.P.</party> i <party
+                    id="dk" refersTo="dk" as="">D.K.</party>, branioca optuženog <party id="sk"
+                    refersTo="sk" as="">S.K.</party> i branioca optuženih <party id="rv"
+                    refersTo="rv" as="">R.V.</party> i <party id="sm" refersTo="sm" as="">S.M.</party>
+                u tom pravcu neosnovane, a uvažio je žalbe branilaca optuženih <party id="mč"
+                    refersTo="mč" as="">M.Č.</party> i <party id="nm" refersTo="nm" as="">N.M.</party>
+                i u odnosu na ove optužene preinačio prvostepenu presudu. Naime, po nalaženju ovog
+                suda, prvostepeni sud je pravilno utvrdio i u dovoljnoj mjeri vrednovao sve
+                činjenice, odnosno okolnosti, koje su od uticaja na izbor vrste krivične sankcije i
+                koje su od značaja da kazna u ovoj krivično-pravnoj stvari bude veća ili manja. U
+                tom smislu, na strani optuženog <party id="vs" refersTo="vs" as="">V.S.</party>
+                prvostepeni sud je pravilno cijenio od olakšavajućih okolnosti njegove lične
+                prilike, da se radi o relativno mlađoj osobi, koja je u vrijeme izvršenja krivičnog
+                djela imala navršenih 24 godine života, dok je kao otežavajuću okolnost cijenio
+                njegov raniji život, odnosno njegovu osuđivanost, što je utvrđeno iz izvoda iz
+                kaznene evidencije na ime optuženog, na strani optuženog <party id="sk"
+                    refersTo="sk" as="">S.K.</party>, prvostepeni sud je pravilno cijenio u odsustvu
+                olakšavajućih okolnosti, kao otežavajuću okolnost njegov raniji život, odnosno
+                osuđivanost, što je utvrđeno iz izvoda iz kaznene evidencije na ime optuženog, na
+                strani optuženog <party id="dk" refersTo="dk" as="">D.K.</party>, prvostepeni sud je
+                pravilno cijenio kao olakšavajuću okolnost njegove lične prilike, odnosno imovno
+                stanje, dok je kao otežavajuću okolnost cijenio njegov raniji život, odnosno njegovu
+                osuđivanost, što je utvrđeno iz izvoda iz kaznene evidencije na ime optuženog, na
+                strani optuženog <party id="bp" refersTo="bp" as="">B.P.</party> prvostepeni sud je
+                pravilno cijenio kao olakšavajuću okolnost njegove lične prilike, odnosno relativnu
+                mladost, s obzirom da je u vrijeme izvršenja krivičnih djela imao navršenih 24
+                godine života, dok je kao otežavajuću okolnost cijenio njegov raniji život, odnosno
+                njegovu osuđivanost, što je utvrđeno iz izvoda iz kaznene evidencije na ime
+                optuženog, na strani optuženog <party id="rv" refersTo="rv" as="">R.V.</party>
+                prvostepeni sud je pravilno cijenio u odsustvu olakšavajućih okolnosti, kao
+                otežavajuću okolnost njegov raniji život, odnosno osuđivanost, što je utvrđeno iz
+                izvoda iz kaznene evidencije na ime optuženog, na strani optuženog <party id="bp"
+                    refersTo="bp" as="">B.P.</party> prvostepeni sud je pravilno cijenio kao
+                olakšavajuću okolnost njegov raniji život, odnosno neosuđivanost, što je utvrđeno iz
+                izvoda iz kaznene evidencije na ime optuženog, dok otežavajućih okolnosti van
+                elemenata bića predmetnih krivičnih djela nije bilo, na strani optužene <party
+                    id="sm" refersTo="sm" as="">S.M.</party> prvostepeni sud je pravilno cijenio kao
+                olakšavajuće okolnosti njene lične prilike, odnosno činjenicu da je majka jednog
+                mldb.djeteta starog 5 godina i njen raniji život, odnosno neosuđivanost, što je
+                utvrđeno iz izvoda iz kaznene evidencije na ime optužene, dok otežavajućih okolnosti
+                van elemenata bića predmetnih krivičnih djela nije bilo, pa je prvostepeni sud iste
+                pravilno osudio na jedinstvene kazne zatvora i to optuženog <party id="vs"
+                    refersTo="vs" as="">V.S.</party> na jedinstvenu kaznu zatvora u trajanju od 1
+                (jedne) godine i 10 (deset) mjeseci, u koju kaznu mu se uračunava vrijeme provedeno
+                u pritvoru počev od 05.09.2012.godine do 14.05.2014.godine, optuženog Sašu Klikovca
+                na jedinstvenu kaznu zatvora u trajanju od 2 (dvije) i 4 (četiri) mjeseca, u koju
+                kaznu mu se uračunava vrijeme provedeno u pritvoru počev od 13.09.2012.godine do
+                14.05.2014.godine, optuženog <party id="dk" refersTo="dk" as="">D.K.</party> na
+                jedinstvenu kaznu zatvora u trajanju od 1 (jedne) godine i 10 (deset) mjeseci, u
+                koju kaznu mu se uračunava vrijeme provedeno u pritvoru počev od 31.08.2012.godine
+                do 14.05.2014.godine, optuženog <party id="bp" refersTo="bp" as="">B.P.</party> na
+                jedinstvenu kaznu zatvora u trajanju od 2 (dvije) godine i 4 (četiri) mjeseca, u
+                koju kaznu mu se uračunava vrijeme provedeno u pritvoru počev od 31.08.2012.godine
+                do 14.05.2014.godine, optuženog <party id="rv" refersTo="rv" as="">R.V.</party> na
+                jedinstvenu kaznu zatvora u trajanju od 2 (dvije) godine i 4 (četiri) mjeseca, u
+                koju kaznu mu se uračunava vrijeme provedeno u pritvoru počev od 31.08.2012.godine
+                do 14.05.2014.godine, optuženog <party id="bp" refersTo="bp" as="">B.P.</party> na
+                jedinstvenu kaznu zatvora u trajanju od 1 (jedne) godine i 1 (jedan) mjesec, u koju
+                kaznu mu se uračunava vrijeme provedeno u pritvoru počev od 31.08.2012.godine do
+                14.05.2014.godine i optuženu <party id="sm" refersTo="sm" as="">S. M.</party> na
+                jedinstvenu kaznu zatvora u trajanju od 7 (sedam) mjeseci, u koju kaznu joj se
+                uračunava vrijeme provedeno u pritvoru počev od 31.08.2012.godine do
+                14.05.2014.godine. I po ocjeni ovog suda, izrečene kazne zatvora ovim optuženim u
+                navedenom trajanju srazmjerne su težini izvršenih krivičnih djela i stepenu krivice
+                optuženih i za očekivati je da će se istim postići svrha kažnjavanja iz čl.32, a u
+                vezi čl.4 st.2 Krivičnog zakonika. Ovo posebno ako se ima u vidu da se izjavljenim
+                žalbama ne navode nove činjenice ili pak okolnosti koje bi imale uticaja da
+                optuženim kazna zatvora bude izrečena u kraćem ili dužem vremenskom periodu, a koje
+                prvostepeni sud nije imao vidu prilikom izricanja kazne ovim optuženima. Uvažavajući
+                žalbe branilaca optuženih <party id="mč" refersTo="mč" as="">M.Č.</party> i <party
+                    id="nm" refersTo="nm" as="">N.M.</party>, Apelacioni sud je u odnosu na ove
+                optužene preinačio presudu Višeg suda u Podgorici K.br.109/2013 od
+                16.07.2015.godine, u dijelu odluke o kazni, na način što je sud ovim optuženima
+                primjenom čl.42 i 48 Krivičnog zakonika Crne Gore prethodno za krivično djelo
+                kriminalno udruživanje iz čl.401 st.2 u vezi st.1 Krivičnog zakonika Crne Gore, uzeo
+                kao utvrđenu kaznu zatvora u trajanju od po 2 (dvije) godine, dok im je za krivično
+                djelo prevara iz čl.244 st.4 u vezi st.1 Krivičnog zakonika Crne Gore utvrdio kaznu
+                zatvora u trajanju od po 3 (tri) godine, pa ih je sud primjenom čl.42, 48 i 51
+                Krivičnog zakonika Crne Gore osudio na jedinstvenu kaznu zatvora u trajanju od po 4
+                (četiri) godine i 6 (šest) mjeseci, u koju kaznu im se uračunava vrijeme provedeno u
+                pritvoru i to optuženom <party id="mč" refersTo="mč" as="">M.Č.</party> od
+                31.08.2012.godine pa nadalje, a optuženom <party id="nm" refersTo="nm" as="">N.M.</party>
+                od 31.08.2012.godine do 14.05.2014.godine. Po nalaženju ovog suda, prvostepeni sud
+                je prestrogo odmjerio jedinstvene kazne zatvora optuženima <party id="mč"
+                    refersTo="mč" as="">M.Č.</party> i <party id="nm" refersTo="nm" as="">N.M.</party>
+                u trajanju od po 6 (šest) godina i 6 (šest) mjeseci, jer nije u dovoljnoj mjeri
+                cijenio olakšavajuće okolnosti i to na strani optuženog <party id="mč" refersTo="mč"
+                    as="">M.Č.</party> njegove lične prilike, da je oženjen, otac jednog
+                mldb.djeteta i njegov raniji život, odnosno činjenicu da nije osuđivan, što je
+                utvrđeno iz izvoda iz kaznene evidencije na ime ovog optuženog, a na strani
+                optuženog <party id="nm" refersTo="nm" as="">N.M.</party> njegove lične prilike,
+                relativnu mladost, s obzirom da je u vrijeme izvršenja krivičnih djela imao
+                navršenih 25 godina života, dok je dao prenaglašen značaj otežavajućim okolnostima
+                odnosno ranijoj osuđivanosti na strani optuženog <party id="nm" refersTo="nm" as="">
+                N.M.</party>, što je utvrđeno iz izvoda iz kaznene evidencije na ime ovog optuženog,
+                pri tom imajući u vidu da na strani optuženog <party id="mč" refersTo="mč" as="">
+                M.Č.</party> nije bilo otežavajućih okolnosti van elemenata bića krivičnih djela, pa
+                je Apelacioni sud, sa ovih razloga i radi pravilne individualizacije kazne, odlučio
+                kao u stavu II ove presude. U izreci pobijane presude je navedeno da se na osnovu
+                čl.482 Zakonika o krivičnom postupku u vezi čl.112 i 113 st.1 Krivičnog zakonika
+                Crne Gore od optuženih <party id="mč" refersTo="mč" as="">M.Č.</party>, <party
+                    id="nm" refersTo="nm" as="">N.M.</party>, <party id="sk" refersTo="sk" as="">
+                S.K.</party>, <party id="dk" refersTo="dk" as="">D.K.</party>, <party id="bp"
+                    refersTo="bp" as="">B.P.</party> i <party id="rv" refersTo="rv" as="">R.V.</party>
+                oduzima imovinska korist pribavljena izvršenjem krivičnog djela u ukupnom iznosu od
+                ......... eura, koju su optuženi obavezni solidarno uplatiti u Budžet Crne Gore, u
+                roku od 15 dana po pravosnažnosti presude pod pijetnjom prinudne naplate. Naime, iz
+                sadržine nalaza i mišljenja stalnog sudskog vještaka ekonomsko – finansijske struke
+                od 17.12.2012.godine i dopune istog od 10.04.2013.godine je utvrđeno da optuženi <party
+                    id="mč" refersTo="mč" as="">M.Č.</party> nije imao otvoren devizni račun u
+                poslovnim bankama u Crnoj Gori, da je optuženi <party id="nm" refersTo="nm" as="">
+                N.M.</party> imao otvoren devizni račun kod Crnogorske komercijalne banke na koji
+                račun je dana 24.07.2012.godine ostvaren priliv u iznosu od .......... CHF, odnosno
+                nakon izvršene konverzije ........ eura, koji iznos je istog dana podigao sa svog
+                računa i da je na njegov račun istog dana izvršen transfer novca u iznosu od
+                ........... CHF ili ............. eura, koji iznos je zbog sumnji u relevantnost
+                inicijalnih instrukcija za transfer blokiran, iz kog razloga nije izvršen prenos
+                novčanih sredstava na račun optuženog <party id="nm" refersTo="nm" as="">N.M.</party>,
+                da je optuženi <party id="bp" refersTo="bp" as="">B.P.</party> imao otvoren devizni
+                račun kod Hipotekarne banke AD Podgorica i da je na taj račun dana 28.06.2012.godine
+                ostvaren priliv u iznosu od ............... eura, koji iznos je istog dana podigao
+                na šalteru navedene banke, da je imao otvoren devizni račun i kod Atlas banke AD
+                Podgorica i da je na taj račun dana 02.08.2012.godine ostvaren priliv u iznosu od
+                ............. eura, od kog iznosa je optuženi istog dana na šalteru banke podigao
+                iznos od ............ eura, da je imao otvoren račun i kod Invest banke Montenegro
+                (IBM) i da je na taj račun dana 03.08.2012.godine ostvaren priliv u iznosu od
+                .......... eura, od kog iznosa je istog dana na šalteru banke podigao iznos od
+                ............ eura, a dana 08.08.2012.godine na istom računu je ostvaren priliv u
+                iznosu od ........... eura, od kog iznosa je istog dana na šalteru banke podigao
+                iznos od .............. eura, da su optuženi <party id="rv" refersTo="rv" as="">R.V.</party>
+                , <party id="sk" refersTo="sk" as="">S.K.</party> i <party id="dk" refersTo="dk"
+                    as="">D.K.</party> imali otvorene devizne račune u bankama u Crnoj Gori i to
+                optuženi <party id="rv" refersTo="rv" as="">R.V.</party> kod Komercijalne banke AD
+                Budva, optuženi <party id="sk" refersTo="sk" as="">S.K.</party> kod First Financial
+                bank u Podgorici i optuženi <party id="dk" refersTo="dk" as="">D.K.</party> kod
+                ........... i da je na tim računima izvršen transfer novca i to na račun optuženog
+                Vulevića iznos od ............. eura, na račun optuženog K. iznos od ............
+                eura i na račun optuženog K. iznos od ........ CHF odnosno ........... eura, koji
+                iznosi su blokirani zbog sumnji u relevantnost inicijalnih instrukcija za transfer.
+                Imajući u vidu prethodno navedeno, po nalaženju Apelacionog suda, prvostepeni sud je
+                odluku o oduzimanju imovinske koristi u odnosu na optužene <party id="rv"
+                    refersTo="rv" as="">R.V.</party>, S. i <party id="dk" refersTo="dk" as="">D.K.</party>
+                nepravilno donio, a shodno čl.389 st.2 Zakonika o krivičnom postupku je predviđeno
+                da se odluka o mjeri bezbjednosti ili oduzimanju imovinske koristi može pobijati ako
+                ne postoji povreda zakona iz čl.387 tač.4 ovog zakonika, ali je sud nepravilno donio
+                ovu odluku ili nije izrekao mjeru bezbjednosti odnosno oduzimanje imovinske koristi,
+                iako su za to postojali zakonski uslovi. Stoji činjenica da su ovi optuženi otvorili
+                devizne račune kod banaka u Crnoj Gori, da je na tim računima izvršen transfer novca
+                u određenim iznosima, ali su ti iznosi zbog sumnji u relevantnost inicijalnih
+                instrukcija za transfer blokirani, što je utvrđeno iz nalaza i mišljenja vještaka
+                ekonomsko - finansijske struke. Dakle, ovi optuženi nijesu podigli novac sa svojih
+                deviznih računa, pa je prvostepeni sud nepravilno donio odluku o oduzimanju
+                imovinske koristi od ovih optuženih. Nadalje, preinačenjem pobijane presude se mogu
+                otkloniti sve mjere bezbjednosti, odluka o imovinsko - pravnom zahtjevu, odluka o
+                troškovima krivičnog postupka, odluka o oduzimanju imovinske koristi i odluka o
+                oduzimanju predmeta, u kojim slučajevima ne dolazi u obzir ukidanje neke od ovih
+                odluka, jer nakon ukidanja neke odluke treba da se donese nova odluka, a o ovim
+                odlukama nije moguće samostalno odlučivati kada je presuda o glavnoj stvari
+                pravosnažna odnosno ukidanje presude zbog grešaka u odnosu na ove odluke ne dolazi u
+                obzir, jer je presuda, u ostalom - glavnom dijelu pravilna, pa se zbog toga određena
+                odluka otklanja. Odredbom čl.402 Zakonika o krivičnom postupku je predviđeno da ako
+                drugostepeni sud povodom žalbe utvrdi da su razlozi zbog kojih je donio odluku u
+                korist optuženog od koristi i za nekog od saoptuženih koji nije izjavio žalbu ili je
+                nije izjavio u tom pravcu, postupiće po službenoj dužnosti kao da takva žalba
+                postoji. S obzirom na prednje navedeno, Apelacioni sud je primjenom čl.389 st.2 i
+                čl.402 Zakonika o krivičnom postupku uvažio žalbu branioca optuženog <party id="dk"
+                    refersTo="dk" as="">D.K.</party> u dijelu odluke o oduzimanju imovinske koristi,
+                a povodom te žalbe i po službenoj dužnosti u tom dijelu i u odnosu na optužene Sašu
+                Klikovca i <party id="rv" refersTo="rv" as="">R.V.</party> preinačio presudu Višeg
+                suda u Podgorici K.br.109/2013 od 16.07.2015.godine, tako što je iz ove presude u
+                odnosu na optužene <party id="dk" refersTo="dk" as="">D.K.</party>, S.K i <party
+                    id="rv" refersTo="rv" as="">R.V.</party> odluku o oduzimanju imovinske koristi
+                otklonio. Ovaj sud je cijenio i ostale navode u izjavljenim žalbama i odgovorima na
+                žalbu Višeg državnog tužioca u Podgorici i našao da su isti bez uticaja na drugačije
+                presuđenje, a odgovori na te navode sadržani su u razlozima prvostepene presude,
+                koje prihvata Apelacioni sud. Sa iznijetih razloga, a na osnovu čl.406, 409 st.1 u
+                vezi čl.389 st.2 Zakonika o krivičnom postupku, odlučeno je kao u izreci ove
+                presude. <organization id="ascg" refersTo="#ascg">APELACIONI SUD CRNE GORE</organization>
+                Podgorica, 14.04.2016.godine. Zapisničar, PREDSJEDNIK VIJEĆA - SUDIJA, MIlica
+                Rašović,s.r. Zoran Smolović,s.r </p>
+        </judgementBody>
+        <conclusions>
+        </conclusions>
+    </judgement>
+</akomaNtoso>
