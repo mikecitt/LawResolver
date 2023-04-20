@@ -61,7 +61,7 @@ public class RuleJudgementServiceImpl implements RuleJudgementService {
         }
     }
 
-    private String getResults() throws ParserConfigurationException, IOException, SAXException {
+    private String getResults() throws Exception {
         Path exportPath = Paths.get(System.getProperty("user.dir"), "src", "main", "resources", "dr-device", "export.rdf");
 
         StringBuilder retVal = new StringBuilder();
@@ -100,7 +100,10 @@ public class RuleJudgementServiceImpl implements RuleJudgementService {
                 }
             }
         }
-        retVal.append(" meseci.");
+        if (!retVal.isEmpty())
+            retVal.append(" meseci.");
+        else
+            throw new Exception("Invalid.");
 
         return retVal.toString();
     }

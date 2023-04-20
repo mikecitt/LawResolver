@@ -4,8 +4,8 @@
         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
         xmlns:lc="http://informatika.ftn.uns.ac.rs/legal-case.rdf#">
     <lc:case rdf:about="http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01">
-        <lc:name>sfda</lc:name>
-        <lc:defendant>adfs</lc:defendant>
-        <lc:amount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</lc:amount>
+        <lc:name>K 25/2021</lc:name>
+        <lc:defendant>K.O.</lc:defendant>
+        <lc:amount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1000.0</lc:amount>
     </lc:case>
 </rdf:RDF>

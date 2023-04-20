@@ -17,7 +17,7 @@
         <RuleML>
             <xsl:attribute name="proof">proof.ruleml</xsl:attribute>
             <xsl:attribute name="rdf_export">export.rdf</xsl:attribute>
-            <xsl:attribute name="rdf_export_classes">acquire_money_lv1 acquire_money_lv2 acquire_money_lv3 max_imprisonment min_imprisonment</xsl:attribute>
+            <xsl:attribute name="rdf_export_classes">acquire_money_lv1 acquire_money_lv2 acquire_money_lv3 min_imprisonment max_imprisonment</xsl:attribute>
             <xsl:attribute name="rdf_import">&quot;facts.rdf&quot;</xsl:attribute>
             <xsl:apply-templates select="lrml:Statements"/>
         </RuleML>
