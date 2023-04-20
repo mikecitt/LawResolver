@@ -1,12 +1,10 @@
-import React, { FC } from 'react';
-import './InstructionsPage.css';
+import React, { FC } from "react";
+import "./InstructionsPage.css";
 
 interface InstructionsPageProps {}
 
 const InstructionsPage: FC<InstructionsPageProps> = () => (
-  <div className="InstructionsPage">
-    InstructionsPage Component
-  </div>
+  <div className="InstructionsPage">Uputstvo Component</div>
 );
 
 export default InstructionsPage;
