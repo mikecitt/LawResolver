@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+        xmlns:lc="http://informatika.ftn.uns.ac.rs/legal-case.rdf#">
+    <lc:case rdf:about="http://informatika.ftn.uns.ac.rs/legal-case.rdf#case01">
+        <lc:name>KZ 215/2021</lc:name>
+        <lc:defendant>M.K.</lc:defendant>
+        <lc:amount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">233.0</lc:amount>
+        <lc:first_limit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000</lc:first_limit>
+        <lc:second_limit rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30000</lc:second_limit>
+    </lc:case>
+</rdf:RDF>
