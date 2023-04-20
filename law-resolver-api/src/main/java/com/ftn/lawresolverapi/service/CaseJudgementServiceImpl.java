@@ -5,6 +5,7 @@ import com.ftn.lawresolverapi.cbr.TabularSimilarity;
 import com.ftn.lawresolverapi.dto.CaseDTO;
 import com.ftn.lawresolverapi.mapper.CaseMapper;
 import com.ftn.lawresolverapi.model.Case;
+import com.ftn.lawresolverapi.dto.CaseResultDTO;
 import com.ftn.lawresolverapi.service.interfaces.CaseJudgementService;
 import es.ucm.fdi.gaia.jcolibri.casebase.LinealCaseBase;
 import es.ucm.fdi.gaia.jcolibri.cbraplications.StandardCBRApplication;
@@ -37,9 +38,9 @@ public class CaseJudgementServiceImpl implements CaseJudgementService, StandardC
     }
 
     @Override
-    public List<String> startJudging(CaseDTO caseDTO) {
+    public List<CaseResultDTO> startJudging(CaseDTO caseDTO) {
         Case caseDescription = caseMapper.toEntity(caseDTO);
-        List<String> cases = null;
+        List<CaseResultDTO> cases = null;
         try {
             configure();
             preCycle();
@@ -115,12 +116,16 @@ public class CaseJudgementServiceImpl implements CaseJudgementService, StandardC
         // TabularSimilarity - calculates similarity between two strings or two lists of strings on the basis of tabular similarities
     }
 
-    public List<String> fullCycle(CBRQuery query) throws ExecutionException {
+    public List<CaseResultDTO> fullCycle(CBRQuery query) throws ExecutionException {
         Collection<RetrievalResult> eval = NNScoringMethod.evaluateSimilarity(caseBase.getCases(), query, simConfig);
         eval = SelectCases.selectTopKRR(eval, 5);
-        List<String> similarCases = new ArrayList<>();
-        for (RetrievalResult nse : eval)
-            similarCases.add(nse.get_case().getDescription() + ", similarity=" + nse.getEval());
+        List<CaseResultDTO> similarCases = new ArrayList<>();
+        for (RetrievalResult nse : eval) {
+            Case c = (Case) nse.get_case().getDescription();
+            CaseDTO dto = caseMapper.toDto(c);
+            CaseResultDTO caseResultDTO = new CaseResultDTO(dto, nse.getEval());
+            similarCases.add(caseResultDTO);
+        }
         return similarCases;
     }
 

@@ -27,7 +27,6 @@ public class JudgementController {
         SuggestionsDTO reasoningResultDTO = new SuggestionsDTO();
         reasoningResultDTO.setCases(caseJudgementService.startJudging(caseDTO));
         reasoningResultDTO.setRules(ruleJudgementService.startJudging(caseDTO));
-        ruleJudgementService.clean();
         return ResponseEntity.ok(reasoningResultDTO);
     }
 

@@ -4,5 +4,4 @@ import com.ftn.lawresolverapi.dto.CaseDTO;
 
 public interface RuleJudgementService {
     String startJudging(CaseDTO caseDTO);
-    void clean();
 }

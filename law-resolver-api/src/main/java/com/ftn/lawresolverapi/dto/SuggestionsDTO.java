@@ -9,7 +9,7 @@ import java.util.List;
 @Getter
 @Setter
 public class SuggestionsDTO {
-    public List<String> cases;
+    public List<CaseResultDTO> cases;
     public String rules;
 
     public SuggestionsDTO() {
