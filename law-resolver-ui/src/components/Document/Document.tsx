@@ -12,14 +12,17 @@ import {
   Heading,
 } from "@chakra-ui/react";
 import { API_URL } from "../../constants";
+import { DocumentType } from "../../models";
 
-interface DocumentProps {}
+interface DocumentProps {
+  type: DocumentType;
+}
 
-const Document: FC<DocumentProps> = () => {
+const Document: FC<DocumentProps> = ({ type }) => {
   const { id } = useParams();
   const [xml, setXml] = useState("");
 
-  const url = `${API_URL}/law/${id}`;
+  const url = `${API_URL}/documents/${type}/${id}`;
 
   useEffect(() => {
     fetch(url)
@@ -27,7 +30,7 @@ const Document: FC<DocumentProps> = () => {
         return response.text();
       })
       .then((data) => {
-        setXml("<xml>xml goes here</xml>");
+        setXml(data);
       });
   }, [url]);
 
@@ -41,10 +44,18 @@ const Document: FC<DocumentProps> = () => {
       </CardBody>
       <CardFooter>
         <ButtonGroup spacing="2">
-          <Link to="/dummy.xml" target="_blank" download>
+          <Link
+            to={`${API_URL}/documents/${type}/${id}`}
+            target="_blank"
+            download
+          >
             <Button variant="solid">Download XML</Button>
           </Link>
-          <Link to="/dummy.pdf" target="_blank" download>
+          <Link
+            to={`${API_URL}/documents/${type}/${id?.replace(".xml", ".pdf")}`}
+            target="_blank"
+            download
+          >
             <Button variant="solid">Download PDF</Button>
           </Link>
         </ButtonGroup>

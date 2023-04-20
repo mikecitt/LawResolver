@@ -1,1 +1,1 @@
-export const API_URL = "https://law-resolver.free.mockoapp.net/api";
+export const API_URL = "http://localhost:8080";

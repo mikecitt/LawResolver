@@ -1,8 +1,8 @@
-export interface Document {
-  name: string;
+export interface FileNames {
+  fileNames: string[];
 }
 
 export enum DocumentType {
-  ACT,
-  JUDGEMENT,
+  ACT = "act",
+  JUDGEMENT = "judgement",
 }
