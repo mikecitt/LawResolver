@@ -11,7 +11,6 @@ import {
   useColorMode,
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
-import { FaGavel } from "react-icons/fa";
 import { Link as ReactLink, Outlet } from "react-router-dom";
 import ResolveModal from "../ResolveModal/ResolveModal";
 

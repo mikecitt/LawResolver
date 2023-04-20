@@ -36,7 +36,7 @@ const ResolveModal: FC<ResolveModalProps> = () => {
   const {
     handleSubmit,
     register,
-    formState: { errors, isSubmitting },
+    formState: { isSubmitting },
   } = useForm();
 
   const openModal = () => {
