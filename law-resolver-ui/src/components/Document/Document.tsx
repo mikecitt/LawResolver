@@ -39,7 +39,7 @@ const Document: FC<DocumentProps> = ({ type }) => {
       <CardHeader>
         <Heading size="md">Document {id}</Heading>
       </CardHeader>
-      <CardBody minH="200px">
+      <CardBody overflow="auto" maxH="500px" minH="200px">
         {xml === "" ? <CircularProgress isIndeterminate /> : <pre>{xml}</pre>}
       </CardBody>
       <CardFooter>
