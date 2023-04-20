@@ -18,11 +18,12 @@ import {
   CardHeader,
   CardBody,
   Heading,
-  HStack,
   CardFooter,
-  SimpleGrid,
   GridItem,
   useToast,
+  Flex,
+  Spacer,
+  HStack,
 } from "@chakra-ui/react";
 import { useForm } from "react-hook-form";
 import { API_URL } from "../../constants";
@@ -41,11 +42,13 @@ const ReasonerPage: FC<ReasonerPageProps> = () => {
   const {
     handleSubmit,
     register,
+    getValues,
     reset,
     formState: { isSubmitting },
   } = useForm();
 
   const onsubmit = (values: any) => {
+    setSaveCaseEnabled(true);
     values.regulations = values.regulations.split("\n");
     return fetch(`${API_URL}/judge`, {
       method: "POST",
@@ -67,90 +70,142 @@ const ReasonerPage: FC<ReasonerPageProps> = () => {
 
   return (
     <VStack p={5}>
-      {!myCaseDescription && (
-        <Card w="100%">
-          <form onSubmit={handleSubmit(onsubmit)}>
-            <CardHeader>
-              <Heading size="md">Moj slucaj</Heading>
-            </CardHeader>
-            <CardBody>
-              <Grid templateColumns="repeat(3, 1fr)" gap={6}>
-                <FormControl isRequired>
-                  <FormLabel>Sud</FormLabel>
-                  <Input {...register("court")} type="text" />
-                </FormControl>
-                <FormControl isRequired>
-                  <FormLabel>Poslovni broj</FormLabel>
-                  <Input {...register("caseNumber")} type="text" />
-                </FormControl>
-                <FormControl isRequired>
-                  <FormLabel>Sudija</FormLabel>
-                  <Input {...register("judge")} type="text" />
-                </FormControl>
-                <FormControl isRequired>
-                  <FormLabel>Tuzilac</FormLabel>
-                  <Input {...register("prosecutor")} type="text" />
-                </FormControl>
-                <FormControl isRequired>
-                  <FormLabel>Okrivljeni</FormLabel>
-                  <Input {...register("defendant")} type="text" />
-                </FormControl>
-                <FormControl isRequired>
-                  <FormLabel>Krivicno delo</FormLabel>
-                  <Input {...register("felony")} type="text" />
-                </FormControl>
-                <FormControl isRequired>
-                  <FormLabel>Vrsta presude</FormLabel>
-                  <Input {...register("judgementType")} type="text" />
-                </FormControl>
-                <FormControl isRequired>
-                  <FormLabel>Napravljena steta</FormLabel>
-                  <NumberInput defaultValue={0}>
-                    <NumberInputField {...register("gainedMoney")} />
-                    <NumberInputStepper>
-                      <NumberIncrementStepper />
-                      <NumberDecrementStepper />
-                    </NumberInputStepper>
-                  </NumberInput>
-                </FormControl>
-                <FormControl isRequired>
-                  <FormLabel>Novcana kazna</FormLabel>
-                  <NumberInput defaultValue={0}>
-                    <NumberInputField {...register("fine")} />
-                    <NumberInputStepper>
-                      <NumberIncrementStepper />
-                      <NumberDecrementStepper />
-                    </NumberInputStepper>
-                  </NumberInput>
-                </FormControl>
-                <FormControl isRequired>
-                  <FormLabel>Kazna zatvora</FormLabel>
-                  <NumberInput defaultValue={0}>
-                    <NumberInputField {...register("prison")} />
-                    <NumberInputStepper>
-                      <NumberIncrementStepper />
-                      <NumberDecrementStepper />
-                    </NumberInputStepper>
-                  </NumberInput>
-                </FormControl>
-                <FormControl isRequired>
-                  <FormLabel>Primenjeni propisi</FormLabel>
-                  <Textarea {...register("regulations")} />
-                </FormControl>
-              </Grid>
-            </CardBody>
-            <CardFooter>
-              <Button isLoading={isSubmitting} type="submit" colorScheme="blue">
-                Rezonuj
-              </Button>
-            </CardFooter>
-          </form>
-        </Card>
-      )}
-      {result !== "" && !!myCaseDescription && (
+      {
         <Grid templateColumns="repeat(3, 1fr)" gap={2} w="100%">
           <GridItem colSpan={2}>
-            <CaseCard description={myCaseDescription} />
+            <Card w="100%">
+              <form onSubmit={handleSubmit(onsubmit)}>
+                <CardHeader>
+                  <Heading size="md">Moj slucaj</Heading>
+                </CardHeader>
+                <CardBody>
+                  <Grid templateColumns="repeat(3, 1fr)" gap={6}>
+                    <FormControl isRequired>
+                      <FormLabel>Sud</FormLabel>
+                      <Input {...register("court")} type="text" />
+                    </FormControl>
+                    <FormControl isRequired>
+                      <FormLabel>Poslovni broj</FormLabel>
+                      <Input {...register("caseNumber")} type="text" />
+                    </FormControl>
+                    <FormControl isRequired>
+                      <FormLabel>Sudija</FormLabel>
+                      <Input {...register("judge")} type="text" />
+                    </FormControl>
+                    <FormControl isRequired>
+                      <FormLabel>Tuzilac</FormLabel>
+                      <Input {...register("prosecutor")} type="text" />
+                    </FormControl>
+                    <FormControl isRequired>
+                      <FormLabel>Okrivljeni</FormLabel>
+                      <Input {...register("defendant")} type="text" />
+                    </FormControl>
+                    <FormControl isRequired>
+                      <FormLabel>Krivicno delo</FormLabel>
+                      <Input {...register("felony")} type="text" />
+                    </FormControl>
+                    <FormControl isRequired>
+                      <FormLabel>Vrsta presude</FormLabel>
+                      <Input {...register("judgementType")} type="text" />
+                    </FormControl>
+                    <FormControl isRequired>
+                      <FormLabel>Napravljena steta</FormLabel>
+                      <NumberInput defaultValue={0}>
+                        <NumberInputField {...register("gainedMoney")} />
+                        <NumberInputStepper>
+                          <NumberIncrementStepper />
+                          <NumberDecrementStepper />
+                        </NumberInputStepper>
+                      </NumberInput>
+                    </FormControl>
+                    <FormControl isRequired>
+                      <FormLabel>Novcana kazna</FormLabel>
+                      <NumberInput defaultValue={0}>
+                        <NumberInputField {...register("fine")} />
+                        <NumberInputStepper>
+                          <NumberIncrementStepper />
+                          <NumberDecrementStepper />
+                        </NumberInputStepper>
+                      </NumberInput>
+                    </FormControl>
+                    <FormControl isRequired>
+                      <FormLabel>Kazna zatvora</FormLabel>
+                      <NumberInput defaultValue={0}>
+                        <NumberInputField {...register("prison")} />
+                        <NumberInputStepper>
+                          <NumberIncrementStepper />
+                          <NumberDecrementStepper />
+                        </NumberInputStepper>
+                      </NumberInput>
+                    </FormControl>
+                    <FormControl isRequired>
+                      <FormLabel>Primenjeni propisi</FormLabel>
+                      <Textarea {...register("regulations")} />
+                    </FormControl>
+                  </Grid>
+                </CardBody>
+                <CardFooter>
+                  <HStack justify="flex-end">
+                    <Button
+                      variant="solid"
+                      isDisabled={!myCaseDescription}
+                      onClick={() => {
+                        setMyCaseDescription(undefined);
+                        setResult("");
+                        setCases([]);
+                        reset();
+                        toast({
+                          title: "Ponisteno",
+                          description: "Slucaj je ponisten.",
+                          status: "info",
+                          duration: 5000,
+                          position: "top-right",
+                          isClosable: true,
+                        });
+                      }}
+                    >
+                      Ponisti
+                    </Button>
+                    <Button
+                      isLoading={isSubmitting}
+                      type="submit"
+                      colorScheme="blue"
+                    >
+                      Rezonuj
+                    </Button>
+                    <Button
+                      isDisabled={!saveCaseEnabled || !myCaseDescription}
+                      onClick={() => {
+                        toast({
+                          title: "Uspesna operacija",
+                          description: "Slucaj je sacuvan u bazi.",
+                          status: "success",
+                          duration: 5000,
+                          position: "top-right",
+                          isClosable: true,
+                        });
+                        const values = getValues();
+                        values.regulations = values.regulations.split("\n");
+                        return fetch(`${API_URL}/judge/case`, {
+                          method: "POST",
+                          headers: {
+                            Accept: "application/json",
+                            "Content-Type": "application/json",
+                          },
+                          body: JSON.stringify(values),
+                        }).then(() => {
+                          setSaveCaseEnabled(false);
+                        });
+                      }}
+                      variant="solid"
+                      colorScheme="blue"
+                    >
+                      Sacuvaj slucaj
+                    </Button>
+                  </HStack>
+                </CardFooter>
+              </form>
+            </Card>
           </GridItem>
           <GridItem>
             <Card h="100%">
@@ -164,58 +219,11 @@ const ReasonerPage: FC<ReasonerPageProps> = () => {
                   </Heading>
                 </Box>
               </CardBody>
-              <CardFooter justify="space-between">
-                <Button
-                  isDisabled={!saveCaseEnabled}
-                  onClick={() => {
-                    toast({
-                      title: "Uspesna operacija",
-                      description: "Slucaj je sacuvan u bazi.",
-                      status: "success",
-                      duration: 5000,
-                      position: "top-right",
-                      isClosable: true,
-                    });
-                    return fetch(`${API_URL}/judge/case`, {
-                      method: "POST",
-                      headers: {
-                        Accept: "application/json",
-                        "Content-Type": "application/json",
-                      },
-                      body: JSON.stringify(myCaseDescription),
-                    }).then((response) => {
-                      setSaveCaseEnabled(false);
-                    });
-                  }}
-                  variant="solid"
-                  colorScheme="blue"
-                >
-                  Sacuvaj slucaj
-                </Button>
-                <Button
-                  variant="solid"
-                  onClick={() => {
-                    setMyCaseDescription(undefined);
-                    setResult("");
-                    setCases([]);
-                    reset();
-                    toast({
-                      title: "Ponisteno",
-                      description: "Slucaj je ponisten.",
-                      status: "info",
-                      duration: 5000,
-                      position: "top-right",
-                      isClosable: true,
-                    });
-                  }}
-                >
-                  Ponisti
-                </Button>
-              </CardFooter>
+              <CardFooter justify="space-between"></CardFooter>
             </Card>
           </GridItem>
         </Grid>
-      )}
+      }
       {cases.length > 0 && (
         <Grid templateColumns="repeat(2, 1fr)" gap={2}>
           {cases.map((c) => {
