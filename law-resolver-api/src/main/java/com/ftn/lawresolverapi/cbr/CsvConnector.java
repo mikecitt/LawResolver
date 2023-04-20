@@ -41,9 +41,10 @@ public class CsvConnector implements Connector {
                 caseDescription.setDefendant(values[5]);
                 caseDescription.setFelony(values[6]);
                 caseDescription.setJudgementType(values[7]);
-                caseDescription.setFine(Double.parseDouble(values[8]));
-                caseDescription.setPrison(Integer.parseInt(values[9]));
-                caseDescription.setRegulations(Arrays.asList(values[10].split(",")));
+                caseDescription.setGainedMoney(Double.parseDouble(values[8]));
+                caseDescription.setFine(Double.parseDouble(values[9]));
+                caseDescription.setPrison(Integer.parseInt(values[10]));
+                caseDescription.setRegulations(Arrays.asList(values[11].split(",")));
 
                 cbrCase.setDescription(caseDescription);
                 cases.add(cbrCase);
@@ -79,6 +80,7 @@ public class CsvConnector implements Connector {
                         + caseDescription.getDefendant() + ";"
                         + caseDescription.getFelony() + ";"
                         + caseDescription.getJudgementType() + ";"
+                        + caseDescription.getGainedMoney() + ";"
                         + caseDescription.getFine() + ";"
                         + caseDescription.getPrison() + ";"
                         + String.join(",", caseDescription.getRegulations())

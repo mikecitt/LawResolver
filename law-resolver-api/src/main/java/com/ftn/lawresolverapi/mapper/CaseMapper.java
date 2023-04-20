@@ -13,6 +13,7 @@ public class CaseMapper {
         caseDescription.setDefendant(caseDTO.getDefendant());
         caseDescription.setFelony(caseDTO.getFelony());
         caseDescription.setJudgementType(caseDTO.getJudgementType());
+        caseDescription.setGainedMoney(caseDTO.getGainedMoney());
         caseDescription.setFine(caseDTO.getFine());
         caseDescription.setPrison(caseDTO.getPrison());
         caseDescription.setRegulations(caseDTO.getRegulations());

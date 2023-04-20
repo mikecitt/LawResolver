@@ -18,6 +18,7 @@ public class Case implements CaseComponent {
     private String defendant;
     private String felony;
     private String judgementType;
+    private double gainedMoney;
     private double fine;
     private int prison;
     private List<String> regulations;
@@ -26,7 +27,7 @@ public class Case implements CaseComponent {
     public String toString() {
         return "CaseDescription [id=" + id + ", court=" + court + ", caseNumber=" + caseNumber + ", judge=" + judge
                 + ", prosecutor=" + prosecutor + ", defendant=" + defendant + ", felony=" + felony
-                + ", judgementType=" + judgementType + ", fine=" + fine + ", prison="
+                + ", judgementType=" + judgementType + ", gainedMoney=" + gainedMoney + ", fine=" + fine + ", prison="
                 + prison + ", regulations=" + regulations + "]";
     }
 

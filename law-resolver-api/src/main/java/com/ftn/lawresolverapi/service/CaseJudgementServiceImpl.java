@@ -79,6 +79,7 @@ public class CaseJudgementServiceImpl implements CaseJudgementService, StandardC
 
         simConfig.addMapping(new Attribute("felony", Case.class), new Equal());
         simConfig.addMapping(new Attribute("judgementType", Case.class), new Equal());
+        simConfig.addMapping(new Attribute("gainedMoney", Case.class), new Interval(2000));
         simConfig.addMapping(new Attribute("fine", Case.class), new Interval(5000));
         simConfig.addMapping(new Attribute("prison", Case.class), new Interval(5000));
         TabularSimilarity similarity = new TabularSimilarity(Arrays.asList(

@@ -16,6 +16,7 @@ public class CaseDTO {
     private String defendant;
     private String felony;
     private String judgementType;
+    private double gainedMoney;
     private double fine;
     private int prison;
     private List<String> regulations;
